@@ -1,0 +1,35 @@
+governance/
+
+README.md
+
+charter/
+flourishing/
+stewardship/
+ethics/
+privacy/
+safety/
+standards/
+
+standards/
+    pancakes-standards-model.md
+    standards-applicability-profile-template.md
+    standards-matrix-template.md
+
+safety/
+    pancakes-safety-cases-framework.md
+    safety-case-template.md
+
+ethics/
+    pancakes-ethics-framework.md
+    ethics-case-template.md
+
+process/
+    governance-intake-and-review-process.md
+    governance-qms-integration.md
+
+assessments/
+    governance-assessment-template.md
+
+work/
+    0002-pancakes-ethics-governance-roadmap.md
+    0003-governance-realization-plan.md

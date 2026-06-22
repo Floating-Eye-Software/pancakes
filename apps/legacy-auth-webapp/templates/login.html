@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+{%- with messages = get_flashed_messages() %}
+{%- if messages %}
+<p>{{ messages[0] }}</p>
+{% else %}
+<p>Account login</p>
+{% endif %}
+{%- endwith %}
+<form method="POST" action="/login">
+    <p><input type="text" name="username" placeholder="username" required autofocus></p>
+    <p><input type="password" name="password" placeholder="password" required></p>
+    <p><input type="checkbox" name="remember">Remember Me</p>
+    <p><button>Login</button></p>
+</form>
+{% endblock %}
