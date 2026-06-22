@@ -152,7 +152,7 @@ The ecosystem explicitly rejects the assumption that all meaningful life data sh
 
 Official hosted nodes include:
 
-* `pancakes.ca` — stable public deployment.
+* `www.pancakes.ca` — stable public deployment.
 * `pancakes.love` — experimental/cooperative/blockchain-connected environment.
 
 But they are intended to be *nodes among many*, not the irreplaceable center of the ecosystem.

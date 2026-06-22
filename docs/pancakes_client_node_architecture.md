@@ -61,7 +61,7 @@ The first official hosted nodes are:
 
 | Domain          | Role                                                                |
 | --------------- | ------------------------------------------------------------------- |
-| `pancakes.ca`   | Stable public Pancakes experience                                   |
+| `www.pancakes.ca`   | Stable public Pancakes experience                                   |
 | `pancakes.love` | Experimental, cooperative, RPG, or blockchain-connected environment |
 
 These are official Pancakes nodes, not “the platform itself.”
@@ -109,7 +109,7 @@ Clients do not care whether the node is:
 The same client code should work against:
 
 ```text
-pancakes.ca
+www.pancakes.ca
 pancakes.love
 localhost
 household node
@@ -154,7 +154,7 @@ A node may be:
 | household_local     | Shared family/chosen-family stewardship |
 | guild_local         | Cooperative or group infrastructure     |
 | institutional_local | Clinics, schools, nonprofits            |
-| official_hosted     | pancakes.ca / pancakes.love             |
+| official_hosted     | www.pancakes.ca / pancakes.love         |
 | virtual_hosted      | Lightweight hosted abstraction          |
 | virtual_mobile      | Mobile-local node state                 |
 | virtual_offline     | Offline-first temporary node            |
@@ -263,7 +263,7 @@ Example flows:
 
 ```text
 User opens RPG client
-→ selects pancakes.ca
+→ selects www.pancakes.ca
 → authenticates
 → receives node session
 → accesses Pitchfork resources
@@ -671,7 +671,7 @@ Every client must operate through node context.
 
 ## 2. Hosted Is A Node, Not The Platform
 
-`pancakes.ca` and `pancakes.love` are official nodes.
+`www.pancakes.ca` and `pancakes.love` are official nodes.
 
 They are not the sole legitimate deployments.
 

@@ -110,7 +110,7 @@ Nodes become interesting when they can participate in meaningful relationships w
 
 A useful design test:
 
-> If pancakes.ca disappeared tomorrow, what would continue working?
+> If www.pancakes.ca disappeared tomorrow, what would continue working?
 
 A healthy architecture should allow:
 

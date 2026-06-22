@@ -432,3 +432,94 @@ not supersede Pancakes Plan 0001 or alter Pitchfork workflow state.
 
 - Complete the broader licensing, document-disposition, and public-readiness
   review tracked by Plan 0008 and todo-004.
+
+---
+
+# codex-018 - Canonical Organization Repository Reconciliation
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-21 EDT
+
+## Changes
+
+- Recorded `https://github.com/Floating-Eye-Software/pancakes` as the canonical
+  public repository on `main`.
+- Replaced the obsolete personal-repository transfer sequence with the actual
+  clean-history replacement outcome.
+- Kept the tree, licensing, metadata, document-disposition, Pages, and DNS
+  reviews open rather than treating repository creation as plan completion.
+- Confirmed the local `origin` already points to the organization repository.
+
+---
+
+# codex-019 - Docs Pages And DNS Cutover
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-21 EDT
+
+## Changes
+
+Recorded the live `docs.pancakes.ca` GitHub Pages cutover for the public
+`Floating-Eye-Software/pancakes` repository. Updated the local todo list so the
+Pages source task is marked done; the remaining work stays focused on the
+`www.pancakes.ca` and apex redirect path.
+
+---
+
+# codex-020 - Public Static Site Refresh
+
+**Plan:** `0001-public-surfaces`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-21 EDT
+
+## Changes
+
+- Reworked `sites/pancakes.ca/index.html` into the canonical public home for
+  `www.pancakes.ca` with explicit links to `docs.pancakes.ca`, the playlist
+  page, the public repository, and the apex redirect note.
+- Reworked `sites/pancakes.love/index.html` into a clearly experimental and
+  cultural surface that points to the playlist docs and the canonical home.
+- Rebuilt both site stylesheets so the pages render as self-contained, distinct
+  static sites, and fixed the `pancakes.love` theme class wiring.
+
+---
+
+# codex-021 - Documentation Landing Pages
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-22 EDT
+
+## Changes
+
+- Added `docs/index.md` as the public documentation root with links to the
+  main product, architecture, governance, and human-flourishing material.
+- Added `docs/playlist/index.md` as the playlist landing page for the
+  overview, commentary, histories, and supporting materials.
+- Added `docs/pancakes-corner/index.md` as the dataset landing page for the
+  data dictionary and CSV artifacts.
+
+---
+
+# codex-022 - Split-Root Canonical Comment Update
+
+**Plan:** `ad hoc`
+**Priority:** P2
+**Status:** recorded
+**Timestamp:** 2026-06-22 EDT
+
+## Changes
+
+Added a small explanatory comment to the apex redirect root and canonical
+`www` page so the Pancakes split-root layout is explicit in source:
+
+- `sites/pancakes.ca/.htaccess` is redirect-only
+- `sites/www.pancakes.ca/index.html` is the canonical content page
+
+This documents the server-side topology without changing the page content.

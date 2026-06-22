@@ -2,7 +2,7 @@
 
 ## Status
 
-Ready.
+Doing.
 
 ## Goal
 
@@ -92,10 +92,13 @@ migration` and `0009-public-surface-governance`.
 
 ### Pancakes
 
-The intended outcome is a public `pancakes` repository. Publication is not
-authorized until the public-readiness gate in this plan passes. A public Git
-repository exposes every reachable committed object and its history, not only
-the files rendered by GitHub Pages.
+The canonical repository is now the public
+`Floating-Eye-Software/pancakes` repository. It was created with a new Git
+history rather than by publishing or transferring the abandoned personal
+repository, preventing deleted MP3 objects from entering the public history.
+The remaining tree, licensing, document-disposition, and public-metadata review
+continues under this plan. A public Git repository exposes every reachable
+committed object and its history, not only files rendered by GitHub Pages.
 
 ### Pitchfork
 
@@ -114,40 +117,22 @@ unless a separate Pitchfork public-readiness review establishes:
 This is a decision gate, not a presumption that Pitchfork should remain private
 indefinitely.
 
-## GitHub Ownership Transfer Decision
+## GitHub Ownership Outcome
 
-The target owner for active FLEY product repositories is
-`Floating-Eye-Software`, subject to organization-level classification and
-explicit approval for each transfer.
+`Floating-Eye-Software/pancakes` was created directly as a new public
+repository with default branch `main`. The local `origin` points to that
+repository. The former `mlehotay/pancakes` repository is abandoned and is not
+a transfer source or canonical compatibility URL.
 
-For `pancakes`, the preferred sequence is:
-
-1. stabilize the repository boundary and complete the public-readiness audit;
-2. prepare organization teams, administrator access, repository metadata,
-   licensing, security policy, branch protection, Actions permissions, and
-   required secrets or environments without copying private values into the
-   repository;
-3. approve the visibility change and ownership transfer as explicit external
-   actions;
-4. transfer `mlehotay/pancakes` to `Floating-Eye-Software/pancakes` before the
-   final Pages custom-domain and DNS cutover;
-5. update local remotes, badges, source links, API integrations, webhooks,
-   deploy keys, Pages settings, and organization presentation;
-6. configure and verify `docs.pancakes.ca` against the final organization-owned
-   repository;
-7. verify GitHub redirects from the former repository URL and retain them as a
-   compatibility aid rather than the canonical address.
-
-Transferring before the final Pages/DNS cutover avoids building the permanent
-documentation configuration around a temporary personal-owner URL. If
-organization permissions or policy are not ready, publication may be delayed;
-the plan should not create a temporary public Pages surface that must be
-immediately reworked.
+Remaining GitHub work covers repository description, licensing and contact
+metadata, branch and Actions safeguards, Pages configuration, custom-domain
+setup, and verification. No history or settings should be copied from the
+abandoned personal repository without separate review.
 
 Red Witch is already organization-owned and should remain the reference case
-for `docs.redwitch.ca`. Pitchfork transfer and visibility are separate gates:
-ownership may be transferred while private, but only after its authority,
-administrative access, integrations, and repository classification are ready.
+for `docs.redwitch.ca`. Pitchfork has now been transferred privately to
+`Floating-Eye-Software/pitchfork`; its visibility remains a separate gate and
+is not changed by the ownership transfer.
 
 ## Scope
 
@@ -169,15 +154,15 @@ In scope for Pancakes:
   the relevant Red Witch static surface;
 - route replacement of the current `pancakes.ca` content deployment with a
   permanent redirect to `https://www.pancakes.ca/`;
-- prepare handoffs for repository visibility, transfer, Pages, DNS, TLS, and
-  live verification;
+- prepare handoffs for repository metadata, Pages, DNS, TLS, and live
+  verification;
 - reconcile organization registries and public-surface records through
   `fley-org`.
 
 Out of scope for Pancakes-local execution:
 
-- changing GitHub visibility or transferring repositories without explicit
-  approval;
+- copying history or settings from the abandoned personal repository without
+  explicit review;
 - changing DNS, Pages repository settings, TLS, or production hosting;
 - directly editing Pitchfork, Site Ops, Fley Org, or Red Witch under this
   repository's dashboard;
@@ -297,9 +282,9 @@ and separate transfer/publication decisions.
 ### 7. Execute Only After Gates Pass
 
 After explicit approval, the owning repositories may execute file moves,
-visibility changes, transfers, GitHub settings, DNS, and deployments in the
-dependency order defined here. External mutations are not implied merely by
-approval of this planning document.
+GitHub settings, DNS, and deployments in the dependency order defined here.
+External mutations are not implied merely by approval of this planning
+document.
 
 ### 8. Verify The Transition
 
@@ -316,22 +301,22 @@ URLs, robots behavior, and mobile/desktop accessibility.
 - every candidate document has an owner and disposition;
 - cross-repository tasks exist in their owning workflow surfaces.
 
-### Gate B — Pancakes Public-Ready
+### Gate B — Pancakes Public Baseline Review
 
 - tree and history audit is complete with no unresolved high-risk findings;
 - licensing and third-party content are suitable for publication;
 - private data, secrets, and unsupported claims are absent or remediated;
 - public README, license, security/contact information, and repository metadata
   are ready;
-- the user explicitly approves the visibility change.
+- the new public baseline and any later additions satisfy these checks.
 
-### Gate C — Organization Transfer-Ready
+### Gate C — Organization Repository Established
 
-- `Floating-Eye-Software` teams and administrator continuity are confirmed;
+- the canonical repository is `Floating-Eye-Software/pancakes`;
+- the local checkout uses its `main` branch and organization remote;
+- organization and Site Ops records identify the replacement repository;
 - integrations, Pages behavior, Actions permissions, secrets, environments,
-  branch protection, and rollback steps are inventoried;
-- organization and Site Ops records identify the repository as a transfer;
-- the user explicitly approves the transfer.
+  branch protection, and rollback steps are inventoried before use.
 
 ### Gate D — Pages And DNS Ready
 
@@ -344,6 +329,7 @@ URLs, robots behavior, and mobile/desktop accessibility.
 
 ### Gate E — Pitchfork Publication Decision
 
+- Pitchfork remains organization-owned and private;
 - Pitchfork completes its own public-readiness and licensing review;
 - its public purpose and maturity are accurately represented;
 - transfer and visibility decisions are independently approved.
@@ -356,7 +342,8 @@ Gate E does not block Pancakes publication.
 - Pancakes and Pitchfork document candidates have recorded dispositions and
   approved moves are completed in the owning repositories;
 - Pancakes has passed its full-tree and Git-history public-readiness audit;
-- the repository is transferred and made public only after explicit approvals;
+- the new public organization repository is canonical and the abandoned
+  personal repository contributes no inherited history;
 - `docs.pancakes.ca` serves the verified GitHub Pages source from the final
   organization-owned Pancakes repository;
 - `www.pancakes.ca` serves the canonical NFS-hosted Pancakes homepage and

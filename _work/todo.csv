@@ -4,8 +4,9 @@ todo-002,ready,0002-pancakes-ethics-governance-roadmap,governance,P1,,create the
 todo-003,ready,0008-public-repository-docs-and-boundary-transition,architecture,P1,,baseline the decided Pancakes Pitchfork client and repository ownership boundaries
 todo-004,todo,0008-public-repository-docs-and-boundary-transition,security,P1,todo-003,audit the Pancakes working tree and Git history for safe public release
 todo-005,todo,0008-public-repository-docs-and-boundary-transition,documentation,P1,todo-003,inventory and classify Pancakes and Pitchfork documents for retain move split archive or retire disposition
-todo-006,todo,0008-public-repository-docs-and-boundary-transition,publications,P1,todo-004|todo-005,finish the docs.pancakes.ca Pages source after tracked playlist and Pancakes Corner content moved under docs
+todo-006,done,0008-public-repository-docs-and-boundary-transition,publications,P1,todo-004|todo-005,finish the docs.pancakes.ca Pages source after tracked playlist and Pancakes Corner content moved under docs
 todo-007,todo,0008-public-repository-docs-and-boundary-transition,publications,P1,todo-006,prepare www.pancakes.ca Red Witch and Pancakes Love static-site messaging and documentation-link updates
-todo-008,todo,0008-public-repository-docs-and-boundary-transition,github,P1,todo-004|todo-005,prepare repository visibility ownership-transfer and GitHub Pages configuration handoffs
+todo-008,todo,0008-public-repository-docs-and-boundary-transition,github,P1,todo-004|todo-005,finish public repository metadata safeguards and GitHub Pages configuration handoffs
 todo-009,todo,0008-public-repository-docs-and-boundary-transition,governance,P1,todo-003,route Pitchfork Fley Org and Site Ops changes including www.pancakes.ca hosting and the apex redirect
 todo-010,todo,0008-public-repository-docs-and-boundary-transition,verification,P1,todo-006|todo-007|todo-008|todo-009,verify repository boundaries public content Pages handoffs www hosting apex redirect and cross-repository consistency
+todo-011,done,0008-public-repository-docs-and-boundary-transition,github,P1,,established clean public Floating-Eye-Software/pancakes repository on main and updated the local origin

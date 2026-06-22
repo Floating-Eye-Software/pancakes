@@ -155,7 +155,7 @@ Initial implementation:
 
 ```text
 client
-→ pancakes.ca node
+→ www.pancakes.ca node
 ```
 
 No resolver service is required for the first implementation.

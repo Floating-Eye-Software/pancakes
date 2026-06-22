@@ -6,7 +6,7 @@ Pancakes should be able to run as more than a hosted service.
 
 The hosted domains can provide convenient public entry points:
 
-- `pancakes.ca`: stable public app.
+- `www.pancakes.ca`: stable public app.
 - `pancakes.love`: experimental, cooperative, or blockchain-connected environment.
 
 But the long-term architecture should also support self-hosted Pancakes nodes for families, households, guilds, circles, cooperatives, clinics, schools, mutual-aid groups, and other communities that need stronger control over data, governance, and value boundaries.
@@ -28,7 +28,7 @@ It should let a group retain control over:
 - Backups and export.
 - Whether any data ever leaves the group.
 
-The node can be open source infrastructure. A group should be able to stand up its own instance without depending on `pancakes.ca`, `pancakes.love`, Google, Meta, or other large platform infrastructure.
+The node can be open source infrastructure. A group should be able to stand up its own instance without depending on `www.pancakes.ca`, `pancakes.love`, Google, Meta, or other large platform infrastructure.
 
 ## Why This Matters
 

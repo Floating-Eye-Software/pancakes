@@ -11,4 +11,4 @@ The final track leaves the grand arguments behind and returns to something small
 Listen in order if you can. The sequence is intended as an argument, a journey, and, ultimately, an invitation to go home and eat some bread.
 
 Learn more about the broader Pancakes project:
-https://pancakes.ca/
+https://www.pancakes.ca/

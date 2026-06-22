@@ -1,0 +1,4 @@
+RewriteEngine On
+# Apex redirect only; canonical content lives in /sites/www.pancakes.ca/.
+RewriteRule ^\.well-known/acme-challenge/ - [L]
+RewriteRule ^(.*)$ https://www.pancakes.ca/$1 [R=301,L]
