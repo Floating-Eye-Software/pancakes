@@ -3,6 +3,11 @@
 This folder contains the public playlist reference and the original commentary
 and supporting materials around it.
 
+## Home
+
+- [Docs home](../index.md)
+- [Playlist README](README.md)
+
 ## Start Here
 
 - [Playlist overview](pancakes-playlist.md)

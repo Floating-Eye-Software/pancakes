@@ -523,3 +523,21 @@ Added a small explanatory comment to the apex redirect root and canonical
 - `sites/www.pancakes.ca/index.html` is the canonical content page
 
 This documents the server-side topology without changing the page content.
+
+---
+
+# codex-023 - Commonwealth And Goods Model Capture
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-23 EDT
+
+## Changes
+
+- Added the Pancakes Commonwealth Model as a constitutional synthesis for the
+  ecosystem.
+- Added the Pancakes Goods and Services Model to frame goods, services, and
+  transformations within the humane economy.
+- Updated the public docs navigation so the root docs page, playlist page, and
+  Pancakes Corner page all link back to the site entry points.

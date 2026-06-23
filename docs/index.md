@@ -20,6 +20,8 @@ This is the public documentation root for Pancakes.
 - [Srinivasan network model](pancakes-srinivasan-network-model.md)
 - [Common good model](pancakes-common-good-model.md)
 - [Stewardship model](pancakes-stewardship-model.md)
+- [Commonwealth model](pancakes-commonwealth-model.md)
+- [Goods and services model](pancakes-goods-and-services-model.md)
 
 ## Human Flourishing
 

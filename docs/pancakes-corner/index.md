@@ -3,6 +3,10 @@
 This folder contains the exploratory Pancakes Corner dataset and its public
 data dictionary.
 
+## Home
+
+- [Docs home](../index.md)
+
 ## Start Here
 
 - [Data dictionary](DATA_DICTIONARY.md)
