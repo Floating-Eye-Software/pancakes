@@ -8,9 +8,7 @@ song lyrics.
 
 ## 01. Billy Bragg - There Is Power in a Union
 
-[Song history](pancakes-playlist-histories.md#track-01)
-
-[Spoken introduction transcript and analysis](00-billy-bragg.md)
+[Song history](pancakes-playlist-histories.md#track-01) | [Spoken introduction transcript and analysis](00-billy-bragg.md)
 
 The opener states the playlist's first premise plainly: shared power is made,
 not discovered. Bragg treats labor solidarity as a practical defense against
@@ -23,9 +21,7 @@ organize.
 
 ## 02. Sinead O'Connor - Downpressor Man
 
-[Song history](pancakes-playlist-histories.md#track-02)
-
-[Song analysis](02-downpressor-man-analysis.png)
+[Song history](pancakes-playlist-histories.md#track-02) | [Song analysis](02-downpressor-man-analysis.png)
 
 This song turns accountability into a spiritual horizon. The oppressor is not
 defeated by a clever tactic or a single confrontation, but by the collapse of
@@ -116,9 +112,7 @@ any place where love is allowed to become ordinary.
 
 ## 09. Le Tigre - Deceptacon
 
-[Song history](pancakes-playlist-histories.md#track-09)
-
-[Song analysis](09-deceptacon-analysis.md)
+[Song history](pancakes-playlist-histories.md#track-09) | [Song analysis](09-deceptacon-analysis.md)
 
 "Deceptacon" is a blast of feminist punk mockery aimed at depoliticized cool.
 It treats style without substance as a kind of theft: the gestures of rebellion
@@ -155,7 +149,7 @@ enough material support to survive.
 
 ## 12. Sarah Harmer - Escarpment Blues
 
-[Song history](pancakes-playlist-histories.md#track-12)
+[Song history](pancakes-playlist-histories.md#track-12) | [Song analysis](12-escarpment-blues-analysis.md)
 
 This song treats landscape as infrastructure, memory, and kinship at once. The
 threat is not just a quarry or a development decision; it is the casual
@@ -193,9 +187,7 @@ collective memory alive for spring to arrive.
 
 ## 15. Yaelokre - Neath the Grove is a Heart
 
-[Song history](pancakes-playlist-histories.md#track-15)
-
-[Song analysis](15-neath-the-grove-is-a-heart-analysis.md)
+[Song history](pancakes-playlist-histories.md#track-15) | [Song analysis](15-neath-the-grove-is-a-heart-analysis.md)
 
 The close of the playlist's main arc is a fable about staying, listening, and
 finding home under changing conditions. It asks whether the search for clarity

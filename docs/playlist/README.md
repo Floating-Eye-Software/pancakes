@@ -41,8 +41,8 @@ Enough safety to enjoy ordinary pleasures without shame.
 * [00-billy-bragg.md](00-billy-bragg.md) — spoken introduction transcript and analysis
 * [02-downpressor-man-analysis.png](02-downpressor-man-analysis.png) — visual analysis of *Downpressor Man*
 * [09-deceptacon-analysis.md](09-deceptacon-analysis.md) — analysis of *Deceptacon*
+* [12-escarpment-blues-analysis.md](12-escarpment-blues-analysis.md) — analysis of *Escarpment Blues*
 * [15-neath-the-grove-is-a-heart-analysis.md](15-neath-the-grove-is-a-heart-analysis.md) — analysis of *Neath the Grove is a Heart*
-* [pancakes-playlist-cover.png](pancakes-playlist-cover.png) — playlist cover artwork
 
 ## Narrative Arc
 

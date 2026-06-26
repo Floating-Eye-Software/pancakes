@@ -21,9 +21,8 @@ and supporting materials around it.
 - [Billy Bragg intro](00-billy-bragg.md)
 - [Downpressor Man analysis](02-downpressor-man-analysis.png)
 - [Deceptacon analysis](09-deceptacon-analysis.md)
+- [Escarpment Blues analysis](12-escarpment-blues-analysis.md)
 - [Neath the Grove is a Heart analysis](15-neath-the-grove-is-a-heart-analysis.md)
-- [Playlist cover artwork](pancakes-playlist-cover.png)
-- [M3U playlist](pancakes-playlist.m3u)
 
 ## What This Is
 
