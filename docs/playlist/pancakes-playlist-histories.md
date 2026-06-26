@@ -10,6 +10,14 @@ Some of these recordings became major commercial successes. Others circulated pr
 
 Taken together, these songs demonstrate that popular music is not merely entertainment. Songs can become vocabularies for private experience, vehicles of political organization, archives of social memory, and instruments that reshape the cultural imagination of entire generations.
 
+## Bonus Track
+
+This document contains many factual errors and AI hallucinations. TODO: Fix accuracy.
+
+| Track | Date | Artist | Title | Listening link | Lyrics reference |
+| --- | --- | --- | --- | --- | --- |
+| 17 | 1990 | MC 900 Ft. Jesus | Truth is Out of Style | [YouTube](https://www.youtube.com/watch?v=8vgDpI8kU98) | [Lyrics lookup](https://www.google.com/search?q=MC%20900%20Ft%20Jesus%20Truth%20is%20Out%20of%20Style%20lyrics) |
+
 ---
 
 <a id="track-01"></a>
