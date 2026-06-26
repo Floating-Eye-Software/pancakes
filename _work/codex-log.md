@@ -541,3 +541,52 @@ This documents the server-side topology without changing the page content.
   transformations within the humane economy.
 - Updated the public docs navigation so the root docs page, playlist page, and
   Pancakes Corner page all link back to the site entry points.
+
+---
+
+# codex-024 - Repository Workflow Sync
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Synced `../pancakes/_work/repo-workflow.md` to the current canonical
+  `fley-org/process/repo-workflow.md` workflow.
+- Verified the local copy with `make -C ../fley-org check-repo-workflow
+  REPO_WORKFLOW=../pancakes/_work/repo-workflow.md`.
+
+---
+
+# codex-025 - Pancakes Foundation Documentation
+
+**Plan:** `0009-symbolic-architecture-foundations`
+**Priority:** P1
+**Status:** review
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Finalized `docs/pancakes-place-model.md` as the canonical Pancakes place and
+  homeland foundation.
+- Finalized `docs/pancakes-reference-services.md` as the canonical public
+  reference service architecture.
+- Finalized `docs/pancakes-node-capabilities.md` as the canonical node
+  capability extension model.
+- Added `_work/plans/plans.csv` rows for Plan 0009 and downstream Plan 0010,
+  with Plan 0010 blocked on Plan 0009 review.
+- Kept the Pitchfork symbolic frequency and crafting foundations in the
+  Pitchfork repository.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+## Follow-on Work
+
+- Review Plan 0009 before closure.
+- Start Plan 0010 application documentation migration after the foundation
+  plan is accepted.

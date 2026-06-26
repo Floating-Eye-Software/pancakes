@@ -1,485 +1,189 @@
-# Outline: `docs/pancakes-place-model.md`
+# Pancakes Place Model
 
 ## Purpose
 
-Define "place" as a first-class concept within the Pancakes ecosystem.
+Place is a first-class concept in Pancakes.
 
-Nodes, households, recipes, services, and stewardship all occur somewhere. The place model provides a shared vocabulary for understanding the ecological, civic, historical, and social context of those activities.
+Nodes, households, recipes, services, stewardship, quality-of-life indicators,
+and symbolic projections all occur somewhere. The place model provides shared
+language for ecological, civic, historical, cultural, and infrastructure
+relationships without turning location into surveillance.
 
-This document defines what places are and how they relate to nodes.
+This document defines place, homeland, stewardship, and place relationships. It
+does not define GIS implementation details, reference service APIs, or
+symbolic crafting rules.
 
-It does **not** define GIS implementation details or symbolic crafting rules.
+## Canonical Definition
 
----
+A place is a meaningful relationship, not merely a coordinate.
 
-# 1. Introduction
+Coordinates can identify a location, but Pancakes cares about the relationships
+around that location: watershed, aquifer, neighbourhood, park, library,
+conservation authority, transit route, food system, local history, stewardship
+group, public alert, and community practice.
 
-## Motivation
+Places have identities independent of a particular user. A household node may
+relate to a place, but it does not own the place's meaning.
 
-People do not flourish in abstract space.
+## Homelands
 
-They flourish in homes, neighbourhoods, watersheds, ecosystems, and communities.
+A node may optionally define a homeland.
 
-Pancakes therefore models places as meaningful relationships rather than merely coordinates.
+A homeland is a durable relationship between a node and a place. It says, "this
+node belongs here" or "this node is responsible here" in a limited,
+privacy-preserving sense.
 
----
+Homeland is not continuous location tracking. A node can have a homeland
+without reporting movement, storing travel history, or exposing a household's
+address to external services.
 
-## Design Goals
+Homelands may apply to households, schools, cooperatives, neighbourhood groups,
+community organizations, farms, clinics, libraries, or other local nodes.
 
-* encourage stewardship
-* strengthen local identity
-* support ecological awareness
-* preserve privacy
-* support local-first computing
-* avoid surveillance
-* remain globally applicable
+Homeland is optional. Mobile households, privacy-sensitive deployments,
+travelling users, and abstract service nodes must remain functional without a
+homeland.
 
----
-
-# 2. What Is A Place?
-
-Define place.
-
-A place is more than a point on a map.
-
-It consists of overlapping relationships.
-
-Examples:
-
-* ecological
-* historical
-* civic
-* cultural
-* economic
-* social
-
-Places have identities independent of any individual user.
-
----
-
-# 3. Nodes Have Homelands
-
-Introduce the major new idea.
-
-Nodes may optionally define a homeland.
-
-This is **not** continuous location tracking.
-
-It is a statement that:
-
-> This node belongs here.
-
-Discuss:
-
-* households
-* organizations
-* schools
-* neighbourhood groups
-* cooperatives
-
----
-
-## Homeland Is Optional
-
-Support:
-
-* mobile households
-* travelling users
-* privacy-sensitive deployments
-
-Nodes remain functional without place information.
-
----
-
-# 4. Place Relationships
+## Place Relationships
 
 A node may relate to many places.
 
-Examples:
+Examples include home, favourite park, walking trail, creek, community garden,
+school, library, transit station, market, clinic, watershed, conservation
+area, volunteer organization, and public service area.
 
-Home
+These relationships are not just bookmarks. They tell the node which public
+facts, local practices, stewardship opportunities, and quality-of-life signals
+may be relevant.
 
-Favourite park
+Relationships should be explicit, reviewable, and locally governed. A node
+should be able to forget, hide, or summarize place relationships when privacy
+or safety requires it.
 
-Walking trail
+## Layers Of Place
 
-Library
+Places are layered.
 
-Community garden
+Ecological layers include watershed, aquifer, biome, forest, wetland, coastline,
+pollinator habitat, migration route, and conservation area.
 
-School
+Geological layers include escarpment, bedrock, soil, floodplain, river valley,
+and erosion risk.
 
-Creek
+Civic layers include municipality, ward, conservation authority, transit
+agency, school board, library system, water utility, waste collection zone, and
+public health area.
 
-Transit station
+Historical layers include neighbourhood history, industrial history, settlement
+history, archaeology, heritage buildings, and prior land uses.
 
-Market
+Cultural layers include public art, languages, festivals, markets, local
+traditions, and community institutions.
 
-Volunteer organization
-
-Relationships are meaningful.
-
-Not merely bookmarks.
-
----
-
-# 5. Layers Of Place
-
-Introduce the layered model.
-
----
-
-## Ecological
-
-Examples:
-
-* watershed
-* aquifer
-* biome
-* forest
-* wetland
-* coastline
-
----
-
-## Geological
-
-Examples:
-
-* escarpment
-* bedrock
-* soil
-* floodplain
-
----
-
-## Civic
-
-Examples:
-
-* municipality
-* ward
-* conservation authority
-* transit agency
-* school board
-* library system
-
----
-
-## Historical
-
-Examples:
-
-* neighbourhood history
-* industrial history
-* settlement history
-* archaeological context
-
----
-
-## Cultural
-
-Examples:
-
-* festivals
-* public art
-* local traditions
-* languages
-
----
-
-## Indigenous Context
-
-Traditional territories.
-
-Treaties.
-
-Indigenous place names.
-
-Important guidance:
-
-These are contextual relationships.
-
-They are **not** game resources.
-
-Do not gamify Indigenous identity or territory.
-
----
-
-# 6. Place And Stewardship
-
-Introduce stewardship.
-
-Nodes may choose places they actively care for.
-
-Examples:
-
-* neighbourhood cleanup
-* invasive species removal
-* community gardens
-* bird monitoring
-* creek restoration
-
-Stewardship is relational.
-
-Not ownership.
-
----
-
-# 7. Place And Quality Of Life
-
-Place contributes to node understanding.
-
-Examples:
-
-Nearby parks
-
-Libraries
-
-Transit
-
-Water quality
-
-Flood risk
-
-Food access
-
-Air quality
-
-Walkability
-
-QoL indicators should support households rather than centralized surveillance.
-
----
-
-# 8. Place And Symbolic Ecology
-
-Relationship to Pitchfork.
-
-Places contribute symbolic context.
-
-Examples:
-
-Wetlands
-
-↓
-
-Wetland frequencies
-
-Forest
-
-↓
-
-Forest frequencies
-
-Place enriches symbolic interpretation without replacing activities.
-
-Refer readers to symbolic frequencies.
-
----
-
-# 9. Place And Community
-
-Communities emerge in places.
-
-Examples:
-
-Neighbourhood associations
-
-Conservation groups
-
-Volunteer organizations
-
-Mutual aid
-
-Markets
-
-Libraries
-
-Parks
-
-Explain why locality matters.
-
----
-
-# 10. Place And Infrastructure
-
-Introduce infrastructure relationships.
-
-Examples:
-
-Water source
-
-Wastewater treatment
-
-Electric utility
-
-Garbage
-
-Transit
-
-Food distribution
-
-Healthcare
-
-These relationships help nodes understand how households are connected to civic systems.
-
-Do not imply continuous monitoring.
-
----
-
-# 11. Place And Reference Services
-
-Reference the future reference-service architecture.
-
-Examples:
-
-GIS
-
-Species database
-
-Civic infrastructure
-
-Open barcodes
-
-Reference services provide knowledge.
-
-Nodes retain agency.
-
----
-
-# 12. Privacy
-
-One of the most important sections.
-
-Explain:
-
-Nodes should understand place.
-
-They should not continuously report movement.
-
-Relationship-based.
-
-Not surveillance-based.
-
-Homeland
-
-≠
-
-tracking.
-
----
-
-# 13. Examples
-
-Worked examples.
-
----
-
-## Household Node
-
-Home
-
-↓
-
-Watershed
-
-↓
-
-Aquifer
-
-↓
-
-Conservation authority
-
-↓
-
-Community garden
-
----
+Indigenous context includes traditional territories, treaties, Indigenous
+place names, language, stewardship knowledge, and governance relationships.
+This context must be treated respectfully. It is contextual knowledge, not a
+game resource, reward system, or identity mechanic.
 
 ## Stewardship
 
-Node adopts:
+Stewardship is care for a place.
 
-Mason Road Park
+A node may choose to care about a park, creek, garden, street, trail, wetland,
+library, or neighbourhood. Stewardship can include cleanup, restoration,
+maintenance, monitoring, education, mutual aid, community gardening, species
+observation, accessibility work, and civic participation.
 
-Receives:
+Stewardship is not ownership. It is a relationship of responsibility and
+attention.
 
-community cleanup opportunities
+The place model should make stewardship visible without pressuring households
+into public disclosure. Local contribution can remain local unless a node
+chooses to share it.
 
-local restoration events
+## Place And Quality Of Life
 
-bird surveys
+Place helps a node understand conditions that affect flourishing.
 
----
+Examples include nearby parks, transit access, food access, library access,
+water quality, flood risk, heat risk, air quality, walkability, repair access,
+community services, and boil water advisories.
 
-## Lone Honk
+Quality-of-life indicators should support household and community decisions.
+They should not become centralized profiling tools.
 
-Player explores:
+## Place And Symbolic Meaning
 
-Duffins Creek
+Place contributes symbolic context to Pitchfork projections.
 
-Node learns:
+A wetland can contribute wetland frequencies. A library can contribute learning
+and civic knowledge frequencies. A market can contribute exchange and food
+frequencies. A conservation area can contribute stewardship and ecological
+frequencies.
 
-place relationship
+Place enriches interpretation. It does not replace activity. Walking through a
+wetland is still walking; the place adds context to the event's frequency
+vector.
 
-Pitchfork interprets:
+## Place And Infrastructure
 
-wetland frequencies
+Nodes also relate to civic and ecological infrastructure.
 
----
+Examples include drinking water source, wastewater destination, electrical
+grid, waste collection area, recycling system, transit system, public health
+unit, conservation authority, food distribution system, and emergency alert
+area.
 
-## Boil Water Advisory
+These relationships help a node understand local conditions. A boil water
+advisory can be relevant because the node knows its water system, not because a
+central service tracks the household.
 
-Reference service reports:
+## Relationship To Reference Services
 
-boil water advisory
+Reference services provide public place knowledge. Examples include GIS,
+species databases, civic infrastructure registries, open barcode registries,
+and public datasets.
 
-↓
+Nodes combine that public knowledge with private local context. The reference
+service may know the watershed boundary. The node knows whether that watershed
+matters to its household, activities, and stewardship.
 
-Relevant nodes understand:
+## Non-Goals
 
-their household is affected
+The place model does not define live tracking, geofencing surveillance,
+advertising profiles, location brokerage, or centralized household registries.
 
-without exposing private information.
+It also does not define Indigenous identity, political authority, treaty
+interpretation, land claims, or controlled cultural knowledge. Those require
+appropriate community authority and governance outside this engineering
+foundation.
 
----
+## Examples
 
-# 14. Design Principles
+A household node declares a homeland. Locally, it can associate that homeland
+with a watershed, aquifer, conservation authority, library system, transit
+agency, and community garden. None of that requires publishing the household's
+address.
 
-Summarize.
+A stewardship capability records participation in a park cleanup. The node can
+associate the activity with place, stewardship, cooperation, and ecological
+frequencies. A shared community artifact can preserve cleanup context without
+exposing private participant histories.
 
-Examples:
+A Lone Honk activity near Duffins Creek can discover a place relationship.
+Pitchfork may interpret the activity with wetland or creek frequencies while
+the node retains control over what location details are stored or shared.
 
-* Places are relationships, not coordinates.
-* Stewardship is more important than ownership.
-* Local knowledge should remain local.
-* Place enriches meaning rather than restricting participation.
-* Nodes should understand where they belong.
-* Indigenous history should be acknowledged respectfully without becoming gameplay.
-* Public reference data should remain separate from private household information.
+A boil water advisory reference service identifies affected water systems. A
+node that knows its own water relationship can determine local relevance
+without sending private household records to the service.
 
----
+## What Later Documents Should Reference
 
-# 15. Relationship To Other Documents
+Later documents should reference this article when they need canonical language
+for place, homeland, stewardship, locality, layered place relationships,
+infrastructure relationships, Indigenous context boundaries, and privacy
+principles for place-aware systems.
 
-Explain boundaries.
-
-This document defines:
-
-* place
-* homeland
-* stewardship
-* locality
-* infrastructure relationships
-
-Other documents define:
-
-* GIS implementation
-* reference services
-* node capabilities
-* symbolic frequencies
-* symbolic crafting
-
-The place model becomes the canonical conceptual definition of locality throughout the Pancakes ecosystem. It provides the vocabulary that allows nodes, reference services, community quests, and the Pitchfork symbolic economy to share a consistent understanding of place without coupling them to any specific application or technology.
+Application documents should describe how a specific client or capability uses
+place. They should not redefine what place means in Pancakes.

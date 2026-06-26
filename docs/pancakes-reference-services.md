@@ -1,479 +1,188 @@
-# Outline: `docs/pancakes-reference-services.md`
+# Pancakes Reference Services
 
 ## Purpose
 
-Define the architecture and philosophy of Pancakes Reference Services.
+Reference services provide shared public knowledge that Pancakes nodes can use
+without centralizing private household or user data.
 
-Reference services provide public, shared knowledge that can be used by Pancakes nodes without centralizing personal data.
+They answer questions about the world, not questions about people. This
+document defines the canonical reference service pattern and its relationship
+to nodes, capabilities, place, privacy, and symbolic interpretation.
 
-They answer questions about the world rather than questions about people.
+## Canonical Definition
 
-This document establishes a common pattern for future reference services.
+A reference service is an open or community-governed source of stable public
+facts.
 
----
+Examples include:
 
-# 1. Introduction
+* this coordinate is inside this watershed
+* this barcode identifies this product
+* this plant is native to this region
+* this water system has an active advisory
+* this trail is managed by this public authority
 
-## Motivation
+Reference services do not store private node activity. They do not own
+household inventories, walks, journals, habits, health records, or local
+governance decisions.
 
-Many applications require common knowledge.
+## Public Knowledge And Private Knowledge
 
-Examples:
+Pancakes separates public facts from private interpretation.
 
-* maps
-* barcodes
-* species
-* recipes
-* infrastructure
-* administrative boundaries
+Public knowledge includes geography, species, products, public infrastructure,
+standards, recipes, administrative boundaries, and civic alerts.
 
-Today this information is often:
+Private knowledge includes household activity, inventories, routes, journals,
+preferences, health information, local histories, and node-specific decisions.
 
-* proprietary
-* fragmented
-* duplicated
-* surveillance-supported
-
-Pancakes proposes open, community-governed reference infrastructure.
-
----
-
-## Design Goals
-
-Reference services should be:
-
-* open
-* privacy-respecting
-* reusable
-* versioned
-* community-maintained
-* application-independent
-* globally extensible
-
----
-
-# 2. What Is A Reference Service?
-
-Define the abstraction.
-
-A reference service provides stable public facts.
-
-Examples:
-
-"This coordinate is inside this watershed."
-
-"This barcode identifies this product."
-
-"This species is native to this region."
-
-Reference services do **not** store private user activity.
-
----
-
-## Public Knowledge vs Private Knowledge
-
-Public
-
-* geography
-* species
-* products
-* civic infrastructure
-
-Private
-
-* walks
-* inventories
-* journals
-* habits
-* health
-* household activity
-
-Nodes combine private events with public knowledge locally.
-
----
-
-# 3. Architectural Pattern
-
-Introduce the fundamental pattern.
+The node combines both locally:
 
 ```text
-Private Node Event
-
-+
-
-Public Reference Service
-
-↓
-
-Local Meaning
+private node event
++ public reference fact
+= local meaning
 ```
 
-Examples.
+A walk can be enriched by GIS reference data. A pantry update can be enriched
+by barcode reference data. A household alert can be enriched by civic
+infrastructure reference data. In each case, the node remains the place where
+private meaning is formed.
 
-Scan barcode
+## Service Families
 
-↓
+Reference services can be grouped into service families.
 
-Product lookup
+Geographic reference services provide boundaries, watersheds, aquifers, parks,
+trails, ecological regions, public routes, and civic areas.
 
-↓
+Goods reference services provide barcodes, commodities, ingredients, packaging,
+repairability, recycling guidance, product categories, and standards.
 
-Local pantry update
+Civic infrastructure services provide drinking water systems, wastewater
+systems, electricity, waste collection, transit, libraries, schools, clinics,
+public health areas, and public alerts.
 
-Walk in park
+Ecological reference services provide species, habitats, native plants,
+pollinators, migration routes, invasive species, conservation areas, and
+restoration practices.
 
-↓
+Knowledge reference services provide recipes, educational materials, standards,
+public datasets, safety guidance, and community-maintained instructions.
 
-GIS lookup
+Future service families can cover astronomy, weather, geology, accessibility,
+heritage, repair, or other public knowledge domains.
 
-↓
+## Relationship To Nodes
 
-Place relationship
+Reference services are passive. Nodes are active.
 
-Boil water advisory
+A reference service can answer a query, publish a dataset, provide a versioned
+download, or expose a public API. It should not decide what a household cares
+about, monitor user behaviour, or assemble profiles.
 
-↓
+Nodes decide what to query, what to cache, what to store, what to ignore, and
+what to interpret. Nodes should prefer local caches or downloaded reference
+sets when that reduces privacy exposure and improves resilience.
 
-Infrastructure lookup
-
-↓
-
-Relevant household notification
-
----
-
-# 4. Categories Of Reference Services
-
-Introduce the concept of service families.
-
----
-
-## Geographic Reference
-
-Examples:
-
-* boundaries
-* watersheds
-* aquifers
-* parks
-* trails
-* ecological regions
-
----
-
-## Goods Reference
-
-Examples:
-
-* barcodes
-* commodities
-* ingredients
-* packaging
-* repairability
-* recycling
-
----
-
-## Civic Infrastructure
-
-Examples:
-
-* drinking water
-* wastewater
-* electricity
-* waste collection
-* transit
-* libraries
-* schools
-* hospitals
-
----
-
-## Ecological Reference
-
-Examples:
-
-* species
-* habitats
-* migration routes
-* invasive species
-* pollinators
-
----
-
-## Knowledge Reference
-
-Examples:
-
-* recipes
-* standards
-* educational materials
-* public datasets
-
----
-
-## Future Reference Services
-
-Architecture intentionally supports additional categories.
-
-Examples:
-
-* astronomy
-* geology
-* weather
-* heritage
-* accessibility
-
----
-
-# 5. Relationship To Nodes
-
-Reference services are passive.
-
-Nodes remain active.
-
-Nodes decide:
-
-* what to query
-* what to store
-* what to ignore
-
-Reference services do not monitor nodes.
-
----
-
-# 6. Relationship To Capabilities
+## Relationship To Capabilities
 
 Capabilities consume reference services.
 
-Example:
+A GIS capability may use an open GIS service. A barcode capability may use an
+open barcode database. A civic infrastructure capability may use a public water
+or transit registry. A pollinator stewardship capability may use a species
+reference service.
 
-GIS Capability
+The capability translates public facts into domain behaviour for the node. The
+reference service remains application-independent.
 
-↓
+## Relationship To Place
 
-queries
+Reference services enrich the place model.
 
-↓
+GIS can identify a watershed, aquifer, park boundary, trail, municipality, or
+conservation authority. Civic registries can identify water systems, waste
+zones, transit service, and public alert areas. Ecological services can
+identify species ranges and restoration contexts.
 
-Open GIS
+The reference service provides context. The node decides whether that context
+matters to its homeland, stewardship, quality of life, or symbolic projection.
 
-Barcode Capability
-
-↓
-
-queries
-
-↓
-
-Open Barcode Database
-
-Future capabilities integrate additional services naturally.
-
----
-
-# 7. Reference Services And Place
-
-Reference services enrich place.
-
-Examples:
-
-GIS
-
-↓
-
-Watershed
-
-↓
-
-Aquifer
-
-↓
-
-Conservation authority
-
-↓
-
-Stewardship opportunities
-
-Explain relationship to the Place Model.
-
----
-
-# 8. Reference Services And Symbolic Systems
-
-Relationship to Pitchfork.
-
-Reference services provide context.
-
-Nodes interpret context.
-
-Pitchfork derives symbolic frequencies.
-
-Example:
-
-Walk
-
-↓
-
-GIS
-
-↓
-
-Wetland
-
-↓
-
-Pitchfork
-
-↓
-
-Wetland frequency
+## Relationship To Symbolic Systems
 
 Reference services do not perform symbolic interpretation.
 
----
+They may provide facts that later contribute to symbolic frequencies. For
+example, GIS may say that an activity occurred in a wetland. Pitchfork may
+derive or project a wetland frequency. The reference service should not decide
+that a user's walk produced a particular magical resource.
 
-# 9. Privacy Principles
+This boundary keeps public knowledge reusable and keeps private interpretation
+inside the node.
 
-One of the most important sections.
+## Privacy Principles
 
-Reference services should:
+Reference services should minimize personal information exposure.
 
-* avoid surveillance
-* avoid user profiling
-* avoid advertising
-* avoid behavior tracking
+They should avoid user profiling, advertising identifiers, behavioural
+tracking, household registries, and unnecessary query logging. Where practical,
+they should support dataset downloads, regional mirrors, anonymous queries,
+versioned snapshots, and local caches.
 
-Queries should reveal as little personal information as practical.
+Nodes should avoid sending raw private records when a local lookup, coarse
+query, or cached reference set is sufficient.
 
-Nodes should cache stable reference information whenever appropriate.
+## Governance
 
----
+Reference services should support open, plural, and accountable governance.
 
-# 10. Governance
+Important properties include clear data provenance, versioning, correction
+processes, regional extensions, open formats, multiple implementations, public
+documentation, and community review.
 
-How reference services evolve.
+Avoid central monopolies. A reference service pattern should allow multiple
+trusted providers, local mirrors, and community-maintained datasets.
 
-Community governance.
+## Non-Goals
 
-Open standards.
+Reference services are not social networks, advertising systems, household
+data stores, identity providers, payment processors, or central node
+registries.
 
-Versioning.
+They also do not replace community authority. Public Indigenous, ecological,
+or civic data may still require careful governance, attribution, and respect
+for knowledge that is not appropriate to publish.
 
-Corrections.
+## Examples
 
-Regional extensions.
+Open GIS provides watersheds, aquifers, parks, trails, ecological regions,
+municipalities, and public boundaries. A node can use those facts to understand
+place relationships.
 
-Multiple implementations.
+An open barcode database provides product identity, ingredients, packaging,
+categories, repairability, recycling guidance, and commodity relationships. A
+node can use those facts to update an inventory or pantry without sharing the
+household's full inventory externally.
 
-Avoid central monopolies.
+A civic infrastructure registry provides water systems, wastewater systems,
+electricity regions, transit service, public health regions, and alerts. A
+node can determine whether a boil water advisory matters locally.
 
----
+A species database provides native plants, birds, insects, invasive species,
+pollinators, and habitat information. A pollinator stewardship capability can
+use it to support community science and habitat work.
 
-# 11. Canonical Examples
+A recipe registry provides public recipes for food, repair, services,
+education, and community practices. Nodes remain responsible for local
+execution and private records.
 
-Worked examples.
+## What Later Documents Should Reference
 
----
+Later documents should reference this article when they need canonical language
+for public knowledge, private node interpretation, reference service families,
+privacy-preserving reference lookups, and the boundary between reference
+services and capabilities.
 
-## Open GIS
-
-Provides:
-
-* watersheds
-* aquifers
-* parks
-* ecological regions
-* municipalities
-
----
-
-## Open Barcode Database
-
-Provides:
-
-* product identity
-* ingredients
-* packaging
-* categories
-* repairability
-
----
-
-## Civic Infrastructure Registry
-
-Provides:
-
-* water systems
-* wastewater
-* electricity
-* waste
-* transit
-
-Supports local notifications rather than surveillance.
-
----
-
-## Species Database
-
-Provides:
-
-* native plants
-* birds
-* insects
-* invasive species
-
-Supports stewardship capabilities.
-
----
-
-## Recipe Registry
-
-Provides:
-
-* community recipes
-* service recipes
-* educational recipes
-
-Nodes remain responsible for local execution.
-
----
-
-# 12. Design Principles
-
-Summarize.
-
-Examples:
-
-* Reference services describe the world, not people.
-* Nodes remain the source of private knowledge.
-* Public knowledge should remain openly accessible.
-* Services should be reusable across applications.
-* Services should remain modular.
-* Services should support local-first computing.
-* New reference services should require new data rather than new architecture.
-
----
-
-# 13. Relationship To Other Documents
-
-Boundaries.
-
-This document defines:
-
-* reference services
-* public knowledge
-* service categories
-* architectural relationships
-
-Other documents define:
-
-* place model
-* node capabilities
-* symbolic frequencies
-* symbolic crafting
-* node infrastructure
-* service exchange
-
-Reference services become a foundational architectural layer shared across Pancakes, Pitchfork, Lone Honk, Wellness Notebook, Red Witch, and future clients. They provide a common understanding of the world while allowing each node to preserve its own autonomy, privacy, and interpretation.
+Application documents should describe concrete reference datasets, APIs, and
+client behaviours. They should not redefine the reference service pattern.
