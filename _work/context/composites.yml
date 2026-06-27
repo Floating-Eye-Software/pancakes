@@ -1,0 +1,101 @@
+# Pancakes cross-repository context registry.
+#
+# Membership is an explicit disclosure allowlist. Generated files are local,
+# non-authoritative snapshots for manual upload to a shared ChatGPT project.
+
+version: 1
+outdir: _work/context/generated
+index: context-index.md
+upload_file_budget: 25
+max_output_bytes: 1500000
+max_total_bytes: 5000000
+dirty_policy: warn
+
+repositories:
+  pancakes:
+    default_root: .
+    authority: Pancakes product, node architecture, governance, and public documentation
+  pitchfork:
+    default_root: ../pitchfork
+    authority: Shared contracts, projections, settlement, resource state, and runtime architecture
+  honk:
+    default_root: ../honk
+    authority: Lone Honk client design and documentation
+  redwitch:
+    default_root: ../redwitch
+    authority: Red Witch product design and documentation
+
+composites:
+  - id: pancakes
+    out: pancakes-context.md
+    note: Current Pancakes product, architecture, governance, and human-flourishing context.
+    sources:
+      - {repo: pancakes, path: docs/index.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-ecosystem-overview.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-primer.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes_client_node_architecture.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes_node_infrastructure.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-node-capabilities.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-reference-services.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-place-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-ethics-framework.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes_charter_of_rights.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/human-flourishing-framework.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-lifecraft.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-household-management-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes_service_exchange.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-pitchfork-economic-theory.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/non_exploitative_infrastructure.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-safety-cases.md, classification: public, reviewed: true}
+
+  - id: pitchfork
+    out: pitchfork-context.md
+    note: Current Pitchfork architecture, contracts, privacy, projections, and client integration context.
+    sources:
+      - {repo: pitchfork, path: docs/README.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_overview.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_ecosystem.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_client_api_spec.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-contracts.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-contracts-reader.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-symbolic-frequencies.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-symbolic-crafting.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-symbolic-projections.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_information_sources.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_privacy_security.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_data_sovereignty.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_economics.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-household-management-model.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_client_ambience.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_node_quality_of_life.md, classification: private-review-required, reviewed: true}
+
+  - id: honk
+    out: honk-context.md
+    note: Canonical Lone Honk vision and supporting world-system design.
+    sources:
+      - {repo: honk, path: README.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-design-proposal.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-geography.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-ecology.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-time.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-processes.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-observation.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-map.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-astronomy.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-environmental-sources.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-human-infrastructure.md, classification: private-review-required, reviewed: true}
+
+  - id: redwitch
+    out: redwitch-context.md
+    note: Core Red Witch product, architecture, privacy, safety, and inference-governance context.
+    sources:
+      - {repo: redwitch, path: README.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/index.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Requirements.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Software-Architecture.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Users.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Privacy-Assessment.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Inference-Governance.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Threat-Model.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Risk-Management.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/product/Red-Witch-Roadmap.md, classification: private-review-required, reviewed: true}

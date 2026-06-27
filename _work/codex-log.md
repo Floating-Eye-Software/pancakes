@@ -621,3 +621,44 @@ Changed files:
 - `_work/notes/jekyll-notes.md`
 
 Plan 0009 remains in review; this entry does not close it.
+
+---
+
+# codex-027 - Cross-Repository Context Composites
+
+**Plan:** `0011-cross-repository-chatgpt-context-composites`
+**Priority:** P1
+**Status:** done
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Added a reviewed source inventory and declarative registry for Pancakes,
+  Pitchfork, Honk, and Red Witch context.
+- Added deterministic multi-repository composite generation with repository
+  revisions, dirty-state provenance, path-containment checks, tracked-file
+  enforcement, disclosure classifications, size limits, and a 25-file budget.
+- Added Make targets for generation, checking, listing, cleanup, and tests.
+- Added operating instructions for regeneration, disclosure review, upload
+  order, and coherent replacement.
+- Ignored generated context snapshots so only the registry, inventory, tooling,
+  tests, and documentation are committed.
+- Generated a five-file local upload set consisting of one index and four
+  repository composites.
+
+## Verification
+
+- `make test-composites` — 17 tests passed.
+- `make composites` — five files generated.
+- `make check-composites` — generated snapshot current.
+- `python3 -m py_compile scripts/assemble_context_composites.py
+  tests/test_context_composites.py` — passed.
+- Credential-pattern scan found no credential-shaped content.
+- `make check-work` — passed.
+- `git diff --check` — passed.
+
+## Closure
+
+The user approved Plan 0011 for closure. External upload remains manual.
+Regenerate the ignored snapshot after commits that change a source repository
+revision, and review every `private-review-required` source before upload.

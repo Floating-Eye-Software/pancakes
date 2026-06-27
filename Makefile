@@ -1,7 +1,10 @@
-.PHONY: check-work check-plans check-todo check-workflow check-docs mount umount links nolinks upload download
+.PHONY: check-work check-plans check-todo check-workflow check-docs composites check-composites list-composites clean-composites test-composites mount umount links nolinks upload download
 
 PYTHON ?= python3
 FLEY_ORG ?= ../fley-org
+COMPOSITES_SCRIPT := scripts/assemble_context_composites.py
+COMPOSITES_PLAN ?= _work/context/composites.yml
+COMPOSITE_ROOT_ARGS ?=
 
 check-work: check-plans check-todo check-workflow check-docs
 
@@ -18,6 +21,21 @@ check-workflow:
 check-docs:
 	@$(PYTHON) _work/check-diff-whitespace.py
 	@echo "Pancakes document whitespace: ok"
+
+composites:
+	@$(PYTHON) $(COMPOSITES_SCRIPT) --control-root . --plan "$(COMPOSITES_PLAN)" $(COMPOSITE_ROOT_ARGS)
+
+check-composites:
+	@$(PYTHON) $(COMPOSITES_SCRIPT) --control-root . --plan "$(COMPOSITES_PLAN)" --check $(COMPOSITE_ROOT_ARGS)
+
+list-composites:
+	@$(PYTHON) $(COMPOSITES_SCRIPT) --control-root . --plan "$(COMPOSITES_PLAN)" --list $(COMPOSITE_ROOT_ARGS)
+
+clean-composites:
+	@$(PYTHON) $(COMPOSITES_SCRIPT) --control-root . --plan "$(COMPOSITES_PLAN)" --clean $(COMPOSITE_ROOT_ARGS)
+
+test-composites:
+	@$(PYTHON) -m unittest discover -s tests -p 'test_context_composites.py'
 
 mount:
 	sshfs pancakes.love:pancakes apps/legacy-auth-webapp/remote-server

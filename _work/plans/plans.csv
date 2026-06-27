@@ -6,3 +6,4 @@ id,status,track,priority,depends_on,notes
 0008-public-repository-docs-and-boundary-transition,doing,publications,P1,,public organization repository established; finish readiness review docs site boundaries and GitHub DNS and static-site changes
 0009-symbolic-architecture-foundations,review,foundation,P1,,Pancakes place reference service and node capability foundation docs drafted and ready for review
 0010-application-documentation-migration,blocked,migration,P2,0009-symbolic-architecture-foundations,update application docs after the foundation docs land
+0011-cross-repository-chatgpt-context-composites,done,tooling,P1,,five-file deterministic context workflow implemented verified and approved for closure
