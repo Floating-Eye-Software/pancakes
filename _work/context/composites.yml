@@ -41,9 +41,15 @@ composites:
       - {repo: pancakes, path: docs/pancakes-ethics-framework.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes_charter_of_rights.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/human-flourishing-framework.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-common-good-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-stewardship-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-commonwealth-model.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-lifecraft.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-recipes.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-grimoires.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-household-management-model.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes_service_exchange.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-goods-and-services-model.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-pitchfork-economic-theory.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/non_exploitative_infrastructure.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-safety-cases.md, classification: public, reviewed: true}
@@ -61,6 +67,9 @@ composites:
       - {repo: pitchfork, path: docs/pitchfork-symbolic-frequencies.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-crafting.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-projections.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-recipes-and-grimoires.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-questing.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-sneeds-capability.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_information_sources.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_privacy_security.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_data_sovereignty.md, classification: private-review-required, reviewed: true}

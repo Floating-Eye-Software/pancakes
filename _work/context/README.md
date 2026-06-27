@@ -38,6 +38,12 @@ _work/context/generated/honk-context.md
 _work/context/generated/redwitch-context.md
 ```
 
+The Pancakes composite includes the human-facing recipes, grimoires, goods,
+services, common-good, stewardship, and commonwealth models. The Pitchfork
+composite includes their substrate counterparts: recipes and grimoires,
+questing, and the Sneeds extensibility test. Draft labels from source documents
+remain visible and do not gain authority through inclusion.
+
 ## Update Procedure
 
 1. Change only reviewed entries in `composites.yml`.

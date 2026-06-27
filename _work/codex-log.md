@@ -662,3 +662,41 @@ Plan 0009 remains in review; this entry does not close it.
 The user approved Plan 0011 for closure. External upload remains manual.
 Regenerate the ignored snapshot after commits that change a source repository
 revision, and review every `private-review-required` source before upload.
+
+---
+
+# codex-028 - Context Composite Source Expansion
+
+**Plan:** `0011-cross-repository-chatgpt-context-composites`
+**Priority:** P1
+**Status:** done
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Expanded the Pancakes composite from 17 to 23 sources with the common-good,
+  stewardship, commonwealth, recipes, grimoires, and goods-and-services
+  models. The node-capabilities document was already included.
+- Expanded the Pitchfork composite from 16 to 19 sources with recipes and
+  grimoires, questing, and the Sneeds extensibility test.
+- Updated the reviewed source inventory and context operating documentation.
+- Updated the Pancakes documentation README to link the selected economic,
+  constitutional, and node-capability documents.
+- Coordinated the Pitchfork documentation README update in its authoritative
+  repository.
+
+## Verification
+
+- `make test-composites` — 17 tests passed.
+- `make composites` — five files generated.
+- `make check-composites` — generated snapshot current.
+- `make check-work` — passed.
+- `make -C ../pitchfork check-work` — passed.
+- Credential-pattern scan found no credential-shaped content.
+- `git diff --check` passed in Pancakes and Pitchfork.
+
+## Follow-on Work
+
+Replace all five external project files together after reviewing every
+`private-review-required` source. The three assessed Red Witch additions remain
+excluded pending source curation or a separate external-evidence context.

@@ -13,8 +13,14 @@ and implementation documentation.
 - [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md):
   synthesizes commons governance, co-production, network formation, and the
   economic roles of Pancakes and Pitchfork.
+- [Pancakes Goods and Services Model](pancakes-goods-and-services-model.md):
+  situates goods, services, commodities, markets, and material production
+  within the transformation and flourishing models.
 - [Pancakes Common Good Model](pancakes-common-good-model.md)
 - [Pancakes Stewardship Model](pancakes-stewardship-model.md)
+- [Pancakes Commonwealth Model](pancakes-commonwealth-model.md):
+  synthesizes the ecosystem's constitutional identity, institutions, and
+  distributed authority.
 - [Pancakes Ethics Framework](pancakes-ethics-framework.md)
 - [Pancakes Standards Model](pancakes-standards-model.md)
 - [Pancakes Safety Cases](pancakes-safety-cases.md)
@@ -27,6 +33,7 @@ and implementation documentation.
 - [Pancakes Networks](pancakes-networks.md)
 - [Pitchfork Client and Pancakes Node Architecture](pancakes_client_node_architecture.md)
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
+- [Pancakes Node Capabilities](pancakes-node-capabilities.md)
 - [Pancakes Service Exchange](pancakes_service_exchange.md)
 
 ## Human Flourishing And Lifecraft

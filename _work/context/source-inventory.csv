@@ -10,9 +10,15 @@ pancakes,docs/pancakes-place-model.md,pancakes,place semantics,public,include,sh
 pancakes,docs/pancakes-ethics-framework.md,pancakes,ethical constraints,public,include,governs product reasoning
 pancakes,docs/pancakes_charter_of_rights.md,pancakes,user and community rights,public,include,states core constraints
 pancakes,docs/human-flourishing-framework.md,pancakes,human outcomes,public,include,defines the non-extractive objective
+pancakes,docs/pancakes-common-good-model.md,pancakes,common-good design criteria,public,include,defines collective flourishing and feature-review anti-patterns
+pancakes,docs/pancakes-stewardship-model.md,pancakes,responsibility and care model,public,include,defines stewardship obligations for data nodes institutions and communities
+pancakes,docs/pancakes-commonwealth-model.md,pancakes,constitutional identity,public,include,synthesizes institutions distributed authority and shared purpose
 pancakes,docs/pancakes-lifecraft.md,pancakes,lifecraft model,public,include,connects ordinary life to product concepts
+pancakes,docs/pancakes-recipes.md,pancakes,human-facing transformation model,public,include,defines the primary lifecraft primitive and its Pitchfork boundary
+pancakes,docs/pancakes-grimoires.md,pancakes,practical knowledge model,public,include,defines privacy lineage and transmission of reusable wisdom
 pancakes,docs/pancakes-household-management-model.md,pancakes,household product model,public,include,major Pancakes domain model
 pancakes,docs/pancakes_service_exchange.md,pancakes,service exchange,public,include,defines cooperation and exchange
+pancakes,docs/pancakes-goods-and-services-model.md,pancakes,goods services and transformations,public,include,connects markets material production recipes and flourishing
 pancakes,docs/pancakes-pitchfork-economic-theory.md,pancakes,economic relationship,public,include,connects product and substrate economics
 pancakes,docs/non_exploitative_infrastructure.md,pancakes,infrastructure constraints,public,include,states anti-extractive design rules
 pancakes,docs/pancakes-safety-cases.md,pancakes,safety argument method,public,include,sets implementation safety expectations
@@ -28,6 +34,9 @@ pitchfork,docs/pitchfork-contracts-reader.md,pitchfork,contract explanation,priv
 pitchfork,docs/pitchfork-symbolic-frequencies.md,pitchfork,symbolic semantics,private-review-required,include,current symbolic foundation
 pitchfork,docs/pitchfork-symbolic-crafting.md,pitchfork,transformation semantics,private-review-required,include,current symbolic foundation
 pitchfork,docs/pitchfork-symbolic-projections.md,pitchfork,projection semantics,private-review-required,include,current projection foundation
+pitchfork,docs/pitchfork-recipes-and-grimoires.md,pitchfork,transformation and knowledge primitives,private-review-required,include,defines recipes covenants settlement and grimoire organization while retaining draft status
+pitchfork,docs/pitchfork-questing.md,pitchfork,voluntary quest composition,private-review-required,include,defines canonical projection-aware quest semantics beyond a single client
+pitchfork,docs/pitchfork-sneeds-capability.md,pitchfork,extensibility fitness test,private-review-required,include,guards against hard-coded domains and incomplete flourishing taxonomies
 pitchfork,docs/pitchfork_information_sources.md,pitchfork,observation architecture,private-review-required,include,defines source and observation model
 pitchfork,docs/pitchfork_privacy_security.md,pitchfork,privacy and security boundaries,private-review-required,include,mandatory integration guardrails
 pitchfork,docs/pitchfork_data_sovereignty.md,pitchfork,data governance,private-review-required,include,mandatory data-use guardrails
