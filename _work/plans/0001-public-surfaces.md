@@ -167,7 +167,7 @@ Lessons learned:
 
 ## Status
 
-Ready.
+Doing.
 
 Plan `0008-public-repository-docs-and-boundary-transition` is related but does
 not supersede this plan. This plan owns the distinct product roles and static

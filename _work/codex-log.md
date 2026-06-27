@@ -744,3 +744,48 @@ excluded pending source curation or a separate external-evidence context.
 The Open GIS and Open Barcodes entries remain planned until their reviewed
 source documents are created and tracked. Replace all seven external project
 files together after reviewing every `private-review-required` source.
+
+---
+
+# codex-030 - Symbolic Architecture Foundation Closure
+
+**Plan:** `0009-symbolic-architecture-foundations`
+**Priority:** P1
+**Status:** done
+**Timestamp:** 2026-06-27 EDT
+
+## Closure
+
+- Accepted the completed symbolic architecture foundation documents.
+- Closed Plan 0009.
+- Unblocked Plan 0010 and moved it to `ready`.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+---
+
+# codex-031 - Cross-Repository Plan Status Assessment
+
+**Plan:** `ad hoc`
+**Priority:** P2
+**Status:** recorded
+**Timestamp:** 2026-06-27 EDT
+
+## Changes
+
+- Moved Plan 0001 to `doing` because its static public surfaces exist.
+- Moved Plan 0003 to `doing` because its initial governance templates exist.
+- Moved Plan 0004 to `review` because the architecture review draft records
+  its intended baseline and awaits review.
+- Moved Plan 0012 to `doing` because its ecosystem-layers deliverable has been
+  drafted.
+- Retained the remaining plan states after checking plan scope, dependencies,
+  artifacts, and repository history.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`

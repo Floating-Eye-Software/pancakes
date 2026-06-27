@@ -1,9 +1,13 @@
 id,status,track,priority,depends_on,notes
-0001-public-surfaces,ready,publications,P1,,prepare www.pancakes.ca as the NFS homepage pancakes.ca as its redirect and pancakes.love as a distinct site
+0001-public-surfaces,doing,publications,P1,,static public surfaces exist; finish claim review deployment handoff and cross-domain verification
 0002-pancakes-ethics-governance-roadmap,ready,governance,P1,,operationalize the Pancakes ethics framework through cases standards and review workflows
+0003-governance-realization-plan,doing,governance,P2,,initial governance templates exist; continue operational workflows QMS routing assessments and registries
+0004-governance-architecture-review,review,governance,P2,,draft architecture review records the current baseline gaps decisions and FLEY QMS relationship and awaits review
+0005-skipped-plan-id,dropped,governance,P2,,no plan was created; see ../fley-org/risk/skipped-plan-id-0005-absence-note.md
 0006-node-ambience-event-plan,blocked,node,P1,pitchfork:0003-core-foundation|0007-node-foundation,integrate Lone Honk and Resonance with the node event settlement resource-state and ambient projection chain
 0007-node-foundation,blocked,node,P1,pitchfork:0003-core-foundation,build Flask SQLAlchemy Alembic database transaction configuration and health-check foundations
 0008-public-repository-docs-and-boundary-transition,doing,publications,P1,,public organization repository established; finish readiness review docs site boundaries and GitHub DNS and static-site changes
-0009-symbolic-architecture-foundations,review,foundation,P1,,Pancakes place reference service and node capability foundation docs drafted and ready for review
-0010-application-documentation-migration,blocked,migration,P2,0009-symbolic-architecture-foundations,update application docs after the foundation docs land
+0009-symbolic-architecture-foundations,done,foundation,P1,,Pancakes place reference service and node capability foundation docs accepted and complete
+0010-application-documentation-migration,ready,migration,P2,0009-symbolic-architecture-foundations,update application docs now that the foundation docs are complete
 0011-cross-repository-chatgpt-context-composites,done,tooling,P1,,five-file deterministic context workflow implemented verified and approved for closure
+0012-architecture-reconciliation,doing,architecture,P2,0009-symbolic-architecture-foundations,ecosystem layers draft exists; continue reconciliation of the remaining Pancakes and Pitchfork architecture documents

@@ -1,214 +1,267 @@
-# Documentation Plan: Application Documentation Migration
+# 0010 Application Documentation Migration
+
+## Status
+
+Ready
 
 ## Purpose
 
-Update existing application and implementation documents to adopt the new symbolic architecture.
+Update existing application and implementation documentation to adopt the
+completed Pancakes and Pitchfork foundation.
 
-No new conceptual foundations should be introduced during this phase.
+This plan applies the canonical foundation documents to user-facing,
+client-facing, gameplay, economic, and service documents.
 
-Existing documents should reference the canonical foundation documents where appropriate.
+It does **not** create new architectural primitives or reorganize the
+architecture itself. Those concerns are tracked separately in
+`0012-architecture-reconciliation.md`.
 
----
-
-# Pitchfork
-
-## Update
-
-```text
-docs/pitchfork-frequencies.md
-```
-
-Reduce to an overview.
-
-Reference:
-
-* Symbolic Frequencies
-* Symbolic Crafting
+Application documents should consume the canonical foundation rather than
+redefining it.
 
 ---
 
-## Update
+# Scope
 
-```text
-docs/pitchfork_economics.md
-```
-
-Incorporate:
-
-* symbolic conservation
-* provenance
-* regional production
-* symbolic commodities
-
----
-
-## Update
-
-```text
-docs/pitchfork_rpg_client.md
-```
+## Pitchfork
 
 Update:
 
-* inventory
-* token inspection
-* provenance visualization
-* symbolic vectors
-* crafting UI
-
----
-
-## Update
-
 ```text
-docs/pitchfork_client_api_spec.md
+docs/pitchfork-frequencies.md
+docs/pitchfork_economics.md
+docs/pitchfork_rpg_client.md
 ```
 
-Add APIs supporting:
+## Pancakes
 
-* symbolic frequencies
-* provenance
-* craft lineage
-* place lookups
-* capability integration
-
----
-
-# Pancakes
-
-## Update
-
-```text
-docs/pancakes_node_infrastructure.md
-```
-
-Incorporate:
-
-* homeland
-* capabilities
-* reference services
-
----
-
-## Update
-
-```text
-docs/pancakes_client_node_architecture.md
-```
-
-Reflect:
-
-* capability manager
-* reference-service integrations
-* event composition
-
----
-
-## Update
+Update:
 
 ```text
 docs/pancakes_service_exchange.md
-```
-
-Add:
-
-* stewardship services
-* community quests
-* capability-generated services
-
----
-
-## Update
-
-```text
 docs/pancakes-goods-and-services-model.md
 ```
 
-Expand:
-
-* barcode registry
-* goods metadata
-* commodity reference services
-
----
-
-# New Infrastructure Documents
-
-Create:
-
-```text
-docs/pancakes-open-gis.md
-```
-
-Describe:
-
-* open GIS
-* ecological layers
-* stewardship support
-* privacy
-
----
-
-Create:
-
-```text
-docs/pancakes-open-barcodes.md
-```
-
-Describe:
-
-* open barcode registry
-* product metadata
-* repairability
-* sustainability
-* interoperability
-
----
-
-# Lone Honk
+## Lone Honk
 
 Update:
 
 ```text
 docs/lone-honk-observation.md
-```
-
-Introduce:
-
-* regional symbolic interpretation
-* observation rewards
-* place relationships
-
----
-
-Update:
-
-```text
 docs/lone-honk-ecology.md
 ```
 
+## New Infrastructure Documents
+
+Create:
+
+```text
+docs/pancakes-open-gis.md
+docs/pancakes-open-barcodes.md
+```
+
+---
+
+# Goals
+
+## Pitchfork Frequencies
+
+Reduce the document to an application-oriented overview.
+
+Reference the canonical symbolic architecture rather than redefining it.
+
+Focus on:
+
+* gameplay interpretation
+* user understanding
+* examples
+* symbolic discovery
+* links to canonical symbolic frequencies
+
+---
+
+## Pitchfork Economics
+
+Update the economic model to consume the completed symbolic architecture.
+
+Incorporate:
+
+* symbolic conservation
+* provenance
+* symbolic commodities
+* regional production
+* recipes
+* settlement
+* contracts
+* cooperative economics
+
+The document should explain how economics behaves rather than redefining
+foundational concepts.
+
+---
+
+## Pitchfork RPG Client
+
+Update the RPG client specification to reflect the current architecture.
+
+Describe:
+
+* projections
+* inventories
+* symbolic materials
+* recipes
+* quests
+* provenance
+* symbolic inspection
+* client rendering
+* multiplayer considerations
+
+The RPG should be described as one interpretation client over Pitchfork rather
+than as the platform itself.
+
+---
+
+## Pancakes Service Exchange
+
+Update the service exchange model to consume:
+
+* contracts
+* commonwealth
+* goods and services
+* node capabilities
+* stewardship
+
+Expand examples involving:
+
+* community services
+* mutual aid
+* capability-generated services
+* local exchange
+
+The document should focus on service behavior rather than governance or
+architecture.
+
+---
+
+## Pancakes Goods and Services
+
+Update the model to align with the new economic foundation.
+
+Expand:
+
+* product identity
+* commodity metadata
+* provenance
+* symbolic materials
+* reference services
+* repairability
+* sustainability
+
+Avoid duplicating reference-service architecture.
+
+---
+
+## Pancakes Open GIS
+
+Create a canonical document describing an open geographic reference service.
+
+Topics include:
+
+* place identity
+* ecological layers
+* stewardship
+* civic infrastructure
+* service discovery
+* privacy
+* interoperability
+
+This document consumes the Place Model and Reference Services foundation.
+
+---
+
+## Pancakes Open Barcodes
+
+Create a canonical document describing an open product identity reference
+service.
+
+Topics include:
+
+* barcode registry
+* product metadata
+* repairability
+* sustainability
+* provenance
+* interoperability
+* community stewardship
+
+This document consumes the Reference Services foundation.
+
+---
+
+## Lone Honk Observation
+
+Update observation to align with the completed symbolic architecture.
+
 Connect:
 
-* ecological regions
+* observation
+* place
+* symbolic interpretation
+* ecological discovery
+* knowledge progression
+
+The document should remain grounded in ecology rather than becoming a symbolic
+systems document.
+
+---
+
+## Lone Honk Ecology
+
+Update the ecological model to reference:
+
+* Pancakes Place Model
 * symbolic frequencies
-* Pancakes place model
+* stewardship
+* ecological relationships
+
+The document should explain how ecological systems participate in the broader
+ecosystem without redefining its foundations.
 
 ---
 
 # Migration Principles
 
-Do not redefine:
+Application documents should reference rather than redefine:
 
 * symbolic frequencies
 * symbolic crafting
+* contracts
+* projections
 * place
 * reference services
-* capabilities
+* node capabilities
+* commonwealth
+* governance
 
-Instead:
+Application documents should emphasize:
 
-Reference the canonical foundation documents.
+* behavior
+* implementation
+* examples
+* user experience
+* gameplay
+* services
 
-Use consistent terminology throughout the ecosystem.
+rather than architectural foundations.
 
-Application documents should focus on behavior, implementation, and examples rather than architectural definitions.
+---
+
+# Success Criteria
+
+The plan is ready for closure when:
+
+* application documents consistently reference canonical foundation documents;
+* duplicate conceptual explanations have been removed;
+* gameplay, economics, services, and ecology all use consistent terminology;
+* new GIS and barcode documents exist as application-level reference-service examples;
+* the application layer clearly builds upon the completed architecture without redefining it.
