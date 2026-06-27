@@ -590,3 +590,34 @@ This documents the server-side topology without changing the page content.
 - Review Plan 0009 before closure.
 - Start Plan 0010 application documentation migration after the foundation
   plan is accepted.
+
+---
+
+# codex-026 - Appliance And Place Architecture Expansion
+
+**Plan:** `0009-symbolic-architecture-foundations`
+**Priority:** P1
+**Status:** review
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Expanded the node capability, place, and reference-service foundations to
+  clarify transformations, place memory, symbolic contribution, public facts,
+  privacy, governance, and client boundaries.
+- Added `docs/pancakes-appliance-design.md` as a broad architecture proposal
+  for node, capture, sensor, memory, projection, and resilience appliances.
+- Added `_work/notes/woodland-commons.md` as a reference deployment concept.
+- Added `_work/notes/jekyll-notes.md` as troubleshooting notes for the docs
+  site.
+
+Changed files:
+
+- `docs/pancakes-node-capabilities.md`
+- `docs/pancakes-place-model.md`
+- `docs/pancakes-reference-services.md`
+- `docs/pancakes-appliance-design.md`
+- `_work/notes/woodland-commons.md`
+- `_work/notes/jekyll-notes.md`
+
+Plan 0009 remains in review; this entry does not close it.

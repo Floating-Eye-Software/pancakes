@@ -2,210 +2,494 @@
 
 ## Purpose
 
-Capabilities are the primary extension mechanism for Pancakes nodes.
+Capabilities extend the Pancakes node with new domains of knowledge and behaviour.
 
-They let the ecosystem add new domains of life, public knowledge, civic
-practice, quality-of-life interpretation, and symbolic meaning without
-redesigning the node core each time. This document defines the canonical
-capability model.
+The node core provides identity, storage, permissions, events, accounting, and local governance.
 
-## Canonical Definition
+Capabilities introduce domain-specific concepts without requiring the core node to understand every area of life.
 
-A capability is a coherent domain extension for a node.
+This document defines:
 
-Capabilities are not merely software plugins. A plugin usually extends a
-program. A Pancakes capability extends the node's understanding of a domain of
-life.
+* capabilities
+* capability lifecycle
+* events
+* domain data
+* reference service integration
+* capability composition
+* symbolic contribution
 
-That is why a capability may contribute data models, event types, permissions,
-recipes, quality-of-life indicators, reports, user interface surfaces,
-reference service integrations, symbolic frequency context, and governance
-hooks at the same time. The unit of modularity is not a code package. It is a
-meaningful area of human activity or knowledge.
+It does **not** define symbolic meaning, projection behaviour, application interfaces, or individual capability specifications.
 
-## Node Core And Capability Boundary
+---
 
-The node core should remain intentionally small.
+# Canonical Definition
 
-The core owns identity, local storage, synchronization, permissions, event
-transport, capability management, basic governance, and common safety
-constraints.
+A capability is a modular extension that teaches a Pancakes node about a particular domain.
 
-Capabilities own domain knowledge.
+Examples include:
 
-Examples include inventory, GPX, GIS, barcode lookup, pantry, civic
-infrastructure, community quests, pollinator stewardship, repair, recipes,
-education, and accessibility.
+* inventory
+* GIS
+* barcode
+* repair
+* pollinator stewardship
+* civic infrastructure
+* GPX activities
+* weather
+* pantry
+* household maintenance
 
-This boundary lets the core stay stable while communities add new forms of
-flourishing through capabilities.
+Capabilities extend the node.
 
-## Capability Interface
+They do not redefine it.
 
-A capability should define its identity, version, configuration, permissions,
-data schema, event types, reference service dependencies, recipes,
-quality-of-life indicators, reports, user interface surfaces, migration
-behaviour, synchronization expectations, and governance requirements.
+---
 
-Not every capability needs every feature. A small capability may only add event
-types and a report. A larger one may add reference lookups, recipes, UI,
-quality-of-life indicators, and symbolic interpretation.
+# Design Goals
 
-The interface should make dependencies explicit so nodes can decide whether a
-capability is trusted, enabled, disabled, upgraded, or removed.
+Capabilities allow Pancakes to grow horizontally.
 
-## Lifecycle
+New domains should be introduced without:
 
-Capabilities have a lifecycle.
+* modifying the node core
+* tightly coupling unrelated domains
+* creating central application dependencies
+* forcing every deployment to support every feature
 
-They may be installed, configured, enabled, disabled, upgraded, migrated, or
-removed. Optional capabilities should fail gracefully. A node should remain
-usable when a nonessential capability is absent or temporarily unavailable.
+A household should install only the capabilities it finds useful.
 
-Capabilities should declare migration expectations before changing stored
-data. They should avoid trapping private node records in opaque formats.
+---
 
-## Events
+# Capability Responsibilities
 
-Capabilities extend the node event vocabulary.
+Capabilities may define:
 
-Examples include `walk.completed`, `product.scanned`,
-`place.relationship.discovered`, `cleanup.completed`, `bee.observed`,
-`pantry.item.added`, `repair.completed`, and `advisory.received`.
+* events
+* persistent data
+* domain models
+* reference service integrations
+* quality-of-life indicators
+* transformations
+* automation
+* exports
+* interoperability
 
-Capability events should compose through shared node infrastructure. They
-should not require unrelated capabilities to know each other's private
-schemas.
+Capabilities should avoid owning concepts that belong elsewhere in the architecture.
 
-## Data Models
+---
 
-Capabilities may define persistent data.
+# Lifecycle
 
-Examples include barcode inventory, species observations, stewardship records,
-GPX tracks, pantry contents, infrastructure relationships, repair histories,
-and community participation records.
+Capabilities possess a lifecycle.
 
-Capabilities should avoid coupling unrelated domains. Shared concepts should
-flow through events, reference identifiers, and documented interfaces rather
-than hidden data dependencies.
+They may be:
 
-## Reference Service Integration
+* installed
+* configured
+* enabled
+* disabled
+* upgraded
+* migrated
+* removed
+
+Nodes should remain usable when optional capabilities are absent.
+
+Capabilities should support graceful degradation.
+
+Stored data should remain exportable whenever practical.
+
+---
+
+# Events
+
+Capabilities extend the shared event vocabulary.
+
+Examples include:
+
+```text
+walk.completed
+
+repair.completed
+
+cleanup.completed
+
+species.observed
+
+pantry.item.added
+
+barcode.scanned
+
+advisory.received
+
+story.recorded
+```
+
+Events should describe what happened.
+
+They should not directly encode symbolic interpretation.
+
+Events form the common language through which capabilities cooperate.
+
+---
+
+# Domain Models
+
+Capabilities may define persistent domain information.
+
+Examples include:
+
+* inventories
+* GPX tracks
+* pantry contents
+* repair history
+* species observations
+* stewardship records
+* weather history
+* infrastructure relationships
+
+Domain models should remain modular.
+
+Shared concepts should flow through events and documented interfaces rather than hidden coupling.
+
+---
+
+# Reference Service Integration
 
 Capabilities consume public reference services.
 
-A GIS capability can use open GIS data. A barcode capability can use an open
-barcode database. A civic infrastructure capability can use water, transit, and
-public alert registries. A pollinator capability can use species and habitat
-reference services.
+Examples include:
 
-Reference services provide public facts. Capabilities interpret those facts
-for the node.
+* GIS
+* barcode databases
+* species databases
+* civic infrastructure registries
+* weather services
 
-## Quality Of Life
+Reference services provide public knowledge.
+
+Capabilities translate that knowledge into useful domain behaviour.
+
+Private interpretation always remains inside the node.
+
+---
+
+# Transformations
+
+Capabilities define transformations relevant to their domains.
+
+Examples include:
+
+* pantry updates
+* repairs
+* stewardship activities
+* inventory adjustments
+* educational activities
+* maintenance
+* observations
+* household routines
+
+Capabilities describe transformations.
+
+Pitchfork later interprets their symbolic meaning.
+
+This separation keeps symbolic systems independent of individual domains.
+
+---
+
+# Quality Of Life
 
 Capabilities may contribute quality-of-life indicators.
 
-Examples include food security, transit access, park access, water reliability,
-repair capacity, volunteer participation, pollinator habitat, learning access,
-and household resilience.
+Examples include:
 
-Quality-of-life indicators should support local decisions. They should not
-become centralized scoring or profiling systems.
+* household resilience
+* food security
+* repair capacity
+* learning opportunities
+* park access
+* transit access
+* volunteer participation
+* ecological stewardship
 
-## Recipes
+Indicators should support reflection and local decision making.
 
-Capabilities may define recipes.
+They should not become centralized scoring systems.
 
-Examples include a pantry audit, community cleanup, pollinator survey, repair
-workflow, household garden, accessibility review, or neighbourhood mutual aid
-practice.
+---
 
-Recipes let capabilities describe structured domain actions without changing
-the core recipe architecture.
+# Symbolic Contribution
 
-## Symbolic Interpretation
+Capabilities contribute context.
 
-Capabilities may contribute context used by symbolic frequencies.
+They do not define symbolic meaning.
 
-A GIS capability can contribute wetland, watershed, forest, trail, and civic
-place context. A barcode capability can contribute commodity, packaging, and
-repairability context. A community quest capability can contribute stewardship,
-cooperation, and civic participation context.
+For example:
 
-Capabilities do not directly create magic or lore. They expose domain context
-that Pitchfork projections may interpret.
+A GIS capability contributes:
 
-## Governance And Trust
+* watershed
+* wetland
+* trail
+* municipality
 
-Nodes decide which capabilities they trust.
+A repair capability contributes:
 
-Governance concerns include permissions, data access, reference service
-sources, community adoption, policy configuration, safety constraints, upgrade
-review, and removal behaviour.
+* repair completed
+* maintenance history
 
-Some capabilities may be personal. Others may be adopted by a household,
-school, cooperative, clinic, or community organization. The capability model
-must support local governance rather than assuming one central authority.
+A stewardship capability contributes:
 
-## Privacy
+* habitat restoration
+* cleanup
+* monitoring
 
-Capabilities should minimize data collection, prefer local computation, use
-reference services instead of centralized private storage, expose meaningful
-user controls, support graceful degradation, and avoid surveillance.
+Pitchfork combines these transformations with symbolic frequencies.
 
-Capabilities are often the place where sensitive domain data appears. That
-makes privacy part of capability design, not a separate afterthought.
+Different clients later project that symbolic spectrum in different ways.
 
-## Capability Composition
+Capabilities expose domains.
 
-Capabilities should compose through shared events and reference concepts.
+They do not own symbolic interpretation.
 
-GPX plus GIS can support place-aware walking records. Barcode plus recipes can
-support pantry planning. GIS plus civic infrastructure can support local public
-alerts. Community quests plus pollinator stewardship can support habitat
-restoration. Inventory plus repair can support household resilience.
+---
 
-Composition should not require a large central application to know every
-domain. The node core provides the common substrate.
+# Capability Composition
 
-## Non-Goals
+Capabilities should compose naturally.
 
-Capabilities are not a license to put every feature into the node core. They
-are also not an app store, advertising channel, hidden data broker, or
-centralized policy engine.
+Examples include:
 
-The capability model does not define detailed UI conventions, storage formats,
-or business rules for every domain. It defines the extension boundary that
-those domain documents should use.
+GPX
 
-## Examples
+*
 
-An inventory capability tracks household goods, consumables, tools, and
-storage locations. It may use barcode reference data and contribute pantry or
-resilience indicators.
+GIS
 
-A GPX capability records walking, cycling, routes, and activity history. When
-combined with GIS, it can discover place relationships while keeping raw route
-history local.
+↓
 
-A civic infrastructure capability tracks relationships to water, wastewater,
-electricity, transit, waste collection, and public alerts. It can notify a
-household about relevant advisories without centralizing household records.
+Place-aware walking
 
-A community quest capability represents volunteer opportunities, stewardship
-events, neighbourhood participation, and shared recognition. It can contribute
-cooperation and stewardship frequencies.
+Inventory
 
-A pollinator stewardship capability supports species observations, native
-plants, habitat work, and community science. It may consume species reference
-services and contribute ecological quality-of-life indicators.
+*
 
-## What Later Documents Should Reference
+Barcode
 
-Later documents should reference this article when they need canonical language
-for capability architecture, capability lifecycle, node core boundaries,
-events, data models, reference service integration, recipes, quality-of-life
-indicators, symbolic context, privacy, governance, and capability composition.
+↓
 
-Application documents should define specific capabilities. They should not
-redefine the capability model.
+Pantry management
+
+Repair
+
+*
+
+Inventory
+
+↓
+
+Household maintenance
+
+Pollinator stewardship
+
+*
+
+GIS
+
+↓
+
+Habitat restoration
+
+Inventory
+
+*
+
+Repair
+
+*
+
+Service Exchange
+
+↓
+
+Community repair services
+
+Composition should emerge through shared events and documented interfaces rather than direct dependencies.
+
+---
+
+# Privacy
+
+Capabilities are often where sensitive information first appears.
+
+They should:
+
+* minimize collection
+* prefer local computation
+* support user review
+* expose meaningful permissions
+* avoid unnecessary sharing
+* degrade gracefully
+
+Capabilities should preserve user agency.
+
+---
+
+# Governance
+
+Nodes determine which capabilities they trust.
+
+Governance includes:
+
+* installation
+* permissions
+* upgrades
+* policy
+* reference sources
+* removal
+* migration
+
+Capabilities may be adopted by:
+
+* households
+* schools
+* cooperatives
+* clinics
+* guilds
+* neighbourhoods
+* community organizations
+
+The architecture assumes plural local governance rather than centralized control.
+
+---
+
+# Relationship To Symbolic Systems
+
+Capabilities expose domains of life.
+
+Symbolic systems interpret those domains.
+
+Example:
+
+```text id="kb5k5z"
+Repair capability
+
+↓
+
+repair.completed
+
+↓
+
+Pitchfork
+
+repair
+craftsmanship
+continuity
+
+↓
+
+Projection
+
+Commerce
+Wellness
+RPG
+Ambient world
+```
+
+Capabilities should never hard-code magical resources, symbolic frequencies, or projection-specific behaviour.
+
+Those belong to Pitchfork.
+
+---
+
+# Relationship To Applications
+
+Applications combine capabilities into coherent user experiences.
+
+Examples include:
+
+* Red Witch
+* Lone Honk
+* household dashboards
+* service exchange
+* Woodland Commons
+* future educational clients
+
+Applications determine user experience.
+
+Capabilities provide reusable domain foundations.
+
+---
+
+# Design Principles
+
+Capabilities extend rather than replace the node.
+
+Domains should remain modular.
+
+Composition should occur through shared events.
+
+Public knowledge should remain separate from private interpretation.
+
+Symbolic systems should remain independent of domain implementations.
+
+Capabilities should preserve user agency, privacy, and local governance.
+
+---
+
+# Non-Goals
+
+Capabilities are not:
+
+* application stores
+* advertising platforms
+* centralized business logic
+* symbolic interpreters
+* projection engines
+* governance authorities
+* payment systems
+* mandatory components
+
+The node core should remain small.
+
+Capabilities should not become excuses to move every feature into the core architecture.
+
+---
+
+# Examples
+
+An inventory capability manages household goods and pantry items.
+
+A GIS capability understands watersheds, trails, parks, and conservation areas.
+
+A repair capability records maintenance and completed repairs.
+
+A stewardship capability records restoration, monitoring, cleanup, and habitat work.
+
+A pollinator capability supports species observations and ecological knowledge.
+
+A service exchange capability coordinates community services without redefining accounting or symbolic systems.
+
+Each capability contributes transformations and domain knowledge.
+
+Shared symbolic interpretation occurs later through Pitchfork.
+
+---
+
+# What Later Documents Should Reference
+
+Later documents should reference this article whenever they require canonical language for:
+
+* capabilities
+* capability lifecycle
+* events
+* domain models
+* capability composition
+* reference service integration
+* quality-of-life indicators
+* privacy
+* governance
+* the boundary between capabilities and symbolic systems
+
+Application documents should define individual capabilities and user experiences.
+
+They should not redefine the capability architecture.
