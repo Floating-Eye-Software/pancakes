@@ -41,6 +41,8 @@ class Source:
     relpath: str
     path: Path
     classification: str
+    required: bool
+    available: bool
 
     @property
     def qualified(self) -> str:
@@ -296,13 +298,21 @@ def load_registry(
                 )
             if source_def.get("reviewed") is not True:
                 fail(f"{source_context} must have reviewed: true")
+            required = source_def.get("required", True)
+            if not isinstance(required, bool):
+                fail(f"{source_context}.required must be a boolean if provided")
             repo = repos[repo_id]
             path = contained(repo.root / relpath, repo.root, qualified)
             if not path.exists():
-                fail(f"missing source: {qualified}")
+                if required:
+                    fail(f"missing source: {qualified}")
+                source = Source(repo, relpath, path, classification, required, False)
+                sources.append(source)
+                all_source_paths.add(path)
+                continue
             if not path.is_file():
                 fail(f"source is not a regular file: {qualified}")
-            source = Source(repo, relpath, path, classification)
+            source = Source(repo, relpath, path, classification, required, True)
             validate_tracked(source)
             read_utf8(path)
             sources.append(source)
@@ -366,6 +376,7 @@ def render_composite(registry: Registry, composite: Composite) -> str:
             [
                 f"    - path: {source.qualified}",
                 f"      classification: {source.classification}",
+                f"      status: {'included' if source.available else 'planned'}",
             ]
         )
     lines.extend(
@@ -386,10 +397,15 @@ def render_composite(registry: Registry, composite: Composite) -> str:
         ]
     )
     for number, source in enumerate(composite.sources, 1):
-        lines.append(f"{number}. `{source.qualified}` ({source.classification})")
+        status = "included" if source.available else "planned; source not yet present"
+        lines.append(
+            f"{number}. `{source.qualified}` ({source.classification}; {status})"
+        )
     lines.append("")
     parts = ["\n".join(lines) + "\n"]
     for source in composite.sources:
+        if not source.available:
+            continue
         marker = "=" * 72
         parts.append(
             f"{marker}\nBEGIN SOURCE: {source.qualified}\n{marker}\n\n"
@@ -440,8 +456,10 @@ def render_index(registry: Registry, rendered: dict[str, str]) -> str:
     for number, composite in enumerate(registry.composites, 2):
         size = len(rendered[composite.out_name].encode("utf-8"))
         review = "required" if review_required(composite) else "standard"
+        available = sum(source.available for source in composite.sources)
         lines.append(
-            f"{number}. `{composite.out_name}` — {len(composite.sources)} sources, "
+            f"{number}. `{composite.out_name}` — {available} included / "
+            f"{len(composite.sources)} declared sources, "
             f"{size} bytes, pre-upload review: {review}"
         )
     lines.extend(
@@ -551,7 +569,8 @@ def list_registry(registry: Registry) -> None:
     for composite in registry.composites:
         print(f"{composite.comp_id} -> {composite.out_name}")
         for source in composite.sources:
-            print(f"  - {source.qualified} [{source.classification}]")
+            status = "included" if source.available else "planned"
+            print(f"  - {source.qualified} [{source.classification}; {status}]")
 
 
 def main(argv: list[str] | None = None) -> int:

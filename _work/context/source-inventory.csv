@@ -4,6 +4,8 @@ pancakes,docs/pancakes-ecosystem-overview.md,pancakes,product boundary and ecosy
 pancakes,docs/pancakes-primer.md,pancakes,shared vocabulary,public,include,makes governance and commons terminology usable
 pancakes,docs/pancakes_client_node_architecture.md,pancakes,node and client architecture,public,include,defines the application boundary
 pancakes,docs/pancakes_node_infrastructure.md,pancakes,node infrastructure,public,include,defines the physical node model
+pancakes,docs/pancakes-open-gis.md,pancakes,open geographic reference capability,public,planned,include automatically after the reviewed source is created and tracked
+pancakes,docs/pancakes-open-barcodes.md,pancakes,open barcode reference capability,public,planned,include automatically after the reviewed source is created and tracked
 pancakes,docs/pancakes-node-capabilities.md,pancakes,node extension model,public,include,defines planned capability composition
 pancakes,docs/pancakes-reference-services.md,pancakes,reference-service architecture,public,include,defines shared knowledge infrastructure
 pancakes,docs/pancakes-place-model.md,pancakes,place semantics,public,include,shared foundation for place-aware clients
@@ -32,6 +34,7 @@ pitchfork,docs/pitchfork_client_api_spec.md,pitchfork,client contract,private-re
 pitchfork,docs/pitchfork-contracts.md,pitchfork,contract semantics,private-review-required,include,authoritative reusable contract design
 pitchfork,docs/pitchfork-contracts-reader.md,pitchfork,contract explanation,private-review-required,include,prevents contract-model misreading
 pitchfork,docs/pitchfork-symbolic-frequencies.md,pitchfork,symbolic semantics,private-review-required,include,current symbolic foundation
+pitchfork,docs/pitchfork-frequencies.md,pitchfork,frequency color and three-world mapping,private-review-required,include,retains the detailed frequency mapping alongside the symbolic foundation
 pitchfork,docs/pitchfork-symbolic-crafting.md,pitchfork,transformation semantics,private-review-required,include,current symbolic foundation
 pitchfork,docs/pitchfork-symbolic-projections.md,pitchfork,projection semantics,private-review-required,include,current projection foundation
 pitchfork,docs/pitchfork-recipes-and-grimoires.md,pitchfork,transformation and knowledge primitives,private-review-required,include,defines recipes covenants settlement and grimoire organization while retaining draft status
@@ -41,11 +44,12 @@ pitchfork,docs/pitchfork_information_sources.md,pitchfork,observation architectu
 pitchfork,docs/pitchfork_privacy_security.md,pitchfork,privacy and security boundaries,private-review-required,include,mandatory integration guardrails
 pitchfork,docs/pitchfork_data_sovereignty.md,pitchfork,data governance,private-review-required,include,mandatory data-use guardrails
 pitchfork,docs/pitchfork_economics.md,pitchfork,economic semantics,private-review-required,include,defines rewards and anti-exploitation constraints
+pitchfork,docs/pitchfork_rpg_client.md,pitchfork,RPG product concept,private-review-required,include,orients the primary Pitchfork composite and the dedicated RPG context
 pitchfork,docs/pitchfork-household-management-model.md,pitchfork,household substrate mapping,private-review-required,include,connects Pancakes to Pitchfork contracts and events
 pitchfork,docs/pitchfork_client_ambience.md,pitchfork,ambient projection,private-review-required,include,connects Honk and other ambient clients
 pitchfork,docs/pitchfork_node_quality_of_life.md,pitchfork,aggregate quality-of-life signals,private-review-required,include,connects node governance and client projections
-pitchfork,docs/pitchfork_rpg_client.md,pitchfork,RPG product concept,private-review-required,omit,large optional client concept is not needed for the selected clients
-pitchfork,docs/rpg/**,pitchfork,archived RPG design,private-review-required,omit,README identifies archived material as non-current
+pitchfork,docs/rpg/**,pitchfork,RPG current and retained design corpus,private-review-required,include-dedicated,assembled in explicit current-first order in the dedicated RPG composite
+pitchfork,docs/design/**,pitchfork,engineering design and development records,private-review-required,include-dedicated,assembled in the dedicated QMS design composite without conferring controlled-QMS authority
 pitchfork,_work/**,pitchfork,workflow and expansion notes,private-review-required,omit,working notes and logs are not stable context
 honk,README.md,honk,project map,private-review-required,include,orients the Honk composite
 honk,docs/lone-honk-design-proposal.md,honk,canonical game design,private-review-required,include,primary Honk authority

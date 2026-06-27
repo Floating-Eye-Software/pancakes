@@ -135,6 +135,40 @@ class ContextCompositeTests(unittest.TestCase):
         self.write_plan()
         self.assert_load_error("missing source")
 
+    def test_planned_source_is_manifested_then_included_when_tracked(self) -> None:
+        planned = {
+            "repo": "control",
+            "path": "docs/planned.md",
+            "classification": "public",
+            "reviewed": True,
+            "required": False,
+        }
+        self.data["composites"][0]["sources"].append(planned)
+        self.write_plan()
+        registry = self.load()
+        source = registry.composites[0].sources[-1]
+        self.assertFalse(source.available)
+        output = cc.render_composite(registry, registry.composites[0])
+        self.assertIn("planned; source not yet present", output)
+        self.assertNotIn("BEGIN SOURCE: control:docs/planned.md", output)
+
+        (self.root / "docs" / "planned.md").write_text(
+            "# Planned\n\nNow available.\n", encoding="utf-8"
+        )
+        git(self.root, "add", "docs/planned.md")
+        git(self.root, "commit", "-q", "-m", "planned source")
+        registry = self.load()
+        source = registry.composites[0].sources[-1]
+        self.assertTrue(source.available)
+        output = cc.render_composite(registry, registry.composites[0])
+        self.assertIn("BEGIN SOURCE: control:docs/planned.md", output)
+        self.assertIn("Now available.", output)
+
+    def test_required_flag_must_be_boolean(self) -> None:
+        self.data["composites"][0]["sources"][0]["required"] = "no"
+        self.write_plan()
+        self.assert_load_error("required must be a boolean")
+
     def test_unknown_repository_fails(self) -> None:
         self.data["composites"][0]["sources"][0]["repo"] = "unknown"
         self.write_plan()

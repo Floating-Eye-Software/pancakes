@@ -3,7 +3,7 @@
 # Membership is an explicit disclosure allowlist. Generated files are local,
 # non-authoritative snapshots for manual upload to a shared ChatGPT project.
 
-version: 1
+version: 2
 outdir: _work/context/generated
 index: context-index.md
 upload_file_budget: 25
@@ -35,6 +35,8 @@ composites:
       - {repo: pancakes, path: docs/pancakes-primer.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes_client_node_architecture.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes_node_infrastructure.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-open-gis.md, classification: public, reviewed: true, required: false}
+      - {repo: pancakes, path: docs/pancakes-open-barcodes.md, classification: public, reviewed: true, required: false}
       - {repo: pancakes, path: docs/pancakes-node-capabilities.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-reference-services.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-place-model.md, classification: public, reviewed: true}
@@ -65,6 +67,7 @@ composites:
       - {repo: pitchfork, path: docs/pitchfork-contracts.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-contracts-reader.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-frequencies.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-frequencies.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-crafting.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-projections.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-recipes-and-grimoires.md, classification: private-review-required, reviewed: true}
@@ -74,6 +77,7 @@ composites:
       - {repo: pitchfork, path: docs/pitchfork_privacy_security.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_data_sovereignty.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_economics.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork_rpg_client.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-household-management-model.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_client_ambience.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_node_quality_of_life.md, classification: private-review-required, reviewed: true}
@@ -108,3 +112,36 @@ composites:
       - {repo: redwitch, path: docs/product/Red-Witch-Threat-Model.md, classification: private-review-required, reviewed: true}
       - {repo: redwitch, path: docs/product/Red-Witch-Risk-Management.md, classification: private-review-required, reviewed: true}
       - {repo: redwitch, path: docs/product/Red-Witch-Roadmap.md, classification: private-review-required, reviewed: true}
+
+  - id: pitchfork-rpg
+    out: pitchfork-rpg-context.md
+    note: Current and retained Pitchfork RPG product, world, gameplay, symbolic-system, and legacy design context.
+    sources:
+      - {repo: pitchfork, path: docs/pitchfork_rpg_client.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/README.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/01-rpg-overview.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/02-design-goals.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/03-novices-journey.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/04-magic-system.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/05-commerce-and-contracts.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/06-world-and-setting.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/07-gameplay.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/08-economic-testbed.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/09-research-platform.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/10-product-roadmap.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/11-open-questions.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/12-symbolic-materials.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/13-symbolic-crafting.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/pitchfork-rpg-architecture.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/pitchfork-rpg-design-notes.md, classification: private-review-required, reviewed: true}
+
+  - id: pitchfork-qms-design
+    out: pitchfork-qms-design-context.md
+    note: Pitchfork engineering design and development records; this packaging does not confer controlled-QMS status.
+    sources:
+      - {repo: pitchfork, path: docs/design/README.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/design/planning/pitchfork-core-foundation-dcp.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/design/planning/pitchfork-core-foundation-pqp.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/design/requirements/pitchfork-core-foundation-requirements.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/design/requirements/pitchfork-core-foundation-design-rationale.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/design/risks/pitchfork-core-foundation-risk-register.md, classification: private-review-required, reviewed: true}

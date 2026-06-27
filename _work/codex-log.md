@@ -700,3 +700,47 @@ revision, and review every `private-review-required` source before upload.
 Replace all five external project files together after reviewing every
 `private-review-required` source. The three assessed Red Witch additions remain
 excluded pending source curation or a separate external-evidence context.
+
+---
+
+# codex-029 - RPG And Design Context Expansion
+
+**Plan:** `0011-cross-repository-chatgpt-context-composites`
+**Priority:** P1
+**Status:** done
+**Timestamp:** 2026-06-27 EDT
+
+## Changes
+
+- Added detailed Pitchfork frequencies and the RPG client concept to the
+  primary Pitchfork composite while preserving existing economics and client
+  API coverage.
+- Registered future Pancakes Open GIS and Open Barcodes documents as planned
+  optional sources.
+- Added a dedicated Pitchfork RPG composite containing the top-level RPG
+  concept, the 13 numbered current design documents, and the two retained
+  recent architecture/design-notes documents.
+- Added a dedicated Pitchfork QMS design composite containing the current six
+  engineering Design and Development File documents without conferring
+  controlled-QMS authority.
+- Extended registry schema version 2 and the assembler to manifest absent
+  planned sources without silently weakening required-source validation.
+- Updated the source inventory and operating documentation for the seven-file
+  upload set.
+
+## Verification
+
+- `make test-composites` — 19 tests passed.
+- `make composites` — seven files generated.
+- `make check-composites` — generated snapshot current.
+- `python3 -m py_compile scripts/assemble_context_composites.py
+  tests/test_context_composites.py` — passed.
+- Credential-pattern scan found no credential-shaped content.
+- `make check-work` — passed.
+- `git diff --check` — passed.
+
+## Follow-on Work
+
+The Open GIS and Open Barcodes entries remain planned until their reviewed
+source documents are created and tracked. Replace all seven external project
+files together after reviewing every `private-review-required` source.
