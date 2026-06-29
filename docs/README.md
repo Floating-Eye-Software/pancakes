@@ -30,7 +30,7 @@ and implementation documentation.
 ## Ecosystem And Architecture
 
 - [Pancakes Ecosystem Overview](pancakes-ecosystem-overview.md)
-- [Pancakes Networks](pancakes-networks.md)
+- [Pancakes Network Architecture](pancakes-network-architecture.md)
 - [Pitchfork Client and Pancakes Node Architecture](pancakes_client_node_architecture.md)
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
 - [Pancakes Node Capabilities](pancakes-node-capabilities.md)

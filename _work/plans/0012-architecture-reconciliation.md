@@ -2,7 +2,7 @@
 
 ## Status
 
-Doing
+Review
 
 ## Purpose
 
@@ -40,7 +40,7 @@ docs/pancakes-ecosystem-layers.md
 docs/pancakes-commonwealth-model.md
 docs/pancakes_node_infrastructure.md
 docs/pancakes_client_node_architecture.md
-docs/pancakes-networks.md
+docs/pancakes-network-architecture.md
 
 pitchfork/docs/pitchfork_client_api_spec.md
 ```
@@ -188,7 +188,7 @@ After completion:
 
 : Defines the programming interface for clients.
 
-`pancakes-networks.md`
+`pancakes-network-architecture.md`
 
 : Defines long-term relationships among nodes.
 

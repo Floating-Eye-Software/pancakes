@@ -17,7 +17,7 @@ official “Network State in One Essay” quickstart.
 
 - [Pancakes Ostrom Governance Model](pancakes-ostrom-governance-model.md)
 - [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md)
-- [Pancakes Networks](pancakes-networks.md)
+- [Pancakes Network Architecture](pancakes-network-architecture.md)
 - [Pancakes Common Good Model](pancakes-common-good-model.md)
 - [Pancakes Stewardship Model](pancakes-stewardship-model.md)
 - [Pitchfork Contracts](https://github.com/mlehotay/pitchfork/blob/main/docs/pitchfork-contracts.md)

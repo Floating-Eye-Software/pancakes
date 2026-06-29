@@ -250,7 +250,7 @@ Topics include:
 
 Representative document:
 
-* Pancakes Networks, Knowledge, and Value Infrastructure
+* Pancakes Network Architecture, Knowledge, and Value Infrastructure
 
 Networking extends local systems.
 

@@ -8,7 +8,7 @@ This is the public documentation root for Pancakes.
 - [Primer](pancakes-primer.md)
 - [Architecture](pancakes_client_node_architecture.md)
 - [Node infrastructure](pancakes_node_infrastructure.md)
-- [Networks](pancakes-networks.md)
+- [Network Architecture](pancakes-network-architecture.md)
 - [Service exchange](pancakes_service_exchange.md)
 
 ## Governance And Model Work

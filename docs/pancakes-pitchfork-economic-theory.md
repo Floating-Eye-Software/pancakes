@@ -646,7 +646,7 @@ and cooperation without platform enclosure.
 
 - [Pancakes Srinivasan Network Model](pancakes-srinivasan-network-model.md)
 - [Pancakes Ostrom Governance Model](pancakes-ostrom-governance-model.md)
-- [Pancakes Networks](pancakes-networks.md)
+- [Pancakes Network Architecture](pancakes-network-architecture.md)
 - [Pancakes Common Good Model](pancakes-common-good-model.md)
 - [Pancakes Stewardship Model](pancakes-stewardship-model.md)
 - [Pancakes Ethics Framework](pancakes-ethics-framework.md)
