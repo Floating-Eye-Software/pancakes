@@ -155,7 +155,7 @@ It is searching so intensely that they no longer know how to dwell.
 > Will you leave a trail for them to follow
 > A path you'll soon forget
 
-This is one of the song's most subtle ideas.
+This is one of the song's most profound observations about learning and belonging.
 
 The trail is not primarily for the seeker.
 
@@ -165,19 +165,41 @@ Equally striking is that the song says **you** will forget the path.
 
 Not because it was unimportant.
 
-But because the path has already done its work.
+Not because memory fades.
 
-Many forms of learning share this structure.
+But because successful participation transforms the path itself.
 
-During learning every step feels essential.
+Every important skill begins as an unfamiliar journey.
 
-Later, those steps become part of ordinary participation.
+At first, every step demands attention.
 
-The intermediate path recedes while the destination becomes lived reality.
+The learner watches others, builds a model of what they are doing, and slowly becomes able to participate. Each intermediate step feels significant because it marks a new form of participation that was previously unavailable.
 
-The song therefore asks the listener to contribute something enduring while they still remember the journey.
+Over time, however, those steps cease to stand out.
 
-Stories, traditions, acts of care, and examples of ordinary life all become trails that make the world more inhabitable for those who follow.
+The learner no longer experiences them as separate achievements.
+
+They become ordinary.
+
+The path has not disappeared.
+
+It has been integrated into everyday life.
+
+This is why experts often struggle to teach beginners.
+
+They have forgotten what it felt like not to know.
+
+The intermediate steps that once seemed enormous have been compressed into ordinary participation.
+
+The song therefore asks the listener to leave a trail while the journey is still visible.
+
+Stories, traditions, examples, acts of care, and patient teaching preserve the path for those who have not yet walked it.
+
+The trail matters precisely because successful learning gradually erases awareness of the trail itself.
+
+Those who have found their home no longer need directions to reach it.
+
+Those still seeking do.
 
 ---
 
