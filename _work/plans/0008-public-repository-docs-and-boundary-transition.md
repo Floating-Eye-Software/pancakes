@@ -204,10 +204,10 @@ The initial high-confidence moves placed Pitchfork contract documents in
 Pitchfork; placed Pancakes recipes, grimoires, charter, node architecture, node
 infrastructure, service exchange, and non-exploitative-infrastructure documents
 in Pancakes; and placed the embodied-AI draft in Pancakes design inputs. The
-Pancakes roadmap and exploratory ecosystem design are also design inputs, while
-the Wellness Notebook proposal is an organization-level nursery artifact.
-Pancakes also owns the top-level mentor and guide materials and the former
-Pitchfork reference inputs used for Pancakes design.
+Pancakes roadmap and exploratory ecosystem design are also design inputs. The
+Wellness Notebook proposal is a Pancakes-owned product design document under
+`docs/`. Pancakes also owns the top-level mentor and guide materials and the
+former Pitchfork reference inputs used for Pancakes design.
 
 Pitchfork and Pancakes draft archives, the export inventory, legacy
 carry-forward notes, RPG and roguelike documents, and documents requiring a
