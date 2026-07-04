@@ -5,6 +5,8 @@ and implementation documentation.
 
 ## Governance And Economic Theory
 
+- [Pancakes Design Invariants](pancakes-design-invariants.md):
+  durable principles that every Pancakes application should preserve.
 - [Pancakes Ostrom Governance Model](pancakes-ostrom-governance-model.md):
   durable, participant-governed commons using Ostrom's design principles.
 - [Pancakes Srinivasan Network Model](pancakes-srinivasan-network-model.md):
@@ -30,6 +32,9 @@ and implementation documentation.
 ## Ecosystem And Architecture
 
 - [Pancakes Ecosystem Overview](pancakes-ecosystem-overview.md)
+- [Pancakes Operational Applications](pancakes-operational-applications.md):
+  relates the Household, Enterprise, and Service Exchange perspectives over
+  shared operational foundations.
 - [Pancakes Network Architecture](pancakes-network-architecture.md)
 - [Pitchfork Client and Pancakes Node Architecture](pancakes_client_node_architecture.md)
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
@@ -48,6 +53,9 @@ and implementation documentation.
 ## Product Models
 
 - [Pancakes Household Management Model](pancakes-household-management-model.md)
+- [Pancakes Enterprise](pancakes-enterprise.md):
+  defines the application architecture for coordinated undertakings,
+  operational learning, and institutional continuity.
 
 Pitchfork contracts and their explanatory reader are maintained in the
 Pitchfork repository. Exploratory architecture, roadmap, embodied-AI, research,

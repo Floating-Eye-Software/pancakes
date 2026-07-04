@@ -6,7 +6,9 @@ This is the public documentation root for Pancakes.
 
 - [Project overview](pancakes-ecosystem-overview.md)
 - [Primer](pancakes-primer.md)
+- [Design invariants](pancakes-design-invariants.md)
 - [Architecture](pancakes_client_node_architecture.md)
+- [Operational applications](pancakes-operational-applications.md)
 - [Node infrastructure](pancakes_node_infrastructure.md)
 - [Network Architecture](pancakes-network-architecture.md)
 - [Service exchange](pancakes_service_exchange.md)
@@ -32,6 +34,12 @@ This is the public documentation root for Pancakes.
 - [Meaning](pancakes-meaning.md)
 - [Recipes](pancakes-recipes.md)
 - [Grimoires](pancakes-grimoires.md)
+
+## Application Models
+
+- [Household management](pancakes-household-management-model.md)
+- [Enterprise](pancakes-enterprise.md)
+- [Service exchange](pancakes_service_exchange.md)
 
 ## Special Collections
 

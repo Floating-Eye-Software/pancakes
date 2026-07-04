@@ -693,6 +693,13 @@ Execution repositories own:
 
 Execution repositories remain authoritative for engineering execution.
 
+A workspace may reuse this workflow without joining the FLEY organizational
+surface. When a top-level sibling workspace contains `.fleyignore`, broad FLEY
+workspace discovery must treat it as outside the observation boundary: do not
+inventory it, report its name or state, count it as drift, or route its work.
+The marker does not prevent access by an explicitly targeted command; such
+access requires separate authorization from the workspace owner.
+
 ---
 
 ## Organization
