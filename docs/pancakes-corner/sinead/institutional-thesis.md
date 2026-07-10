@@ -32,7 +32,7 @@ The central conflict is therefore not person versus institution. It is legitimat
 | Comparative artist exits | Exit as constitutional remedy | When can a person recover sovereignty without destroying coordination? |
 | Pancakes institutional engineering | Institution formation by design | How can authority be built with explicit limits, duties, and exit paths? |
 
-## The six principal claims
+## The seven principal claims
 
 ### 1. The person precedes the institution morally
 
@@ -70,6 +70,14 @@ Legitimate institutions require internal correction. Voice, protest, refusal, ap
 
 Exit can restore sovereignty, but exit is not equally available to everyone. Contracts, dependency, family structure, religious identity, economic precarity, reputation, and market concentration can make nominal freedom practically unusable.
 
+### 7. Responsibility should follow control, benefit, and capacity
+
+Institutional failures often involve many participants with different knowledge, bargaining power, duties, and benefits. Responsibility is therefore neither erased by distribution nor fairly assigned by visibility alone.
+
+The public face may not be the principal designer. A willing participant may still possess less power than a producer, owner, court officer, or contracting institution. Conversely, limited power does not eliminate responsibility for knowing participation.
+
+A constitutional analysis asks who designed the arrangement, who could alter or end it, who benefited, who made representations to outsiders, who possessed relevant knowledge, and who absorbed the consequences when it failed. Legitimate accountability should track those differences rather than allowing durable institutions to externalize blame onto their most visible or replaceable participants.
+
 ## Sinéad O’Connor as the central case
 
 Sinéad’s value to the article is not that every action of hers proves the framework. Her life places several institutional relationships in unusually close proximity:
@@ -105,6 +113,9 @@ The inference must remain bounded. One answer does not establish a complete cons
 | Fiona Apple | The gap between simplified label-conflict stories and production history | That delay always results from executive suppression |
 | Tori Amos | Artistic identity after an institutionally shaped commercial failure | That reinvention occurs outside institutions |
 | Taylor Swift | Re-recording, negotiated exit, market power, and eventual acquisition | That the same exit strategy is available to ordinary artists |
+| Britney Spears | Family authority, substituted legal decision-making, bodily autonomy, labor, representation, and constrained exit | That every conservatorship is illegitimate or that termination adjudicated every disputed allegation |
+| Kesha | Contractual dependency, alleged abuse, legal rights versus practical freedom, and exit followed by institutional reconstruction | That a court established the abuse allegation or that one company alone controlled every relevant contract |
+| Milli Vanilli | Manufactured authenticity, separated voice and image, distributed responsibility, and asymmetric consequences | That willing participation eliminates power differences or that the visible performers alone designed the deception |
 | Pancakes | Deliberate construction of roles, boundaries, accountability, and exit | That good design eliminates conflict or power asymmetry |
 
 The comparative method should proceed mechanism by mechanism. Similarity must be demonstrated at the level of structure, not asserted from shared celebrity or conflict.

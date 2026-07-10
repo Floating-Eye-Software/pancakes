@@ -1,4 +1,4 @@
-# pancakes-vampires-and-pimps.md
+# Pancakes, Vampires, and Pimps
 
 ## Part I — The Constitutional Problem
 
@@ -35,9 +35,9 @@ Nor is it:
 
 > *Did the audience understand her?*
 
-Instead:
+Instead, this essay asks:
 
-> **What institutional problem was she attempting to expose?**
+> **What institutional problem becomes visible when the performance is placed beside her later explanations and the subsequent historical record?**
 
 That question reaches far beyond music, religion, or celebrity.
 
@@ -79,13 +79,13 @@ The result is not merely administrative failure.
 
 It is constitutional failure.
 
-Sinéad O'Connor's life provides an unusually rich historical case through which to examine that problem.
+Sinéad O'Connor's life provides an unusually rich central case through which to examine that problem.
 
 Not because every controversy surrounding her has a single explanation.
 
 Nor because every institution she challenged was necessarily illegitimate.
 
-Rather, because her public life repeatedly raised the same constitutional question:
+Rather, because her public life can be read as repeatedly raising the same constitutional question:
 
 > **Who has the legitimate authority to decide this?**
 
@@ -125,13 +125,13 @@ These establish institutional history independently of any individual participan
 
 The constitutional interpretation developed in this article.
 
-The concepts of delegated authority, stewardship, jurisdiction, legitimacy, and institutional cultivation are analytical tools developed here. They should not be attributed to Sinéad O'Connor unless she explicitly articulated them herself.
+The concepts of delegated authority, stewardship, jurisdiction, legitimacy, and institutional cultivation are analytical tools developed here. They are the authors' synthesis. They should not be attributed to Sinéad O'Connor unless a dated source shows that she articulated a substantially similar principle herself.
 
 Maintaining these distinctions matters.
 
 The goal is not to transform biography into philosophy by assertion.
 
-The goal is to allow institutional principles to emerge from carefully examined historical evidence.
+The goal is to test whether institutional principles illuminate carefully examined historical evidence without forcing a life into a system.
 
 ---
 
@@ -175,9 +175,9 @@ The longevity of institutions can create the illusion that people exist for inst
 
 The opposite is true.
 
-People create institutions.
+People create institutions, but institutions also shape people.
 
-Institutions do not create people.
+Families form children. Schools develop judgment. Religious communities transmit moral languages. Markets and media influence aspiration and identity. The relationship is reciprocal, but it is not symmetrical: an institution's power to shape people increases its obligations toward them.
 
 This distinction is more than philosophical.
 
@@ -275,7 +275,7 @@ The problem is authority exercised beyond the purpose for which it was entrusted
 
 If authority is delegated, then institutions are stewards.
 
-A steward manages something that ultimately belongs to another.
+A steward exercises responsibility over a good that is not reducible to the steward's own interest.
 
 Parents do not own children.
 
@@ -283,11 +283,11 @@ Teachers do not own students.
 
 Physicians do not own patients.
 
-Publishers do not own authors.
+Publishers may own or license defined rights; they do not own authors as persons.
 
-Record labels do not own artists.
+Record labels may own master recordings and exercise contractual rights; they do not own artists as persons.
 
-Governments do not own citizens.
+Governments govern citizens within constitutional limits; they do not own them.
 
 The steward's responsibility is not merely to avoid harm.
 
@@ -435,8 +435,6 @@ Only after examining the historical evidence will we return to the broader impli
 
 ---
 
-# pancakes-vampires-and-pimps.md
-
 ## Part II — The Historical Case
 
 ---
@@ -573,13 +571,13 @@ Some decisions remain the person's own.
 
 The phrase that gives this essay its title emerged much later.
 
-During a 2013 interview conducted amid public discussion about Miley Cyrus and the sexualization of young artists, O'Connor described the music business as being "nothing but vampires and pimps." The wording survives primarily through contemporaneous reporting that attributes the remarks to a *TIME* interview, whose complete public text has proven difficult to recover. The phrase should therefore be treated as a documented quotation with an incomplete surviving publication trail rather than as an isolated slogan detached from its context.
+In *TIME*'s ["10 Questions with Sinéad O'Connor"](https://time.com/archive/6644387/10-questions-with-sinead-oconnor/), published on 24 November 2013, the interviewer referred to O'Connor's public advice to Miley Cyrus and asked when she learned that the industry "prostitutes artists." O'Connor answered that she learned it every day and described the music business as corrupt and full of "vampires and pimps." A surviving [video excerpt](https://www.youtube.com/shorts/smZczrtEya8) preserves that part of the recorded exchange; *TIME* preserves the complete published ten-question Q&A.
 
 The context matters.
 
 She was not offering a comprehensive theory of every participant in the music industry.
 
-She was responding to questions about exploitation, commercialization, and the treatment of artists.
+She was responding to questions about exploitation, mental health, commercialization, and the treatment of artists. In the next exchange, she argued that the industry had taken increasing control of recorded sound, videos, and artists' appearance. She connected that control to the sexualization of young women and also mentioned Justin Bieber, making clear that her concern was not restricted to female artists.
 
 The constitutional question becomes:
 
@@ -717,7 +715,9 @@ Nothing more should be added to the event without additional evidence.
 
 Years later, O'Connor repeatedly explained what the gesture meant to her.
 
-She connected it to abuse within the Catholic Church, to institutional silence, and to her own experiences of childhood abuse. In interviews surrounding *Rememberings* and in the CBC interview discussed in the source dossier, she clarified that she believed audiences outside Ireland had not yet understood the scale of what many Irish people already suspected or knew.
+She connected it to abuse within the Catholic Church, to institutional silence, and to her own experiences of childhood abuse. In interviews surrounding *Rememberings* and in a later CBC interview, she clarified that she believed audiences outside Ireland had not yet understood the scale of what many Irish people already suspected or knew.
+
+In that CBC interview, she also referred to an Irish Church insurance policy from 1987 and attributed the matter to the Ferns Report. The closely corresponding official finding is narrower and appears in section 1.21 of the 2009 Murphy Report: the Dublin Archdiocese took out insurance in 1987 against legal costs and damages arising from clerical child-sex-abuse claims. The Commission interpreted that decision alongside information already held about complaints. Her interview is evidence of what she believed and argued; the Murphy Report is the independent source for the historical finding.
 
 This distinction matters.
 
@@ -813,17 +813,15 @@ When those purposes are systematically abandoned—especially where the vulnerab
 
 The historical record surrounding Sinéad O'Connor does not answer every question.
 
-It does, however, reveal a remarkably consistent pattern.
+It does, however, permit a remarkably consistent analytical pattern to be tested.
 
-Across family, music, religion, and public life, the same constitutional issue repeatedly surfaced:
+Across family, music, religion, and public life, the evidence can be organized around a recurring constitutional issue:
 
 > **Where does legitimate authority end, and where does the sovereignty of the person begin?**
 
 The remaining sections of this essay ask whether this pattern is unique to one extraordinary life—or whether it reveals broader mechanisms by which institutions emerge, flourish, drift, and sometimes forget the limits that once justified their authority.
 
 ---
-
-# pancakes-vampires-and-pimps.md
 
 ## Part III — Comparative Mechanisms
 
@@ -909,17 +907,13 @@ The institution persists because its coordinating function persists.
 
 This is an important constitutional observation.
 
-Authority does not emerge from organizational permanence.
+Authority does not emerge from organizational permanence alone.
 
-It emerges from demonstrated capability.
-
-People voluntarily delegate authority because an institution reliably accomplishes something valuable.
+It may begin through demonstrated capability, voluntary coordination, reputation, ownership, contract, office, or law. Each route creates different obligations and different limits.
 
 The implication reaches well beyond music.
 
-Every legitimate institution begins by solving a coordination problem.
-
-Its authority is earned through demonstrated usefulness rather than assumed through organizational existence alone.
+Many legitimate institutions begin by solving a coordination problem. Their continued authority cannot be justified by organizational existence alone; it must remain connected to purpose, lawful authorization, performance, and accountability.
 
 ---
 
@@ -983,7 +977,80 @@ History suggests it is remarkably easy for institutions to forget.
 
 ---
 
-# 13. Institutional Extraction
+# 13. Manufactured Identity
+
+The disputes considered so far involve artists who challenged institutional authority. Milli Vanilli offers a useful control case because its visible performers knowingly participated in the arrangement they later condemned.
+
+Rob Pilatus and Fab Morvan were presented as the voices and public identities of Milli Vanilli. The released recordings, however, were sung primarily by session vocalists. Pilatus and Morvan appeared in videos and lip-synced in performance. Producer Frank Farian publicly disclosed the arrangement in November 1990 after relations deteriorated. The Recording Academy rescinded the group's Best New Artist Grammy, Arista removed the album from its catalogue, and consumer litigation produced a refund settlement.
+
+The familiar moral compresses the episode into two impostors deceiving an audience.
+
+That account identifies real responsibility but leaves the institutional mechanism unexplained.
+
+The project separated several elements normally presumed to belong together:
+
+```text
+Recorded voice
+
+↓
+
+Physical appearance
+
+↓
+
+Public performance
+
+↓
+
+Credited identity
+```
+
+It then recombined them as a commercially optimized person.
+
+Pilatus and Morvan knowingly performed that identity. Their participation matters. So do the distinct powers of the producer who designed and controlled the project, the vocalists whose labor was heard but whose identities were obscured, the label and distributors that packaged and marketed the recordings, and the awards and media institutions that amplified the representation. Evidence about what Arista executives knew remains contested and should not be treated as settled.
+
+This produces a harder constitutional question than simple innocence or guilt:
+
+> **When responsibility is distributed, should consequences follow visibility—or control, knowledge, benefit, and capacity?**
+
+Knowing participation does not disappear because bargaining power was unequal. Unequal power does not disappear because participation was willing. Both facts can be true.
+
+The aftermath makes the allocation question unavoidable. The most visible participants absorbed the scandal's most concentrated reputational costs, while many durable institutions survived. That asymmetry does not absolve Pilatus or Morvan. It asks whether institutional accountability was proportionate to the authority each participant possessed.
+
+Milli Vanilli therefore illuminates a distinct failure: not merely extraction, but the institutional fabrication of authenticity and the externalization of blame when the fabrication failed.
+
+---
+
+# 14. Constrained Exit
+
+Formal rights and practical freedom are not the same thing.
+
+Britney Spears's conservatorship provides the starkest example in this comparison set. From 2008 until November 2021, a court-supervised arrangement governed her person, estate, or both. In her public statement to the Los Angeles Superior Court on 23 June 2021, Spears alleged control over work, medication, medical evaluation, money, marriage, and reproductive decisions, and asked for the conservatorship to end. Her allegations must remain attributed to her; the legal termination did not adjudicate every disputed act or motive.
+
+The constitutional importance lies in the structure. Family authority, probate law, lawyers, conservators, managers, clinicians, employers, and entertainment institutions intersected around a person who continued to generate substantial commercial value. The case therefore cannot be reduced to a record label controlling an artist. It asks what safeguards are necessary when substituted decision-making coexists with productive labor, and when the person subject to authority contests the arrangement itself.
+
+Judge Brenda Penny terminated the conservatorship on 12 November 2021 without requiring a further mental-health evaluation. That outcome established the end of the legal structure. It did not establish that every allegation was true, nor that conservatorships are inherently illegitimate. It did demonstrate the constitutional importance of chosen representation, independent review, voice, and an enforceable path to termination.
+
+Kesha's dispute presents a different form of constrained exit.
+
+She sought release from recording arrangements connected to producer Lukasz Gottwald, known as Dr. Luke, whom she accused of sexual and other abuse. He denied the allegations. In 2016 a New York court denied her request for a preliminary injunction releasing her from the relevant agreements while litigation continued. Sony stated that it could support her but could not terminate a contract to which it was not itself the contracting party. The legal structure involved producer-controlled entities, licences, label relationships, contract claims, and later defamation litigation—not a single institution with unilateral authority over every element.
+
+The parties reached a confidential settlement in June 2023 before trial. The settlement was not a judicial finding that either party's complete account was true. Kesha subsequently completed her contractual obligations, launched Kesha Records, and publicly associated the new label with transparency, integrity, safety, and artistic control.
+
+That sequence matters.
+
+Exit did not lead her away from institutions. It led her toward institutional reconstruction.
+
+Britney Spears and Kesha therefore illuminate different versions of the same constitutional asymmetry:
+
+- a legal regime in which ordinary consent and exit were constrained;
+- a contractual regime in which theoretical rights did not necessarily produce practical independence.
+
+Their cases caution against treating freedom as the mere existence of a formal remedy. A remedy must be usable within the person's actual dependencies, resources, time horizon, and exposure to retaliation or loss.
+
+---
+
+# 15. Institutional Extraction
 
 Every institution mediates value.
 
@@ -1043,7 +1110,7 @@ It emerges through incremental changes in incentives, governance, and accountabi
 
 ---
 
-# 14. Legitimate Institutions
+# 16. Legitimate Institutions
 
 A constitutional theory cannot be built solely from institutional failures.
 
@@ -1129,13 +1196,11 @@ If institutional failure follows recognizable constitutional patterns, what prin
 
 ---
 
-# pancakes-vampires-and-pimps.md
-
 ## Part IV — Institutional Legitimacy
 
 ---
 
-# 15. Constitutional Asymmetry
+# 17. Constitutional Asymmetry
 
 One of the recurring themes throughout this essay is that authority is delegated rather than absolute.
 
@@ -1199,9 +1264,22 @@ Authority therefore carries an implicit constitutional obligation.
 
 The stronger the institution becomes, the more carefully it must remain within the jurisdiction that originally justified its authority.
 
+Asymmetry also complicates responsibility.
+
+When an institutional arrangement fails, blame often follows the most visible participant rather than the participant with the greatest control. A constitutional account asks a more exact set of questions:
+
+- Who designed the arrangement?
+- Who possessed relevant knowledge?
+- Who could change or terminate it?
+- Who made representations to outsiders?
+- Who received the largest benefits?
+- Who absorbed the consequences?
+
+Responsibility should track control, knowledge, benefit, duty, and capacity. This does not absolve lower-power participants of knowing choices. It prevents durable institutions from using distributed participation to make their own responsibility disappear.
+
 ---
 
-# 16. Jurisdictional Drift
+# 18. Jurisdictional Drift
 
 Most institutions do not become extractive overnight.
 
@@ -1290,7 +1368,7 @@ Without such questions, institutional success becomes one of the greatest threat
 
 ---
 
-# 17. Vampires and Pimps
+# 19. Vampires and Pimps
 
 The title of this essay can now be understood more precisely.
 
@@ -1357,7 +1435,7 @@ Any institution that forgets who ultimately justifies its existence risks crossi
 
 ---
 
-# 18. Cultivation
+# 20. Cultivation
 
 Fortunately, institutional failure is not the only possible trajectory.
 
@@ -1469,7 +1547,7 @@ Nor should it be transformed into a flawless morality play.
 
 The historical record is richer than either caricature.
 
-Across decades, in remarkably different contexts, she repeatedly forced institutions to confront the same constitutional question:
+Across decades and remarkably different contexts, her conflicts permit us to confront the same constitutional question:
 
 > **Why should this authority belong to you?**
 
@@ -1515,4 +1593,21 @@ Institutions that cannot have not merely become inefficient.
 
 They have become constitutional problems.
 
-And that, perhaps, is what Sinéad O'Connor was asking us to see all along.
+That is the interpretation this essay has tested. It remains our responsibility, not a philosophy to be placed retrospectively in Sinéad O'Connor's mouth.
+
+---
+
+## Primary anchors and verification notes
+
+This essay is interpretive, but its factual claims should be checked against event-level and primary sources. The principal anchors for the revised sections are:
+
+- Sinéad O'Connor, *Rememberings* (Sandycove/Penguin, 2021).
+- [Washington Post Live transcript with Sinéad O'Connor](https://www.washingtonpost.com/washington-post-live/2021/06/09/transcript-sinad-oconnor-author-rememberings/) (9 June 2021).
+- [*TIME*, “10 Questions with Sinéad O'Connor”](https://time.com/archive/6644387/10-questions-with-sinead-oconnor/) (24 November 2013), together with the [surviving audiovisual excerpt](https://www.youtube.com/shorts/smZczrtEya8).
+- The complete *Saturday Night Live* broadcast of 3 October 1992, separated from O'Connor's later explanations of its meaning.
+- The Ryan, Murphy, Ferns, and Cloyne reports, each cited only within its own remit. The 1987 insurance finding discussed here is from Murphy Report section 1.21 and concerns the Dublin Archdiocese.
+- [Britney Spears's public court statement](https://variety.com/2021/music/news/britney-spears-full-statement-conservatorship-1235003940/) (23 June 2021) and the [contemporaneous report of the conservatorship's termination](https://www.reuters.com/legal/government/finally-free-judge-consider-ending-restrictions-britney-spears-2021-11-12/) (12 November 2021).
+- [*Gottwald v. Sebert*](https://law.justia.com/cases/new-york/court-of-appeals/2023/32.html), New York Court of Appeals (2023), for the legal questions actually decided in the Kesha–Dr. Luke litigation; the parties' allegations and confidential settlement require separate attribution.
+- Chuck Philips's November 1990 *Los Angeles Times* reporting and interviews with Rob Pilatus and Fab Morvan, the Recording Academy's rescission, session-vocalist accounts, label responses, and consumer-litigation records for Milli Vanilli.
+
+The constitutional vocabulary—jurisdiction, stewardship, sovereignty, cultivation, extraction, and distributed responsibility—belongs to this essay's synthesis. Where the historical record is contested, the article should preserve the contest rather than use the framework to settle it by definition.
