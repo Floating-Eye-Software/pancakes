@@ -11,3 +11,4 @@ id,status,track,priority,depends_on,notes
 0010-application-documentation-migration,ready,migration,P2,0009-symbolic-architecture-foundations,update application docs now that the foundation docs are complete
 0011-cross-repository-chatgpt-context-composites,done,tooling,P1,,five-file deterministic context workflow implemented verified and approved for closure
 0012-architecture-reconciliation,review,architecture,P2,0009-symbolic-architecture-foundations,architecture documents and links are reconciled across Pancakes and Pitchfork; awaiting closure review
+0013-pancakes-transcript-resolution,doing,workflow,P0,,resolve Pancakes transcript notes into market settlement design work during emergency recovery

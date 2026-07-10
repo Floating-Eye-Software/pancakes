@@ -11,3 +11,6 @@ todo-009,todo,0008-public-repository-docs-and-boundary-transition,governance,P1,
 todo-010,todo,0008-public-repository-docs-and-boundary-transition,verification,P1,todo-006|todo-007|todo-008|todo-009,verify repository boundaries public content Pages handoffs www hosting apex redirect and cross-repository consistency
 todo-011,done,0008-public-repository-docs-and-boundary-transition,github,P1,,established clean public Floating-Eye-Software/pancakes repository on main and updated the local origin
 todo-012,todo,0008-public-repository-docs-and-boundary-transition,documentation,P2,,fix factual errors in docs/playlist/pancakes-playlist-histories.md
+todo-013,ready,0013-pancakes-transcript-resolution,workflow,P0,,resolve four new Pancakes note files into market settlement design work
+todo-014,ready,0013-pancakes-transcript-resolution,documentation,P0,todo-013,merge and verify Pancakes Corner CSV accuracy under docs/pancakes-corner
+todo-015,ready,0013-pancakes-transcript-resolution,workflow,P0,,resolve thriving flourishing and IER exploration transcript into Pancakes-owned work

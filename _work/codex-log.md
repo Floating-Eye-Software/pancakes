@@ -235,6 +235,35 @@ and playlist artifact capture
 - `make check-work`
 - `git diff --check`
 
+---
+
+# codex-032 - Emergency Transcript Recovery And Institutions Capture
+
+**Plan:** `0013-pancakes-transcript-resolution`
+**Priority:** P0
+**Status:** recorded
+**Timestamp:** 2026-07-09 EDT
+
+## Changes
+
+- Added the Pancakes transcript-resolution plan and dashboard tasks for
+  emergency recovery of transcript-derived Pancakes work.
+- Captured retained Pancakes note evidence under `_work/notes/`, including
+  Levitt, Hayek, market settlement, thriving, flourishing, and IER exploration
+  inputs.
+- Added `_work/more-pancakes-musings.md` as a durable working note for the
+  institutional and symbolic-crafting direction.
+- Added the Pancakes Institutional Engineering Methodology and Authority
+  Emergence Model documents under `docs/`.
+- Added plan entries for resolving the first transcript batch, verifying
+  Pancakes Corner CSVs, resolving thriving/flourishing exploration, and
+  defining the market-settlement question.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
 ## Follow-on Work
 
 - Begin Plan 0007 after `pitchfork:0003-core-foundation` supplies stable domain
