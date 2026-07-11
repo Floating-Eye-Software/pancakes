@@ -1,27 +1,17 @@
 # Pancakes Corner
 
-This folder contains the exploratory Pancakes Corner dataset and its public
-data dictionary.
+Pancakes Corner collects cultural, playlist, and pancake-taxonomy materials
+that sit beside the core Pancakes product and governance documents.
 
-## Home
+## Collections
 
-- [Docs home](../index.md)
+- [Playlist](playlist/): original playlist reference, commentary, histories,
+  and supporting materials.
+- [Playlist v2](playlist-v2/): second playlist sequence and liner notes.
+- [Dataset](dataset/): exploratory pancake taxonomy data and data dictionary.
+- [Sinead O'Connor institutional notes](sinead/): institutional legitimacy and
+  artist-sovereignty notes centered on Sinead O'Connor.
 
-## Start Here
+## Navigation
 
-- [Data dictionary](DATA_DICTIONARY.md)
-- [Taxonomy data](pancake_taxonomy.csv)
-- [Fact-checked dataset](fact_checked_pancake_dataset.csv)
-
-## What This Is
-
-Pancakes Corner is an experimental classification dataset for pancakes and
-pancake-adjacent foods. It is intended for discussion, visualization, and
-taxonomy work, not as a rigid culinary authority.
-
-## Use Notes
-
-- The data dictionary explains each field and the scoring model.
-- The CSV files contain exploratory data and should be read with that context.
-- Public reuse should preserve provenance and the dataset's interpretive
-  framing.
+- [Documentation home](../index.md)

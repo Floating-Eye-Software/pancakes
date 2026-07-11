@@ -5,7 +5,8 @@ and supporting materials around it.
 
 ## Home
 
-- [Docs home](../index.md)
+- [Pancakes Corner](../index.md)
+- [Docs home](../../index.md)
 - [Playlist README](README.md)
 
 ## Start Here

@@ -18,8 +18,8 @@ This is the public documentation root for Pancakes.
 - [Ethics framework](pancakes-ethics-framework.md)
 - [Standards model](pancakes-standards-model.md)
 - [Safety cases](pancakes-safety-cases.md)
-- [Ostrom governance model](pancakes-ostrom-governance-model.md)
-- [Srinivasan network model](pancakes-srinivasan-network-model.md)
+- [Commons governance model](pancakes-commons-governance-model.md)
+- [Network formation model](pancakes-network-formation-model.md)
 - [Common good model](pancakes-common-good-model.md)
 - [Stewardship model](pancakes-stewardship-model.md)
 - [Commonwealth model](pancakes-commonwealth-model.md)
@@ -43,8 +43,11 @@ This is the public documentation root for Pancakes.
 
 ## Special Collections
 
-- [Playlist documentation](playlist/)
-- [Pancakes Corner dataset](pancakes-corner/)
+- [Pancakes Corner](pancakes-corner/)
+- [Playlist documentation](pancakes-corner/playlist/)
+- [Playlist v2](pancakes-corner/playlist-v2/)
+- [Pancakes Corner dataset](pancakes-corner/dataset/)
+- [Sinead O'Connor institutional notes](pancakes-corner/sinead/)
 
 Pitchfork contracts and their explanatory reader live in the Pitchfork
 repository. Public product identity, ecosystem documentation, and source-linked

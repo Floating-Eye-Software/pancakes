@@ -8,8 +8,7 @@ needed, but do not commit it.
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD),
 read the [liner notes](pancakes-playlist-liner-notes.md), [the demands of the
 people](pancakes-playlist-demands.md), or [song
-histories](pancakes-playlist-histories.md), or open the [M3U
-playlist](pancakes-playlist.m3u).
+histories](pancakes-playlist-histories.md).
 
 | Track | Date | Artist | Title | Listening link | Lyrics reference |
 | --- | --- | --- | --- | --- | --- |

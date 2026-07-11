@@ -1,0 +1,9 @@
+title: Pancakes Documentation
+url: https://docs.pancakes.ca
+permalink: pretty
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false

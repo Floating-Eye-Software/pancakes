@@ -644,8 +644,8 @@ and cooperation without platform enclosure.
 
 ## Related Pancakes/Pitchfork Documents
 
-- [Pancakes Srinivasan Network Model](pancakes-srinivasan-network-model.md)
-- [Pancakes Ostrom Governance Model](pancakes-ostrom-governance-model.md)
+- [Pancakes Network Formation Model](pancakes-network-formation-model.md)
+- [Pancakes Commons Governance Model](pancakes-commons-governance-model.md)
 - [Pancakes Network Architecture](pancakes-network-architecture.md)
 - [Pancakes Common Good Model](pancakes-common-good-model.md)
 - [Pancakes Stewardship Model](pancakes-stewardship-model.md)

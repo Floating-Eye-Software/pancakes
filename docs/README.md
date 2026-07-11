@@ -7,11 +7,10 @@ and implementation documentation.
 
 - [Pancakes Design Invariants](pancakes-design-invariants.md):
   durable principles that every Pancakes application should preserve.
-- [Pancakes Ostrom Governance Model](pancakes-ostrom-governance-model.md):
+- [Pancakes Commons Governance Model](pancakes-commons-governance-model.md):
   durable, participant-governed commons using Ostrom's design principles.
-- [Pancakes Srinivasan Network Model](pancakes-srinivasan-network-model.md):
-  adapts cloud-first institutional formation and distributed geography to
-  rights-preserving Pancakes nodes and accountable federation.
+- [Pancakes Network Formation Model](pancakes-network-formation-model.md):
+  describes how institutions form accountable networks and federations.
 - [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md):
   synthesizes commons governance, co-production, network formation, and the
   economic roles of Pancakes and Pitchfork.
