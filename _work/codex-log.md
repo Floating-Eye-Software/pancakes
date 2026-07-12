@@ -818,3 +818,26 @@ files together after reviewing every `private-review-required` source.
 
 - `make check-work`
 - `git diff --check`
+
+---
+
+# codex-032 - Pancakes Corner Index Cleanup
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-07-12 EDT
+
+## Changes
+
+- Removed the redundant `docs/index.md` landing page in favor of `docs/README.md`.
+- Updated the Pancakes Corner landing pages to point at the README-based docs home.
+- Added reciprocal links between the original playlist and `playlist-v2`.
+- Removed the redundant `docs/pancakes-corner/playlist/index.md` because the
+  directory already has a `README.md`.
+- Updated the Pancakes Corner dataset index to reflect the merged single-CSV
+  layout.
+
+## Verification
+
+- Checked the affected index files and directory navigation.

@@ -6,19 +6,20 @@ data dictionary.
 ## Home
 
 - [Pancakes Corner](../index.md)
-- [Docs home](../../index.md)
+- [Docs home](../../README.md)
 
 ## Start Here
 
 - [Data dictionary](DATA_DICTIONARY.md)
 - [Taxonomy data](pancake_taxonomy.csv)
-- [Fact-checked dataset](fact_checked_pancake_dataset.csv)
 
 ## What This Is
 
 Pancakes Corner is an experimental classification dataset for pancakes and
-pancake-adjacent foods. It is intended for discussion, visualization, and
-taxonomy work, not as a rigid culinary authority.
+pancake-adjacent foods. The fact-check layer has been merged into the taxonomy
+source so this folder now presents one maintained CSV plus the data dictionary.
+It is intended for discussion, visualization, and taxonomy work, not as a
+rigid culinary authority.
 
 ## Use Notes
 

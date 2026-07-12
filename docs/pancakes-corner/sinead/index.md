@@ -7,7 +7,7 @@ inside institutions.
 ## Home
 
 - [Pancakes Corner](../index.md)
-- [Docs home](../../index.md)
+- [Docs home](../../README.md)
 
 ## Start Here
 

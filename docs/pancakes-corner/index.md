@@ -1,7 +1,8 @@
 # Pancakes Corner
 
-Pancakes Corner collects cultural, playlist, and pancake-taxonomy materials
-that sit beside the core Pancakes product and governance documents.
+Pancakes Corner collects cultural, playlist, history, technology, and
+pancake-taxonomy materials that sit beside the core Pancakes product and
+governance documents.
 
 ## Collections
 
@@ -12,6 +13,19 @@ that sit beside the core Pancakes product and governance documents.
 - [Sinead O'Connor institutional notes](sinead/): institutional legitimacy and
   artist-sovereignty notes centered on Sinead O'Connor.
 
+## Essays
+
+- [Pancakes](pancakes-history.md): a broad cultural history of pancakes as a
+  recurring human technology.
+- [The Biotechnology of Pancakes](pancakes-biotech.md): fermentation,
+  microbes, and pancake-making as biotechnology.
+- [The Technologies Required for Pancakes](pancakes-technologies.md): the
+  enabling technologies behind pancake production.
+- [Twenty Pancakes of the World](twenty-pancakes.md): a short tour of pancake
+  traditions from around the world.
+- [Dosa and the Indus Valley](indus-valley-no-dosa.md): a note on ancient
+  grain foods and the history of dosa.
+
 ## Navigation
 
-- [Documentation home](../index.md)
+- [Documentation home](../README.md)

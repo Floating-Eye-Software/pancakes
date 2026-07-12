@@ -6,7 +6,8 @@ commentary.
 ## Home
 
 - [Pancakes Corner](../index.md)
-- [Docs home](../../index.md)
+- [Docs home](../../README.md)
+- [Playlist v1](../playlist/)
 
 ## Start Here
 
