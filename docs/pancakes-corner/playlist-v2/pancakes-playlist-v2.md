@@ -1,9 +1,5 @@
 # Pancakes Playlist v2
 
-This is the committed, copyright-compliant reference for the second Pancakes
-playlist. Full lyrics and local audio files are intentionally excluded from
-version control.
-
 ![Pancakes Playlist v2 cover](pancakes-playlist-v2-cover.png)
 
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLTaiGEm8bnqY) or read the

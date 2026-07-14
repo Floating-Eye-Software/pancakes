@@ -1,10 +1,5 @@
 # Pancakes Playlist
 
-This is the committed, copyright-compliant playlist reference. Full lyrics and
-local MP3 files are intentionally excluded from version control. Use the private
-local file `pancakes-playlist-lyrics.md` for working discussion when
-needed, but do not commit it.
-
 ![Pancakes Playlist cover](pancakes-playlist-v1-cover.png)
 
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD),

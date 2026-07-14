@@ -3,6 +3,11 @@
 This directory contains the current Pancakes product, architecture, governance,
 and implementation documentation.
 
+## Corners
+
+- [Pancakes Corner](pancakes-corner/): cultural, playlist, dataset, and
+  interpretive notes.
+
 ## Governance And Economic Theory
 
 - [Pancakes Design Invariants](pancakes-design-invariants.md):
@@ -27,9 +32,11 @@ and implementation documentation.
 - [Pancakes Safety Cases](pancakes-safety-cases.md)
 - [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
 - [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md)
+- [Pancakes Value Discovery Model](pancakes-value-discovery-model.md)
 
 ## Ecosystem And Architecture
 
+- [Pancakes Primer](pancakes-primer.md)
 - [Pancakes Ecosystem Overview](pancakes-ecosystem-overview.md)
 - [Pancakes Operational Applications](pancakes-operational-applications.md):
   relates the Household, Enterprise, and Service Exchange perspectives over
@@ -39,6 +46,18 @@ and implementation documentation.
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
 - [Pancakes Node Capabilities](pancakes-node-capabilities.md)
 - [Pancakes Service Exchange](pancakes_service_exchange.md)
+- [Pancakes Reference Services](pancakes-reference-services.md)
+- [Pancakes Appliance Design](pancakes-appliance-design.md)
+- [Pancakes Product Composition](pancakes-product-composition.md)
+- [Pancakes Authority Emergence Model](pancakes-authority-emergence-model.md)
+- [Pancakes Capability Settlement Musings](pancakes-capability-settlement-musings.md)
+- [Pancakes Ecosystem Layers](pancakes-ecosystem-layers.md)
+- [Pancakes From Space](pancakes-from-space.md)
+- [Pancakes Place Model](pancakes-place-model.md)
+- [Pancakes Power and Responsibility](pancakes-power-and-responsibility.md)
+- [Pancakes Institutional Engineering Methodology](pancakes-institutional-engineering-methodology.md)
+- [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
+- [Pancakes Institutional Legitimacy Model](pancakes-institutional-legitimacy-model.md)
 
 ## Human Flourishing And Lifecraft
 
@@ -48,9 +67,6 @@ and implementation documentation.
 - [Pancakes Meaning](pancakes-meaning.md)
 - [Pancakes Recipes](pancakes-recipes.md)
 - [Pancakes Grimoires](pancakes-grimoires.md)
-
-## Conceptual Notes
-
 - [Epistemic Jurisdiction](pancakes-epistemic-jurisdiction.md)
 - [Institutional Pork Barreling](pancakes-institutional-pork-barreling.md)
 - [Pancakes Privacy Questions](pancakes-privacy-questions.md)
@@ -62,6 +78,34 @@ and implementation documentation.
 - [Pancakes Enterprise](pancakes-enterprise.md):
   defines the application architecture for coordinated undertakings,
   operational learning, and institutional continuity.
+- [Pancakes Common Good Model](pancakes-common-good-model.md)
+- [Pancakes Commonwealth Model](pancakes-commonwealth-model.md)
+- [Pancakes Ethics Framework](pancakes-ethics-framework.md)
+- [Pancakes Standards Model](pancakes-standards-model.md)
+- [Pancakes Stewardship Model](pancakes-stewardship-model.md)
+- [Pancakes Design Invariants](pancakes-design-invariants.md)
+- [Pancakes Commons Governance Model](pancakes-commons-governance-model.md)
+- [Pancakes Network Formation Model](pancakes-network-formation-model.md)
+- [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md)
+- [Pancakes Goods and Services Model](pancakes-goods-and-services-model.md)
+- [Pancakes Node Capabilities](pancakes-node-capabilities.md)
+- [Pancakes Network Architecture](pancakes-network-architecture.md)
+- [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
+- [Pancakes Client and Node Architecture](pancakes_client_node_architecture.md)
+- [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
+
+## Corner And Companion Notes
+
+- [Pancakes Corner](pancakes-corner/)
+- [Pancakes Corner Dataset](pancakes-corner/dataset/)
+- [Pancakes Corner Playlist](pancakes-corner/playlist/)
+- [Pancakes Corner Playlist v2](pancakes-corner/playlist-v2/)
+- [Pancakes Corner Sinead Notes](pancakes-corner/sinead/)
+- [Pancakes Corner Misc](pancakes-corner/misc/)
+
+## Remaining References
+
+- [Wellness Notebook Product Design](wellness-notebook-product-design.md)
 
 Pitchfork contracts and their explanatory reader are maintained in the
 Pitchfork repository. Exploratory architecture, roadmap, embodied-AI, research,
