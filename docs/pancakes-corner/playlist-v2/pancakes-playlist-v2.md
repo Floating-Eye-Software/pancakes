@@ -4,8 +4,11 @@ This is the committed, copyright-compliant reference for the second Pancakes
 playlist. Full lyrics and local audio files are intentionally excluded from
 version control.
 
+![Pancakes Playlist v2 cover](pancakes-playlist-v2-cover.png)
+
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLTaiGEm8bnqY) or read the
-[liner notes](pancakes-playlist-v2-liner-notes.md).
+[liner notes](pancakes-playlist-v2-liner-notes.md). For the original sequence,
+see [Pancakes Playlist](../playlist/pancakes-playlist.md).
 
 | Track | Date | Artist | Title | Listening link | Lyrics reference |
 | --- | --- | --- | --- | --- | --- |

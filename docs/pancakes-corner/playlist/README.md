@@ -38,6 +38,7 @@ Enough safety to enjoy ordinary pleasures without shame.
 
 ### Supporting Materials
 
+* [pancakes-playlist-v1-cover.png](pancakes-playlist-v1-cover.png) — cover art for the original playlist
 * [00-billy-bragg.md](00-billy-bragg.md) — spoken introduction transcript and analysis
 * [02-downpressor-man-analysis.png](02-downpressor-man-analysis.png) — visual analysis of *Downpressor Man*
 * [09-deceptacon-analysis.md](09-deceptacon-analysis.md) — analysis of *Deceptacon*

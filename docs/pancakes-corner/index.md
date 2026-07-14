@@ -25,6 +25,8 @@ governance documents.
   traditions from around the world.
 - [Dosa and the Indus Valley](indus-valley-no-dosa.md): a note on ancient
   grain foods and the history of dosa.
+- [Miscellaneous conceptual notes](misc/): management failure and related
+  institutional observations.
 
 ## Navigation
 

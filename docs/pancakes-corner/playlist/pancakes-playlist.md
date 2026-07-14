@@ -5,10 +5,13 @@ local MP3 files are intentionally excluded from version control. Use the private
 local file `pancakes-playlist-lyrics.md` for working discussion when
 needed, but do not commit it.
 
+![Pancakes Playlist cover](pancakes-playlist-v1-cover.png)
+
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD),
 read the [liner notes](pancakes-playlist-liner-notes.md), [the demands of the
 people](pancakes-playlist-demands.md), or [song
-histories](pancakes-playlist-histories.md).
+histories](pancakes-playlist-histories.md). For the second sequence, see
+[Pancakes Playlist v2](../playlist-v2/pancakes-playlist-v2.md).
 
 | Track | Date | Artist | Title | Listening link | Lyrics reference |
 | --- | --- | --- | --- | --- | --- |

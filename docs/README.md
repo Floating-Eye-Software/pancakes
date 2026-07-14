@@ -49,6 +49,13 @@ and implementation documentation.
 - [Pancakes Recipes](pancakes-recipes.md)
 - [Pancakes Grimoires](pancakes-grimoires.md)
 
+## Conceptual Notes
+
+- [Epistemic Jurisdiction](pancakes-epistemic-jurisdiction.md)
+- [Institutional Pork Barreling](pancakes-institutional-pork-barreling.md)
+- [Pancakes Privacy Questions](pancakes-privacy-questions.md)
+- [The Science of Management Failure](pancakes-corner/misc/science-of-management-failure.md)
+
 ## Product Models
 
 - [Pancakes Household Management Model](pancakes-household-management-model.md)

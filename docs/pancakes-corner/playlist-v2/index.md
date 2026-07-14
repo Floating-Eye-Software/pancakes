@@ -15,6 +15,13 @@ commentary.
 - [Description](pancakes-playlist-v2-description.md)
 - [Liner notes](pancakes-playlist-v2-liner-notes.md)
 
+## Supporting Materials
+
+- [pancakes-playlist-v2-cover.png](pancakes-playlist-v2-cover.png) — cover
+  art for the second playlist
+- [They Are Night Zombies analysis](11-they-are-night-zombies-analysis.md) —
+  provisional analysis of Sufjan Stevens's track
+
 ## What This Is
 
 Playlist v2 is a second cultural companion sequence for Pancakes. It extends
