@@ -12,6 +12,8 @@ governance documents.
 - [Dataset](dataset/): exploratory pancake taxonomy data and data dictionary.
 - [Sinead O'Connor institutional notes](sinead/): institutional legitimacy and
   artist-sovereignty notes centered on Sinead O'Connor.
+- [Woodland Commons](woodland-commons/): landscape-first community and stepwell
+  design notes.
 
 ## Essays
 
