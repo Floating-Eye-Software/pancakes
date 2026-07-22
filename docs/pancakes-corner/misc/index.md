@@ -11,6 +11,7 @@ not belong in the playlist, dataset, or Sinead collections.
 ## Start Here
 
 - [The Science of Management Failure](science-of-management-failure.md)
+- [Reproduction of Management](reproduction-of-management.md)
 
 ## What This Is
 
