@@ -543,3 +543,196 @@ It may be protecting each person's ability to remain partially unknowable.
 Not because opacity is a flaw.
 
 But because opacity is one of the conditions that makes human freedom, growth, reinterpretation, and genuine relationships possible.
+
+---
+
+# Appendix A — Everyday Modeling and Epistemic Primacy
+
+The questions explored in this document are often associated with artificial intelligence, surveillance, or large-scale data collection.
+
+However, the underlying phenomenon appears in ordinary human life.
+
+## The Convenience Store
+
+A customer visits the same neighborhood convenience store almost every day.
+
+Each visit is unremarkable.
+
+He purchases the same bag of chips.
+
+The owners gradually recognize him.
+
+Eventually he realizes they refer to him among themselves as:
+
+> "The chip guy."
+
+No private records were accessed.
+
+No surveillance occurred.
+
+No confidential information was disclosed.
+
+The owners simply remembered a repeated pattern of public observations.
+
+Yet the customer experiences discomfort.
+
+Traditional privacy frameworks struggle to explain this reaction.
+
+Nothing secret has been revealed.
+
+Nothing has been stolen.
+
+Nothing has been exposed.
+
+The discomfort instead arises from a different source.
+
+The repeated observations have become a durable model.
+
+The customer is no longer encountered as an open-ended person.
+
+He is encountered through an established interpretation.
+
+The issue is not that the owners know he buys chips.
+
+The issue is that they may now believe they know what kind of person he is.
+
+Repeated observation naturally invites inference.
+
+Observed:
+
+* buys chips almost every day.
+
+Possible inferences:
+
+* unhealthy diet,
+* poor self-control,
+* lives alone,
+* does not cook,
+* lacks discipline,
+* always follows the same routine.
+
+None of these conclusions necessarily follows from the observation.
+
+They remain interpretations.
+
+Nevertheless, repeated observation tends to increase confidence in those interpretations.
+
+Importantly, the customer's lived experience remains opaque.
+
+Perhaps the chips are shared with coworkers.
+
+Perhaps they replace lunch.
+
+Perhaps they are simply an inexpensive daily pleasure.
+
+The observers cannot know.
+
+Yet their growing familiarity may create the feeling that they do.
+
+This illustrates an important distinction.
+
+Observation is not inherently problematic.
+
+Neighborhood businesses often remember regular customers.
+
+Remembering names, favorite orders, or familiar routines can be an expression of hospitality, belonging, and care.
+
+The discomfort emerges when accumulated observations become perceived knowledge of another person's character.
+
+Repeated exposure produces epistemic confidence that may exceed what the observations actually justify.
+
+## The Library
+
+A second example illustrates a related but distinct phenomenon.
+
+While packing a backpack, someone remarks:
+
+> "You're going to the library."
+
+The prediction is correct.
+
+By itself, this is unremarkable.
+
+The observer has noticed a recurring pattern and successfully anticipated another occurrence.
+
+But the conversation continues.
+
+The observer says:
+
+> "I know you better than you know yourself."
+
+This statement transforms the interaction.
+
+The issue is no longer prediction.
+
+It is authority.
+
+The speaker claims that their accumulated observations entitle them to a more authoritative understanding of the other person than the person's own first-person experience.
+
+This claim cannot be justified by repeated observation alone.
+
+Human behavior may become increasingly predictable while human experience remains fundamentally opaque.
+
+The observer may correctly anticipate where someone is going while still misunderstanding why they are going there, what they are thinking, or how they understand themselves.
+
+Prediction does not overcome opacity.
+
+It merely increases confidence.
+
+This suggests another ethical distinction.
+
+There is a profound difference between saying:
+
+> "I think you're going to the library."
+
+and saying:
+
+> "I know you better than you know yourself."
+
+The first is a prediction.
+
+The second is a claim of epistemic superiority.
+
+## Toward Epistemic Primacy
+
+These examples suggest that humane software should distinguish between increasing predictive capability and increasing epistemic authority.
+
+Accumulating observations may improve a system's ability to recognize patterns.
+
+It does not necessarily justify stronger claims about another person's motives, identity, values, or lived experience.
+
+This document therefore raises a possible question for future work.
+
+Do people possess not only informational personal space, but also a form of **epistemic primacy**?
+
+If so, it would not imply that individuals are always correct about themselves.
+
+Rather, it would recognize that each person's first-person perspective occupies a privileged role that should not be casually displaced by external models, whether human or artificial.
+
+AI systems may help people discover patterns, identify possibilities, or reflect upon their lives.
+
+They should be cautious about presenting those models as more authoritative than the person's own ongoing process of self-understanding.
+
+The concept of epistemic primacy remains provisional.
+
+It may ultimately prove to be an important extension of informational personal space and a useful design principle for humane life computing.
+
+## Summary
+
+These everyday examples illustrate that the ethical questions explored in this document are not unique to artificial intelligence.
+
+They arise whenever repeated observation becomes durable interpretation.
+
+Artificial intelligence magnifies the phenomenon through persistence, scale, and statistical sophistication.
+
+The underlying ethical question, however, remains the same.
+
+How much knowledge should repeated observation be permitted to create?
+
+Humane systems should recognize that repeated observation does not eliminate opacity.
+
+Accumulated evidence may improve prediction while still failing to justify confident conclusions about another person's motives, values, circumstances, or character.
+
+Respect for informational personal space therefore requires more than protecting access to information.
+
+It also requires epistemic humility regarding what observations can legitimately support and respect for each person's ongoing role as the primary interpreter of their own life.
