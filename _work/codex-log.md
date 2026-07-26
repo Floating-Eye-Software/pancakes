@@ -841,3 +841,26 @@ files together after reviewing every `private-review-required` source.
 ## Verification
 
 - Checked the affected index files and directory navigation.
+
+---
+
+# codex-033 - Public README Navigation
+
+**Plan:** `ad hoc`
+**Priority:** P2
+**Status:** recorded
+**Timestamp:** 2026-07-26 EDT
+
+## Changes
+
+- Added a minimal repository-root README linking to `www.pancakes.ca` and
+  `docs.pancakes.ca`.
+- Updated `docs/README.md` to index every top-level Markdown document.
+- Clarified that nested documentation collections maintain their own indexes.
+
+## Verification
+
+- `make check-work` — passed.
+- `git diff --check` — passed.
+- Confirmed all local links in `docs/README.md` resolve.
+- Confirmed no top-level documentation files remain unindexed.

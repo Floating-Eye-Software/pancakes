@@ -3,6 +3,9 @@
 This directory contains the current Pancakes product, architecture, governance,
 and implementation documentation.
 
+The top-level documents are listed below. Collections in subdirectories provide
+their own indexes.
+
 ## Start Here
 
 - [Pancakes Primer](pancakes-primer.md)
@@ -19,9 +22,12 @@ and implementation documentation.
 - [Pancakes Standards Model](pancakes-standards-model.md)
 - [Pancakes Safety Cases](pancakes-safety-cases.md)
 - [Pancakes Power and Responsibility](pancakes-power-and-responsibility.md)
-- [Pancakes Institutional Legitimacy Model](pancakes-institutional-legitimacy-model.md)
-- [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
 - [Pancakes Institutional Engineering Methodology](pancakes-institutional-engineering-methodology.md)
+- [Pancakes Authority Emergence Model](pancakes-authority-emergence-model.md)
+- [Pancakes Institutional Legitimacy Model](pancakes-institutional-legitimacy-model.md)
+- [Pancakes Institutional Participation](pancakes-institutional-participation.md)
+- [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
+- [Pancakes Place Model](pancakes-place-model.md)
 - [Pancakes Place and Institutions](pancakes-place-and-institutions.md)
 - [Pancakes Institutional Pork Barreling](pancakes-institutional-pork-barreling.md)
 - [Pancakes Value Discovery Model](pancakes-value-discovery-model.md)
