@@ -22,6 +22,7 @@ and implementation documentation.
 - [Pancakes Institutional Legitimacy Model](pancakes-institutional-legitimacy-model.md)
 - [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
 - [Pancakes Institutional Engineering Methodology](pancakes-institutional-engineering-methodology.md)
+- [Pancakes Place and Institutions](pancakes-place-and-institutions.md)
 - [Pancakes Institutional Pork Barreling](pancakes-institutional-pork-barreling.md)
 - [Pancakes Value Discovery Model](pancakes-value-discovery-model.md)
 - [Pancakes Privacy Questions](pancakes-privacy-questions.md)
