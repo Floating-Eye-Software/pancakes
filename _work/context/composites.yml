@@ -24,13 +24,16 @@ repositories:
   redwitch:
     default_root: ../redwitch
     authority: Red Witch product design and documentation
+  sinead:
+    default_root: ../sinead
+    authority: Institutional-engineering representation and design language
 
 composites:
   - id: pancakes
     out: pancakes-context.md
     note: Current Pancakes product, architecture, governance, and human-flourishing context.
     sources:
-      - {repo: pancakes, path: docs/index.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/README.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-ecosystem-overview.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-primer.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes_client_node_architecture.md, classification: public, reviewed: true}
@@ -55,6 +58,14 @@ composites:
       - {repo: pancakes, path: docs/pancakes-pitchfork-economic-theory.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/non_exploitative_infrastructure.md, classification: public, reviewed: true}
       - {repo: pancakes, path: docs/pancakes-safety-cases.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-design-invariants.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-place-and-institutions.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-institutional-participation.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-institutional-evolution.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-institutional-legitimacy-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-authority-emergence-model.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-institutional-engineering-methodology.md, classification: public, reviewed: true}
+      - {repo: pancakes, path: docs/pancakes-commons-governance-model.md, classification: public, reviewed: true}
 
   - id: pitchfork
     out: pitchfork-context.md
@@ -67,7 +78,7 @@ composites:
       - {repo: pitchfork, path: docs/pitchfork-contracts.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-contracts-reader.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-frequencies.md, classification: private-review-required, reviewed: true}
-      - {repo: pitchfork, path: docs/pitchfork-frequencies.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/pitchfork-frequencies.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-crafting.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-symbolic-projections.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork-recipes-and-grimoires.md, classification: private-review-required, reviewed: true}
@@ -81,6 +92,8 @@ composites:
       - {repo: pitchfork, path: docs/pitchfork-household-management-model.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_client_ambience.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/pitchfork_node_quality_of_life.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/pitchfork-testing.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/institutional-dynamics-overlay.md, classification: private-review-required, reviewed: true}
 
   - id: honk
     out: honk-context.md
@@ -97,21 +110,29 @@ composites:
       - {repo: honk, path: docs/lone-honk-astronomy.md, classification: private-review-required, reviewed: true}
       - {repo: honk, path: docs/lone-honk-environmental-sources.md, classification: private-review-required, reviewed: true}
       - {repo: honk, path: docs/lone-honk-human-infrastructure.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-ecology-simulation.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-simulation-time.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-playable-species.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-attention-and-ease.md, classification: private-review-required, reviewed: true}
+      - {repo: honk, path: docs/lone-honk-ar-game-layer.md, classification: private-review-required, reviewed: true}
 
   - id: redwitch
     out: redwitch-context.md
     note: Core Red Witch product, architecture, privacy, safety, and inference-governance context.
     sources:
       - {repo: redwitch, path: README.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/index.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Requirements.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Software-Architecture.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Users.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Privacy-Assessment.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Inference-Governance.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Threat-Model.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Risk-Management.md, classification: private-review-required, reviewed: true}
-      - {repo: redwitch, path: docs/product/Red-Witch-Roadmap.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/README.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Requirements.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Software-Architecture.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Users.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Privacy-Assessment.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Inference-Governance.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Threat-Model.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Risk-Management.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Roadmap.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Accessibility.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-UI-Overlay.md, classification: private-review-required, reviewed: true}
+      - {repo: redwitch, path: docs/Red-Witch-Post-Market-Surveillance.md, classification: private-review-required, reviewed: true}
 
   - id: pitchfork-rpg
     out: pitchfork-rpg-context.md
@@ -132,8 +153,8 @@ composites:
       - {repo: pitchfork, path: docs/rpg/11-open-questions.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/rpg/12-symbolic-materials.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/rpg/13-symbolic-crafting.md, classification: private-review-required, reviewed: true}
-      - {repo: pitchfork, path: docs/rpg/pitchfork-rpg-architecture.md, classification: private-review-required, reviewed: true}
-      - {repo: pitchfork, path: docs/rpg/pitchfork-rpg-design-notes.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/14-client-architecture.md, classification: private-review-required, reviewed: true}
+      - {repo: pitchfork, path: docs/rpg/game-design-foundations.md, classification: private-review-required, reviewed: true}
 
   - id: pitchfork-qms-design
     out: pitchfork-qms-design-context.md
@@ -145,3 +166,22 @@ composites:
       - {repo: pitchfork, path: docs/design/requirements/pitchfork-core-foundation-requirements.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/design/requirements/pitchfork-core-foundation-design-rationale.md, classification: private-review-required, reviewed: true}
       - {repo: pitchfork, path: docs/design/risks/pitchfork-core-foundation-risk-register.md, classification: private-review-required, reviewed: true}
+
+  - id: sinead
+    out: sinead-context.md
+    note: Current Sinead institutional-engineering representation and design-language context.
+    sources:
+      - {repo: sinead, path: README.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: about-sinead.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: vision.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: project-context.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: ecosystem-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: place-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: systems-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: information-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: governance-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: institutional-legitimacy-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: institutional-engineering-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: pancakes-machine.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: rpg-foundations.md, classification: private-review-required, reviewed: true}
+      - {repo: sinead, path: institutional-adventures.md, classification: private-review-required, reviewed: true}

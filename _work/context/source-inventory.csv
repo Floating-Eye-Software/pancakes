@@ -24,6 +24,14 @@ pancakes,docs/pancakes-goods-and-services-model.md,pancakes,goods services and t
 pancakes,docs/pancakes-pitchfork-economic-theory.md,pancakes,economic relationship,public,include,connects product and substrate economics
 pancakes,docs/non_exploitative_infrastructure.md,pancakes,infrastructure constraints,public,include,states anti-extractive design rules
 pancakes,docs/pancakes-safety-cases.md,pancakes,safety argument method,public,include,sets implementation safety expectations
+pancakes,docs/pancakes-design-invariants.md,pancakes,design invariants,public,include,records current cross-product design constraints
+pancakes,docs/pancakes-place-and-institutions.md,pancakes,place and institutional theory,public,include,defines current place-boundary distinctions
+pancakes,docs/pancakes-institutional-participation.md,pancakes,institutional participation,public,include,defines participation and standing
+pancakes,docs/pancakes-institutional-evolution.md,pancakes,institutional evolution,public,include,defines institutional change and persistence
+pancakes,docs/pancakes-institutional-legitimacy-model.md,pancakes,institutional legitimacy,public,include,defines legitimacy and authority constraints
+pancakes,docs/pancakes-authority-emergence-model.md,pancakes,authority emergence,public,include,defines how authority develops and remains bounded
+pancakes,docs/pancakes-institutional-engineering-methodology.md,pancakes,institutional engineering,public,include,connects theory to design practice
+pancakes,docs/pancakes-commons-governance-model.md,pancakes,commons governance,public,include,extends current institutional governance context
 pancakes,docs/playlist/**,pancakes,cultural publication,public,omit,not required for architecture and client collaboration context
 pancakes,docs/pancakes-corner/**,pancakes,public dataset,public,omit,dataset context is unrelated to current cross-repository implementation
 pancakes,_work/**,pancakes,workflow and design inputs,mixed,omit,plans logs and private design inputs are not default project context
@@ -34,7 +42,7 @@ pitchfork,docs/pitchfork_client_api_spec.md,pitchfork,client contract,private-re
 pitchfork,docs/pitchfork-contracts.md,pitchfork,contract semantics,private-review-required,include,authoritative reusable contract design
 pitchfork,docs/pitchfork-contracts-reader.md,pitchfork,contract explanation,private-review-required,include,prevents contract-model misreading
 pitchfork,docs/pitchfork-symbolic-frequencies.md,pitchfork,symbolic semantics,private-review-required,include,current symbolic foundation
-pitchfork,docs/pitchfork-frequencies.md,pitchfork,frequency color and three-world mapping,private-review-required,include,retains the detailed frequency mapping alongside the symbolic foundation
+pitchfork,docs/rpg/pitchfork-frequencies.md,pitchfork,frequency color and three-world mapping,private-review-required,include,retains the detailed frequency mapping alongside the symbolic foundation
 pitchfork,docs/pitchfork-symbolic-crafting.md,pitchfork,transformation semantics,private-review-required,include,current symbolic foundation
 pitchfork,docs/pitchfork-symbolic-projections.md,pitchfork,projection semantics,private-review-required,include,current projection foundation
 pitchfork,docs/pitchfork-recipes-and-grimoires.md,pitchfork,transformation and knowledge primitives,private-review-required,include,defines recipes covenants settlement and grimoire organization while retaining draft status
@@ -48,6 +56,8 @@ pitchfork,docs/pitchfork_rpg_client.md,pitchfork,RPG product concept,private-rev
 pitchfork,docs/pitchfork-household-management-model.md,pitchfork,household substrate mapping,private-review-required,include,connects Pancakes to Pitchfork contracts and events
 pitchfork,docs/pitchfork_client_ambience.md,pitchfork,ambient projection,private-review-required,include,connects Honk and other ambient clients
 pitchfork,docs/pitchfork_node_quality_of_life.md,pitchfork,aggregate quality-of-life signals,private-review-required,include,connects node governance and client projections
+pitchfork,docs/pitchfork-testing.md,pitchfork,engineering test foundation,private-review-required,include,records the current local testing capability
+pitchfork,docs/rpg/institutional-dynamics-overlay.md,pitchfork,RPG institutional simulation,private-review-required,include,records the current institutional-design simulator direction
 pitchfork,docs/rpg/**,pitchfork,RPG current and retained design corpus,private-review-required,include-dedicated,assembled in explicit current-first order in the dedicated RPG composite
 pitchfork,docs/design/**,pitchfork,engineering design and development records,private-review-required,include-dedicated,assembled in the dedicated QMS design composite without conferring controlled-QMS authority
 pitchfork,_work/**,pitchfork,workflow and expansion notes,private-review-required,omit,working notes and logs are not stable context
@@ -62,17 +72,39 @@ honk,docs/lone-honk-map.md,honk,map regions,private-review-required,include,curr
 honk,docs/lone-honk-astronomy.md,honk,celestial environment,private-review-required,include,current supporting design
 honk,docs/lone-honk-environmental-sources.md,honk,Pitchfork observation inputs,private-review-required,include,direct integration surface
 honk,docs/lone-honk-human-infrastructure.md,honk,urban infrastructure ecology,private-review-required,include,current supporting design
+honk,docs/lone-honk-ecology-simulation.md,honk,ecological simulation,private-review-required,include,records the current ecological-world direction
+honk,docs/lone-honk-simulation-time.md,honk,simulation time,private-review-required,include,records current time and acceleration semantics
+honk,docs/lone-honk-playable-species.md,honk,playable species,private-review-required,include,records current situated client scope
+honk,docs/lone-honk-attention-and-ease.md,honk,attention and ease,private-review-required,include,records current observation and interaction stance
+honk,docs/lone-honk-ar-game-layer.md,honk,AR game layer,private-review-required,include,records current client projection direction
 honk,_work/design-inputs/**,honk,research and exploration,private-review-required,omit,canonical docs already integrate selected material
 redwitch,README.md,redwitch,project identity,private-review-required,include,orients the Red Witch composite
-redwitch,docs/product/index.md,redwitch,product document map,private-review-required,include,identifies core product documents
-redwitch,docs/product/Red-Witch-Requirements.md,redwitch,software requirements,private-review-required,include,core product behavior
-redwitch,docs/product/Red-Witch-Software-Architecture.md,redwitch,software architecture,private-review-required,include,core client structure
-redwitch,docs/product/Red-Witch-Users.md,redwitch,user needs and safety,private-review-required,include,defines intended users and risks
-redwitch,docs/product/Red-Witch-Privacy-Assessment.md,redwitch,privacy controls and gaps,private-review-required,include,required health-data guardrails
-redwitch,docs/product/Red-Witch-Inference-Governance.md,redwitch,inference policy,private-review-required,include,required derived-data guardrails
-redwitch,docs/product/Red-Witch-Threat-Model.md,redwitch,security and privacy threats,private-review-required,include,required implementation guardrails
-redwitch,docs/product/Red-Witch-Risk-Management.md,redwitch,product risks,private-review-required,include,compact risk control source
-redwitch,docs/product/Red-Witch-Roadmap.md,redwitch,product scope options,private-review-required,include,current planning context
-redwitch,docs/product/Red-Witch-Quality-Plan.md,redwitch,controlled quality planning,private-review-required,omit,QMS authority belongs in fley-qms and is not duplicated here
-redwitch,docs/product/Red-Witch-Data-Sovereignty.md,redwitch,external design input,private-review-required,omit,long mixed research artifact is superseded for this context by current privacy documents
+redwitch,docs/README.md,redwitch,product document map,private-review-required,include,identifies core product documents
+redwitch,docs/Red-Witch-Requirements.md,redwitch,software requirements,private-review-required,include,core product behavior
+redwitch,docs/Red-Witch-Software-Architecture.md,redwitch,software architecture,private-review-required,include,core client structure
+redwitch,docs/Red-Witch-Users.md,redwitch,user needs and safety,private-review-required,include,defines intended users and risks
+redwitch,docs/Red-Witch-Privacy-Assessment.md,redwitch,privacy controls and gaps,private-review-required,include,required health-data guardrails
+redwitch,docs/Red-Witch-Inference-Governance.md,redwitch,inference policy,private-review-required,include,required derived-data guardrails
+redwitch,docs/Red-Witch-Threat-Model.md,redwitch,security and privacy threats,private-review-required,include,required implementation guardrails
+redwitch,docs/Red-Witch-Risk-Management.md,redwitch,product risks,private-review-required,include,compact risk control source
+redwitch,docs/Red-Witch-Roadmap.md,redwitch,product scope options,private-review-required,include,current planning context
+redwitch,docs/Red-Witch-Accessibility.md,redwitch,accessibility,private-review-required,include,current product accessibility requirements
+redwitch,docs/Red-Witch-UI-Overlay.md,redwitch,UI overlay,private-review-required,include,current product presentation surface
+redwitch,docs/Red-Witch-Post-Market-Surveillance.md,redwitch,post-market surveillance,private-review-required,include,current product monitoring context
+redwitch,docs/Red-Witch-Quality-Plan.md,redwitch,controlled quality planning,private-review-required,omit,QMS authority belongs in fley-qms and is not duplicated here
+redwitch,docs/Red-Witch-Data-Sovereignty.md,redwitch,external design input,private-review-required,omit,long mixed research artifact is superseded for this context by current privacy documents
 redwitch,_work/**,redwitch,restoration notes and design inputs,private-review-required,omit,working and historical material is not default project context
+sinead,README.md,sinead,project map,private-review-required,include,orients the Sinead composite
+sinead,about-sinead.md,sinead,name and ethical commitment,private-review-required,include,defines the project naming context and person-before-institution commitment
+sinead,vision.md,sinead,project vision,private-review-required,include,defines the representation-layer objective
+sinead,project-context.md,sinead,ecosystem boundaries,private-review-required,include,defines Sinead's boundary with Pancakes Pitchfork and clients
+sinead,ecosystem-foundations.md,sinead,ecosystem foundations,private-review-required,include,defines cross-project representation relationships
+sinead,place-foundations.md,sinead,place foundations,private-review-required,include,defines situated institutional representation
+sinead,systems-foundations.md,sinead,systems foundations,private-review-required,include,defines processes flows and institutional systems
+sinead,information-foundations.md,sinead,information foundations,private-review-required,include,defines observation interpretation provenance and memory
+sinead,governance-foundations.md,sinead,governance foundations,private-review-required,include,defines governance participation and authority representation
+sinead,institutional-legitimacy-foundations.md,sinead,legitimacy foundations,private-review-required,include,defines legitimacy accountability and institutional drift
+sinead,institutional-engineering-foundations.md,sinead,institutional engineering,private-review-required,include,defines the core design methodology
+sinead,pancakes-machine.md,sinead,Pancakes Machine,private-review-required,include,defines the semantic transformation language boundary
+sinead,rpg-foundations.md,sinead,RPG and execution foundations,private-review-required,include,defines the Pitchfork-informed execution boundary
+sinead,institutional-adventures.md,sinead,institutional adventures,private-review-required,include,records the current exploratory client direction

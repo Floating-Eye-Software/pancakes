@@ -38,6 +38,7 @@ _work/context/generated/honk-context.md
 _work/context/generated/redwitch-context.md
 _work/context/generated/pitchfork-rpg-context.md
 _work/context/generated/pitchfork-qms-design-context.md
+_work/context/generated/sinead-context.md
 ```
 
 The Pancakes composite includes the human-facing recipes, grimoires, goods,
@@ -50,6 +51,9 @@ The dedicated RPG composite packages the current numbered RPG design documents
 first and retained earlier material afterward. The QMS design composite
 packages Pitchfork's engineering Design and Development File; generated
 packaging does not make those documents controlled QMS records.
+
+The Sinead composite packages the institutional-engineering representation
+layer, including its boundaries with Pancakes, Pitchfork, and client projects.
 
 Planned sources use `required: false`. They appear in manifests as `planned`
 but contribute no source body until the file exists. Once created, a planned
@@ -67,7 +71,7 @@ automatically.
    warnings, sizes, and review flags.
 7. Inspect all generated files for secrets, private user data, raw private
    records, and inappropriate health-related disclosure.
-8. Replace all seven ChatGPT project files as one snapshot, in index order.
+8. Replace all eight ChatGPT project files as one snapshot, in index order.
 
 Never upload only part of a newly generated snapshot. A dirty repository is
 recorded in the output and requires deliberate review before upload.
