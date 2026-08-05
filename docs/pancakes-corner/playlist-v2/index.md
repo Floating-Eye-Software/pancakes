@@ -14,6 +14,7 @@ commentary.
 - [Playlist v2](pancakes-playlist-v2.md)
 - [Description](pancakes-playlist-v2-description.md)
 - [Liner notes](pancakes-playlist-v2-liner-notes.md)
+- [Covers, appropriation, and the universal playlist](covers-appropriation-commentary.md) — standalone critical commentary
 - [Pretend viral reviews](pretend-viral-reviews.md) — fictional reactions
   from different media and listener perspectives
 
