@@ -5,6 +5,7 @@
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLTaiGEm8bnqY) or read the
 [liner notes](pancakes-playlist-v2-liner-notes.md). For the original sequence,
 see [Pancakes Playlist](../playlist/pancakes-playlist.md).
+For the third sequence, see [Pancakes Playlist v3](../playlist-v3/pancakes-playlist-v3.md).
 
 | Track | Date | Artist | Title | Listening link | Lyrics reference |
 | --- | --- | --- | --- | --- | --- |

@@ -7,6 +7,7 @@ read the [liner notes](pancakes-playlist-liner-notes.md), [the demands of the
 people](pancakes-playlist-demands.md), or [song
 histories](pancakes-playlist-histories.md). For the second sequence, see
 [Pancakes Playlist v2](../playlist-v2/pancakes-playlist-v2.md).
+For the third sequence, see [Pancakes Playlist v3](../playlist-v3/pancakes-playlist-v3.md).
 
 | Track | Date | Artist | Title | Listening link | Lyrics reference |
 | --- | --- | --- | --- | --- | --- |

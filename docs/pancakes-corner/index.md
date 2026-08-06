@@ -9,6 +9,7 @@ governance documents.
 - [Playlist](playlist/): original playlist reference, commentary, histories,
   and supporting materials.
 - [Playlist v2](playlist-v2/): second playlist sequence and liner notes.
+- [Playlist v3](playlist-v3/): current third playlist sequence and comparisons.
 - [Dataset](dataset/): exploratory pancake taxonomy data and data dictionary.
 - [Sinead O'Connor institutional notes](sinead/): institutional legitimacy and
   artist-sovereignty notes centered on Sinead O'Connor.
