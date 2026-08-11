@@ -16,3 +16,4 @@ and [Pancakes Playlist v2](../playlist-v2/pancakes-playlist-v2.md).
 | 08 | 2002 | Johnny Cash | Hurt | [YouTube](https://www.youtube.com/watch?v=8AHCfZTRGiI\&list=PLOdmoM1BTohU\&index=8) | [Lyrics lookup](https://www.google.com/search?q=Johnny%20Cash%20Hurt%20lyrics) |
 | 09 | 1983 | Anne Clark | Sleeper in Metropolis | [YouTube](https://www.youtube.com/watch?v=b6ASPWIXSxk\&list=PLOdmoM1BTohU\&index=9) | [Lyrics lookup](https://www.google.com/search?q=Anne%20Clark%20Sleeper%20in%20Metropolis%20lyrics) |
 | 10 | 1983 | Styx | Mr. Roboto | [YouTube](https://www.youtube.com/watch?v=uc6f_2nPSX8\&list=PLOdmoM1BTohU\&index=10) | [Lyrics lookup](https://www.google.com/search?q=Styx%20Mr.%20Roboto%20lyrics) |
+| 11 | 2023 | Slack Bird | Ievan Polkka | [YouTube](https://www.youtube.com/watch?v=WMvpeYBnwTg\&list=PLOdmoM1BTohU\&index=11) | [Lyrics lookup](https://www.google.com/search?q=Slack%20Bird%20Ievan%20Polkka%20lyrics) |

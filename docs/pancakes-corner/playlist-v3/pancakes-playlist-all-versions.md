@@ -1,6 +1,6 @@
 # Pancakes Playlist: All Versions
 
-This table lists the 46 items in the combined Pancakes sequence: v1, the
+This table lists the 47 items in the combined Pancakes sequence: v1, the
 hidden bonus track, v2, and v3.
 
 Year is the release year listed in the corresponding playlist track page.
@@ -64,6 +64,7 @@ recordings or remasters for some entries.
 | v3 | 08 | 2002 | Johnny Cash | Hurt | US Hot 100 #33; UK #39 | [345M](https://www.youtube.com/watch?v=8AHCfZTRGiI&list=PLOdmoM1BTohU&index=8) |
 | v3 | 09 | 1983 | Anne Clark | Sleeper in Metropolis | — | [1.64M](https://www.youtube.com/watch?v=b6ASPWIXSxk&list=PLOdmoM1BTohU&index=9) |
 | v3 | 10 | 1983 | Styx | Mr. Roboto | US Hot 100 #3 | [45.5M](https://www.youtube.com/watch?v=uc6f_2nPSX8&list=PLOdmoM1BTohU&index=10) |
+| v3 | 11 | 2018 | Slack Bird | Ievan polkka | — | [3.52M](https://www.youtube.com/watch?v=WMvpeYBnwTg&list=PLOdmoM1BTohU&index=11) |
 
 ## Source links
 

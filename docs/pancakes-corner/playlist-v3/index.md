@@ -18,4 +18,4 @@ of all three Pancakes playlist sequences.
 ## Listening
 
 - [Pancakes v3 on YouTube](https://www.youtube.com/playlist?list=PLOdmoM1BTohU)
-- [Combined 46-item Pancakes playlist on Spotify](https://open.spotify.com/playlist/7b8tfRkxbiUpqtZVqHUUDQ)
+- [Combined 47-item Pancakes playlist on Spotify](https://open.spotify.com/playlist/7b8tfRkxbiUpqtZVqHUUDQ)
