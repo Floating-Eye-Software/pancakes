@@ -8,9 +8,10 @@ their own indexes.
 
 ## Start Here
 
-- [Pancakes Primer](pancakes-primer.md)
+- [Pancakes From Space](pancakes-from-space.md)
 - [Pancakes Ecosystem Overview](pancakes-ecosystem-overview.md)
 - [Pancakes Design Invariants](pancakes-design-invariants.md)
+- [Pancakes Primer](pancakes-primer.md)
 
 ## Governance And Theory
 
@@ -25,6 +26,7 @@ their own indexes.
 - [Pancakes Institutional Engineering Methodology](pancakes-institutional-engineering-methodology.md)
 - [Pancakes Authority Emergence Model](pancakes-authority-emergence-model.md)
 - [Pancakes Institutional Legitimacy Model](pancakes-institutional-legitimacy-model.md)
+- [Pancakes Institutional Recognition](pancakes-institutional-recognition.md)
 - [Pancakes Institutional Participation](pancakes-institutional-participation.md)
 - [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
 - [Pancakes Place Model](pancakes-place-model.md)
@@ -48,7 +50,6 @@ their own indexes.
 - [Pancakes Product Composition](pancakes-product-composition.md)
 - [Pancakes Appliance Design](pancakes-appliance-design.md)
 - [Pancakes Capability Settlement Musings](pancakes-capability-settlement-musings.md)
-- [Pancakes From Space](pancakes-from-space.md)
 - [Pancakes Ecosystem Layers](pancakes-ecosystem-layers.md)
 
 ## Human Flourishing
@@ -66,6 +67,7 @@ their own indexes.
 - [Pancakes Goods and Services Model](pancakes-goods-and-services-model.md)
 - [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md)
 - [Pancakes Enterprise](pancakes-enterprise.md)
+- [Pancakes Literature Map](pancakes-literature-map.md)
 
 ## Public Collections
 
@@ -78,10 +80,11 @@ their own indexes.
 - [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
 - [The Science of Management Failure](pancakes-corner/misc/science-of-management-failure.md)
 - [Pancakes Biography and Cultural Notes](pancakes-corner/pancakes-history.md)
-- [Pancakes Biotech](pancakes-corner/pancakes-biotech.md)
 - [The Technologies Required for Pancakes](pancakes-corner/pancakes-technologies.md)
+- [Pancakes Biotech](pancakes-corner/pancakes-biotech.md)
 - [Twenty Pancakes](pancakes-corner/twenty-pancakes.md)
 - [Dosa and the Indus Valley](pancakes-corner/indus-valley-no-dosa.md)
+- [The Forty-Seventh Frequency](pancakes-corner/playlist-v3/the-forty-seventh-frequency.md)
 
 Pitchfork contracts and their explanatory reader are maintained in the
 [Pitchfork repository](https://github.com/Floating-Eye-Software/pitchfork).

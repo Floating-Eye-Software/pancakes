@@ -35,6 +35,7 @@ Enough safety to enjoy ordinary pleasures without shame.
 * [pancakes-playlist-liner-notes.md](pancakes-playlist-liner-notes.md) — original commentary on each track
 * [pancakes-playlist-histories.md](pancakes-playlist-histories.md) — commercial and cultural histories of the songs
 * [pancakes-playlist-demands.md](pancakes-playlist-demands.md) — interpretive document reading the playlist as a set of social demands
+* [pancakes-playlist-lyrics.md](pancakes-playlist-lyrics.md) — lyric reference for the playlist
 
 ### Supporting Materials
 

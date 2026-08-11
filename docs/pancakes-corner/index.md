@@ -13,10 +13,14 @@ governance documents.
 - [Dataset](dataset/): exploratory pancake taxonomy data and data dictionary.
 - [Sinead O'Connor institutional notes](sinead/): institutional legitimacy and
   artist-sovereignty notes centered on Sinead O'Connor.
+- [Pancakes Inn](pancakes-inn/): systems studies of the inn as a permeable,
+  memory-bearing institution.
 - [Woodland Commons](woodland-commons/): landscape-first community and stepwell
   design notes.
+- [Miscellaneous conceptual notes](misc/): management failure and related
+  institutional observations.
 
-## Essays
+## Pancakes Essays
 
 - [Pancakes](pancakes-history.md): a broad cultural history of pancakes as a
   recurring human technology.
@@ -28,9 +32,3 @@ governance documents.
   traditions from around the world.
 - [Dosa and the Indus Valley](indus-valley-no-dosa.md): a note on ancient
   grain foods and the history of dosa.
-- [Miscellaneous conceptual notes](misc/): management failure and related
-  institutional observations.
-
-## Navigation
-
-- [Documentation home](../README.md)
