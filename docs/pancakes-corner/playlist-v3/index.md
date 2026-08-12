@@ -6,6 +6,7 @@ of all three Pancakes playlist sequences.
 ## Contents
 
 - [Pancakes Playlist v3](pancakes-playlist-v3.md) — the current 11-track v3 YouTube sequence
+- [Liner notes](pancakes-playlist-v3-liner-notes.md) — commentary on the v3 playlist
 - [All playlist tracks, chart peaks, and YouTube views](pancakes-playlist-all-versions.md) — v1, v2, and v3
 - [*Ievan Polkka*: A Complete History](11-ievan-polkka-complete-history.md) — the folk tune, comic song, and meme
 - [The Forty-Seventh Frequency](the-forty-seventh-frequency.md) — speculative story inspired by the combined playlist
