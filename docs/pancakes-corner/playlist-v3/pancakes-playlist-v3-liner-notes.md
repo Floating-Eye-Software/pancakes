@@ -113,25 +113,41 @@ it would create belonging. A humane system must make return possible.
 
 ## 04. Prince, Tom Petty, Jeff Lynne, Steve Winwood, Dhani Harrison, and others — *While My Guitar Gently Weeps*
 
-George Harrison's song begins from a painful institutional fact: love can exist
-as a stated value while going unrealized in practice. The gap between professed
-purpose and actual operation is where systems reveal what they really are.
+George Harrison's song asks why love can be present as a possibility and absent
+as a practice. At the 2004 Rock and Roll Hall of Fame ceremony, an extraordinary
+group assembled to honour him. Then Prince stepped forward and played one of
+the most epic guitar solos ever recorded.
 
-The 2004 Rock and Roll Hall of Fame performance answers the song with organized
-capability. Friends, heirs, and fellow musicians hold an inherited composition
-together. No single performer is the institution, yet the arrangement creates
-the conditions in which Prince can step forward and briefly alter its center of
-gravity.
+The context makes the moment sharper. Rolling Stone's 2003 list of the 100
+greatest guitarists had omitted Prince. Rolling Stone and the Rock Hall are not
+the same institution, but they belong to the same larger machinery of canon
+formation: magazines, rankings, ceremonies, critics, archives, and halls that
+declare which achievements count. Whether Prince intended the solo as a direct
+answer to the list is unconfirmed. The performance answers it anyway.
 
-His brilliance matters, but so do the people maintaining the shared structure
-around it. This is not individual talent opposed to collective organization.
-It is individual possibility enabled by collective competence. Stewardship
-does not preserve a work by freezing it. It gives other people enough support
-and freedom to make the inheritance live again.
+Prince does not cautiously demonstrate that he deserves inclusion. He takes
+command of the song with virtuosity, humour, theatricality, precision, and
+complete knowledge of his own authority. The solo keeps finding somewhere
+higher to go. By the time he throws the guitar into the air and walks away, the
+institution's failure of recognition has become ridiculous. A list may omit
+Prince. Reality cannot.
+
+Calling the performance “showboating” or “disrespectful” reverses the moral
+direction of the moment. It treats a Black musician's refusal to remain in a
+supporting role as an offense against the white rock canon whose judgment he
+has just exposed. Prince does not diminish Harrison's song. He gives the tribute
+one of its immortal forms. Dhani Harrison's delight and Tom Petty's recognition
+are visible onstage, but Prince's authority does not depend on their permission.
+
+For *Pancakes*, this is institutional recognition happening in real time.
+Authority is not created by a ranking, an invitation, or a place in an official
+canon. Sometimes the institution recognizes what is already there. Sometimes
+it fails, and the person it overlooked produces evidence so overwhelming that
+the institution must reorganize its account of reality. A trustworthy system
+does not punish people for exceeding the role it assigned them. It corrects
+itself.
 
 ## 05. Ramones — *I Wanna Be Sedated*
-
-Then the nervous system gives out.
 
 The Ramones make overload funny by reducing the desired future to chemical
 quiet. Motion, schedule, repetition, and confinement have become so oppressive
