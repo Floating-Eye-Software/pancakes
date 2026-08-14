@@ -864,3 +864,31 @@ files together after reviewing every `private-review-required` source.
 - `git diff --check` — passed.
 - Confirmed all local links in `docs/README.md` resolve.
 - Confirmed no top-level documentation files remain unindexed.
+
+---
+
+# codex-034 - Pancakes Love Playlist Page And V3 Notes
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-08-14 EDT
+
+## Changes
+
+- Added `sites/pancakes.love/playlists.html` as a designed playlist landing
+  page for the three Pancakes YouTube playlist sequences and the combined
+  Spotify playlist.
+- Linked the playlists page from `sites/pancakes.love/index.html`.
+- Extended the Pancakes Love stylesheet with responsive playlist cards,
+  action links, and listening-guide layout.
+- Added the Pancakes Playlist v3 YouTube description document.
+- Reworked the Playlist v3 index and liner notes around the requirements,
+  purpose, and operation framing.
+
+## Verification
+
+- `make check-work`
+- `python3 scripts/manage_static_site.py check pancakes-love` from `site-ops`
+- `git diff --check`
+- Credential-pattern scan found no credential-shaped content.
