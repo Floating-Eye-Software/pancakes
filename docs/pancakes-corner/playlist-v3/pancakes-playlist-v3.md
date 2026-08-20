@@ -1,5 +1,7 @@
 # Pancakes Playlist v3
 
+![Pancakes Playlist v3 cover](pancakes-playlist-v3-cover.png)
+
 Listen on [YouTube](https://www.youtube.com/playlist?list=PLOdmoM1BTohU).
 For the earlier sequences, see [Pancakes Playlist](../playlist/pancakes-playlist.md)
 and [Pancakes Playlist v2](../playlist-v2/pancakes-playlist-v2.md).

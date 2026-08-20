@@ -1,149 +1,305 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pancakes Playlists | pancakes.love</title>
-  <meta
-    name="description"
-    content="The Pancakes playlists move from institutional requirements to human flourishing to the transformation of ideals in operation."
-  >
-  <meta name="theme-color" content="#a43d68">
-  <link rel="canonical" href="https://pancakes.love/playlists.html">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Pancakes Playlists | pancakes.love</title>
+<meta content="Three Pancakes playlists about what institutions must protect, what civilization is for, and what happens when ideals become systems." name="description"/>
+<meta content="#a43d68" name="theme-color"/>
+<link href="https://pancakes.love/playlists.html" rel="canonical"/>
+<link href="styles.css" rel="stylesheet"/>
+<style>
+    /* Playlist-page additions. These can be moved into styles.css later. */
+
+    .playlist-page {
+      --playlist-red: #a43d68;
+      --playlist-line: #b94f3d;
+      --playlist-ink: #182327;
+      --playlist-paper: #f3ead8;
+      --playlist-soft: #e6dcc8;
+      --playlist-gap: clamp(3rem, 7vw, 7rem);
+    }
+
+    .playlist-hero {
+      padding-block: clamp(3rem, 8vw, 7rem);
+    }
+
+    .playlist-hero .lede {
+      max-width: 58rem;
+      font-size: clamp(1.15rem, 2vw, 1.55rem);
+      line-height: 1.55;
+    }
+
+    .playlist-sequence {
+      position: relative;
+      margin-top: var(--playlist-gap);
+      padding-block: 1rem;
+    }
+
+    .playlist-sequence::before {
+      content: "";
+      position: absolute;
+      left: clamp(0.75rem, 2vw, 1.5rem);
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(
+        to bottom,
+        transparent 0,
+        var(--playlist-line) 6rem,
+        var(--playlist-line) calc(100% - 6rem),
+        transparent 100%
+      );
+      opacity: .85;
+    }
+
+    .playlist-movement {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(18rem, .8fr);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: center;
+      margin: 0 0 var(--playlist-gap);
+      padding-left: clamp(2.75rem, 5vw, 4.5rem);
+    }
+
+    .playlist-movement:nth-child(even) {
+      grid-template-columns: minmax(18rem, .8fr) minmax(0, 1.2fr);
+    }
+
+    .playlist-movement:nth-child(even) .playlist-art {
+      order: 2;
+    }
+
+    .playlist-movement::before {
+      content: attr(data-number);
+      position: absolute;
+      left: 0;
+      top: 1rem;
+      width: clamp(2.2rem, 4vw, 3.25rem);
+      height: clamp(2.2rem, 4vw, 3.25rem);
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--playlist-line);
+      border-radius: 999px;
+      background: var(--playlist-paper);
+      color: var(--playlist-line);
+      font-weight: 700;
+      letter-spacing: .04em;
+      z-index: 2;
+    }
+
+    .playlist-art {
+      margin: 0;
+    }
+
+    .playlist-art img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 1rem;
+      box-shadow: 0 1rem 3rem rgb(0 0 0 / .16);
+    }
+
+    .playlist-copy {
+      max-width: 42rem;
+    }
+
+    .playlist-copy .eyebrow {
+      margin-bottom: .5rem;
+    }
+
+    .playlist-copy h2 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 4rem);
+      line-height: .98;
+    }
+
+    .playlist-thesis {
+      margin-block: 1.25rem;
+      font-size: clamp(1.2rem, 2vw, 1.65rem);
+      line-height: 1.45;
+    }
+
+    .playlist-copy p:not(.eyebrow):not(.playlist-thesis) {
+      line-height: 1.7;
+    }
+
+    .playlist-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .playlist-links a,
+    .hero-actions a {
+      text-underline-offset: .2em;
+    }
+
+    .playlist-synthesis {
+      margin-top: 0;
+      padding-block: clamp(2.5rem, 5vw, 4.5rem);
+    }
+
+    .playlist-synthesis .synthesis-copy {
+      max-width: 58rem;
+    }
+
+    .playlist-synthesis h2 {
+      margin-top: .3rem;
+      font-size: clamp(1.9rem, 3vw, 3rem);
+      line-height: 1.08;
+    }
+
+    .playlist-synthesis p:last-child {
+      max-width: 52rem;
+      font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+      line-height: 1.65;
+    }
+
+    .playlist-footer {
+      margin-top: clamp(2rem, 4vw, 4rem);
+      padding-block: 1.5rem 2.5rem;
+    }
+
+    .playlist-footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 800px) {
+      .playlist-sequence::before {
+        left: 1rem;
+      }
+
+      .playlist-movement,
+      .playlist-movement:nth-child(even) {
+        grid-template-columns: 1fr;
+        padding-left: 3.25rem;
+      }
+
+      .playlist-movement:nth-child(even) .playlist-art {
+        order: 0;
+      }
+
+      .playlist-movement::before {
+        left: -.15rem;
+      }
+    }
+    </style>
 </head>
 <body class="site-pancakes-love">
-  <main class="page playlist-page">
-    <nav class="top-nav" aria-label="Pancakes Love">
-      <a href="/">pancakes.love</a>
-      <a href="https://docs.pancakes.ca/pancakes-corner/">Pancakes Corner</a>
-    </nav>
-
-    <section class="panel panel-hero playlist-hero">
-      <p class="eyebrow">Pancakes, in song</p>
-      <h1>How should we live together?</h1>
-      <p class="lede">
-        Three evolving playlists approach the Pancakes argument from different
-        directions. v1 asks what institutions must protect. v2 asks what all
-        that protection is for. v3 asks what ideals become when people build,
-        inhabit, operate, resist, and transform the systems meant to realize them.
+<main class="page playlist-page">
+<nav aria-label="Pancakes Love" class="top-nav">
+<a href="/">pancakes.love</a>
+<a href="https://docs.pancakes.ca/pancakes-corner/">Pancakes Corner</a>
+</nav>
+<section class="panel panel-hero playlist-hero">
+<p class="eyebrow">Pancakes, in song</p>
+<h1>How should we live together?</h1>
+<p class="lede">
+        Three playlists about institutions and the lives inside them:
+        what they must protect, what they are for, and what happens
+        when ideals become systems.
       </p>
-      <div class="hero-actions" aria-label="Playlist actions">
-        <a href="https://open.spotify.com/playlist/7b8tfRkxbiUpqtZVqHUUDQ">Listen on Spotify</a>
-        <a href="https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD">Begin with v1 on YouTube</a>
-        <a href="https://docs.pancakes.ca/pancakes-corner/playlist/">Read the liner notes</a>
-      </div>
-    </section>
-
-    <section class="playlist-grid" aria-label="Playlist versions">
-      <article class="playlist-card">
-        <p class="eyebrow">v1</p>
-        <h2>Requirements: what institutions must protect</h2>
-        <p>
-          The first sequence listens from inside institutional failure. Songs
-          about labour, authority, coercive care, exile, escape, stewardship,
-          and survival turn lived injuries into demands: share power, recognize
-          hidden work, protect personhood and place, and leave room for life,
-          home, and bread.
+<div aria-label="Playlist actions" class="hero-actions">
+<a href="https://open.spotify.com/playlist/7b8tfRkxbiUpqtZVqHUUDQ">Listen on Spotify</a>
+<a href="https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD">Begin with v1 on YouTube</a>
+<a href="https://docs.pancakes.ca/pancakes-corner/playlist/">Read the liner notes</a>
+</div>
+</section>
+<section aria-label="The three Pancakes playlists" class="playlist-sequence">
+<article class="playlist-movement" data-number="01">
+<figure class="playlist-art">
+<img alt="An overhead city scene showing transit, homes, workplaces, gardens, gathering places, and a red path connecting them." src="pancakes-playlist-v1-cover.png"/>
+</figure>
+<div class="playlist-copy">
+<p class="eyebrow">v1 · Requirements</p>
+<h2>What institutions must protect</h2>
+<p class="playlist-thesis">
+            Listen to institutional failure closely enough and it begins to tell
+            you what institutions owe the people living inside them.
+          </p>
+<p>
+            The first playlist listens from below: to labour, coercive care,
+            exclusion, poverty, escape, stewardship, personhood, and belonging.
+            Lived injuries become requirements. Share power. Recognize hidden
+            work. Protect people and place. Leave room for home, dignity, joy,
+            and enough bread.
+          </p>
+<div class="playlist-links">
+<a href="https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD">Listen on YouTube</a>
+<a href="https://docs.pancakes.ca/pancakes-corner/playlist/">Read v1 notes</a>
+</div>
+</div>
+</article>
+<article class="playlist-movement" data-number="02">
+<figure class="playlist-art">
+<img alt="A lively neighborhood at human scale with food, gardens, transit, dancing, music, children, neighbors, and warm evening light." src="pancakes-playlist-v2-cover.png"/>
+</figure>
+<div class="playlist-copy">
+<p class="eyebrow">v2 · Purpose</p>
+<h2>What civilization is for</h2>
+<p class="playlist-thesis">
+            Better institutions are not the destination. They are the conditions
+            under which people get to have lives.
+          </p>
+<p>
+            Power, markets, technology, and politics matter because ordinary
+            people should be able to live ordinary lives extraordinarily well:
+            stay up late, walk away, dance together, tell stories, care for one
+            another, come home, watch the sunrise, and celebrate while they can.
+          </p>
+<div class="playlist-links">
+<a href="https://www.youtube.com/playlist?list=PLTaiGEm8bnqY">Listen on YouTube</a>
+<a href="https://docs.pancakes.ca/pancakes-corner/playlist-v2/">Read v2 notes</a>
+</div>
+</div>
+</article>
+<article class="playlist-movement" data-number="03">
+<figure class="playlist-art">
+<img alt="A cutaway city full of transit, workplaces, machinery, pipes, gathering spaces, and people living inside the systems they operate." src="pancakes-playlist-v3-cover.png"/>
+</figure>
+<div class="playlist-copy">
+<p class="eyebrow">v3 · Operation</p>
+<h2>What systems become</h2>
+<p class="playlist-thesis">
+            An ideal enters history and becomes a system. Then the system changes
+            the people inside it, and they begin changing it back.
+          </p>
+<p>
+            Ideas become rules, roles, habits, incentives, interfaces,
+            architecture, schedules, and expectations. Those arrangements teach,
+            reward, exhaust, exclude, preserve, and transform. People comply,
+            withdraw, improvise, resist, reinterpret, and keep enough humanity
+            alive to make another transformation possible.
+          </p>
+<div class="playlist-links">
+<a href="https://www.youtube.com/playlist?list=PLOdmoM1BTohU">Listen on YouTube</a>
+<a href="https://docs.pancakes.ca/pancakes-corner/playlist-v3/">Read v3 notes</a>
+</div>
+</div>
+</article>
+</section>
+<section class="panel panel-muted playlist-synthesis">
+<div class="synthesis-copy">
+<p class="eyebrow">One evolving argument</p>
+<h2>Requirements. Purpose. Operation.</h2>
+<p>
+          v1 begins with consequences and turns them into demands. v2 asks what
+          those demands are ultimately meant to make possible. v3 enters the
+          machinery between principle and outcome, where ideals become operating
+          systems and operating systems reshape the people inside them. Together
+          the playlists ask not only what institutions should be, but how to keep
+          them worthy of the lives they exist to support.
         </p>
-        <ol class="sample-tracks" aria-label="Selected tracks from playlist v1">
-          <li>There Is Power in a Union</li>
-          <li>Labour</li>
-          <li>Fast Car</li>
-          <li>Bread</li>
-        </ol>
-        <div class="link-row">
-          <a href="https://www.youtube.com/playlist?list=PLCsW8HDGu0pUkvTQwy5mJkojkMSZauPOD">YouTube playlist</a>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist/">Notes</a>
-        </div>
-      </article>
+</div>
+</section>
 
-      <article class="playlist-card">
-        <p class="eyebrow">v2</p>
-        <h2>Purpose: what civilization is for</h2>
-        <p>
-          The second sequence refuses to make better systems an end in
-          themselves. Power, markets, technology, and politics matter because
-          ordinary people should be able to live ordinary lives extraordinarily
-          well: stay up late, walk away, dance together, come home, watch the
-          sunrise, and celebrate.
-        </p>
-        <ol class="sample-tracks" aria-label="Selected tracks from playlist v2">
-          <li>Green Onions</li>
-          <li>Pata Pata</li>
-          <li>Jerusalema</li>
-          <li>Celebration</li>
-        </ol>
-        <div class="link-row">
-          <a href="https://www.youtube.com/playlist?list=PLTaiGEm8bnqY">YouTube playlist</a>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist-v2/">Notes</a>
-        </div>
-      </article>
-
-      <article class="playlist-card">
-        <p class="eyebrow">v3</p>
-        <h2>Operation: what systems become</h2>
-        <p>
-          The third sequence enters the gap between ideology and lived reality.
-          Ideas become rules, habits, incentives, environments, and machines;
-          these reshape the people inside them, who adapt, withdraw, resist, and
-          change the system in return. Operation is transformation.
-        </p>
-        <ol class="sample-tracks" aria-label="Selected tracks from playlist v3">
-          <li>Across the Universe</li>
-          <li>Dear Prudence</li>
-          <li>Hurt</li>
-          <li>Ievan Polkka</li>
-        </ol>
-        <div class="link-row">
-          <a href="https://www.youtube.com/playlist?list=PLOdmoM1BTohU">YouTube playlist</a>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist-v3/">Notes</a>
-        </div>
-      </article>
-    </section>
-
-    <section class="panel panel-muted listening-guide">
-      <div>
-        <p class="eyebrow">One evolving argument</p>
-        <h2>Requirements. Purpose. Operation.</h2>
-      </div>
-      <p>
-        v1 begins with consequences and turns them into demands. v2 names the
-        human flourishing those demands are meant to serve. v3 follows a system
-        after it begins operating, when ideals encounter history, incentives,
-        architecture, and human adaptation. Together they ask not only what
-        should exist, but how to keep it worthy of the people living inside it.
-      </p>
-    </section>
-
-    <section class="panel">
-      <h2>Follow the argument</h2>
-      <ul class="links">
-        <li>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist/">Playlist v1</a>
-          <span> institutional failures heard from below, and the requirements that lived experience reveals</span>
-        </li>
-        <li>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist-v2/">Playlist v2</a>
-          <span> an answer to the first playlist: ordinary life made rich by music, movement, memory, home, and joy</span>
-        </li>
-        <li>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist-v3/">Playlist v3</a>
-          <span> ideology in operation: transformation, adaptation, drift, participation, and institutional life</span>
-        </li>
-        <li>
-          <a href="https://docs.pancakes.ca/pancakes-corner/playlist-v3/pancakes-playlist-all-versions/">All versions index</a>
-          <span> every track across all three versions in one place</span>
-        </li>
-      </ul>
-    </section>
-
-    <footer class="site-footer">
-      <p>
-        Songs of power, labour, care, resistance, memory, belonging, and joy.
-        This is where you belong.
-      </p>
-    </footer>
-  </main>
+<footer class="site-footer playlist-footer"><p>Songs of power, labour, care, resistance, memory, belonging, and joy.</p></footer>
+</main>
 </body>
 </html>
