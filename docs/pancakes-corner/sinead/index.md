@@ -19,4 +19,4 @@ inside institutions.
 ## Case Studies
 
 - [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](panettiere-neutrogena-analysis.md)
-- [Panettiere case study appendix: prior institutional history and future directions](panettiere-neutrogena-appendix.md)
+- [Panettiere case study appendix: prior institutional history and deferred context](panettiere-neutrogena-appendix.md)

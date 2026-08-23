@@ -1,4 +1,4 @@
-# Appendix: Prior Institutional History and Future Directions
+# Appendix: Prior Institutional History and Deferred Context
 
 ## Scope
 
@@ -39,9 +39,9 @@ Their testimony does not establish a common causal explanation for the lives or
 deaths of former child performers. It identifies institutional questions for
 separate investigation.
 
-## Future Directions
+## Questions Beyond This Case
 
-A later Sinead case study or research program should examine:
+The sources raise institutional questions that this case study does not pursue:
 
 - **Child performance as an institution:** what purposes justify adult
   authority over working children, and what limits should govern that
@@ -66,15 +66,15 @@ A later Sinead case study or research program should examine:
   informal systems of witness, accompaniment, advocacy, and protection when
   formal institutions are inadequate.
 
-These questions should be investigated independently rather than treated as
-conclusions of the Neutrogena case.
+These questions define the boundary of the Neutrogena case. They are retained
+as context; any use elsewhere would require independent evidence and analysis.
 
-## Starting Points for Further Research
+## Source Guide
 
 ### Panettiere's institutional history
 
 - Panettiere's May 11, 2026 interview on Jay Shetty's [*On Purpose*
-  podcast](https://www.youtube.com/watch?v=vs6x8VUGXCw) is the principal primary
+  podcast](https://www.youtube.com/watch?v=MgcjIElP3bY) is the principal primary
   source for her accounts of childhood work, family and managerial roles,
   professional obligation, and Neutrogena.
 - [People on Panettiere's decision to end her mother's managerial role at
@@ -144,5 +144,5 @@ experiences and institutional interpretations; their convergence strengthens
 the case for investigation but does not establish a causal explanation for
 Panettiere's later life or death.
 
-These sources are starting points for future research, not findings of the
-Neutrogena case study.
+These sources document the deferred context. They are not findings of the
+Neutrogena case study, and no additional analysis is proposed here.

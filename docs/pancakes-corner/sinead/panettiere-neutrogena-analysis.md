@@ -37,13 +37,18 @@ into areas of human life outside that purpose. It also shows why institutional
 analysis must distinguish individual intentions from institutional machinery:
 rules, roles, incentives, interpretations, and procedural gaps can combine to
 produce harm without a single malicious decision-maker. Neutrogena's public
-positioning around skin health, self-care, and freedom from restrictive beauty
-rules adds a separate question of institutional answerability.
+positioning around skin health, self-care, and freedom
+from restrictive beauty rules adds a separate question of institutional
+answerability. Kenvue's current Code of Conduct also shows that the parent
+company translates some values into conduct rules and reporting, investigation,
+and corrective mechanisms. Those present-day mechanisms do not establish what
+governed the disputed 2015 decision or whether this controversy triggered a
+formal response.
 
 Panettiere's earlier institutional history may be relevant to a broader account
 of her life and relationships, but a full analysis of child-performance
-institutions exceeds the scope of this case. The [future-work
-appendix](panettiere-neutrogena-appendix.md) preserves that research direction
+institutions exceeds the scope of this case. The [context
+appendix](panettiere-neutrogena-appendix.md) preserves the source material
 without using it to supply causal claims the Neutrogena evidence cannot support.
 
 ### Argument in brief
@@ -57,6 +62,8 @@ This article makes four claims:
    a further jurisdictional justification.
 3. Neutrogena's public values did not enlarge its jurisdiction, but they created
    a standard against which the alleged conduct could reasonably be judged.
+   Kenvue's current Code also turns some corporate values into formal rules and
+   procedures, although their relevance to this endorsement remains unclear.
 4. Vulnerability and unequal bargaining power increase the stronger party's
    duties of restraint, explanation, review, and humane transition—not its
    jurisdiction. Neutrogena's 2026 statement acknowledges making Panettiere feel
@@ -487,7 +494,7 @@ It is:
 
 > **What interpretation converted a health disclosure into an actionable commercial condition, and what governed that interpretation?**
 
-## 8. Brand Identity and Normative Answerability
+## 8. Brand Identity, Corporate Values, and Normative Answerability
 
 Neutrogena's branding does not determine whether it had jurisdiction over
 Panettiere's disclosure. That question follows from the endorsement
@@ -512,9 +519,20 @@ public evidence reviewed for this article connects its development to
 Panettiere; its relevance here is normative, not causal.
 
 These claims do not turn advertising into constitutional law, nor does every
-inconsistency prove institutional failure. But an institution that receives
-reputation and commercial value from a claimed moral identity creates a
-legitimate standard of answerability:
+inconsistency prove institutional failure. Kenvue's values are not merely
+promotional, however. Its current Code of Conduct sets ethical expectations,
+offers reporting and investigation channels, prohibits retaliation, and
+provides for corrective or preventive action after violations. Kenvue also
+publishes policies covering business integrity, human rights, employment,
+quality and safety, suppliers, and the environment.
+
+These structures demonstrate present-day capacity for governance and repair.
+They do **not** establish which policies governed Panettiere's 2015 endorsement,
+how those policies were interpreted, whether the current Code would cover an
+analogous spokesperson, or whether the disputed conduct would violate it.
+
+An institution that receives reputation and commercial value from a claimed
+moral identity nevertheless creates a legitimate standard of answerability:
 
 ```text
 public values → answerability
@@ -895,11 +913,14 @@ Institutional continuity nevertheless remains meaningful.
 
 There is also a practical governance question: **at which institutional layer does corrective authority now reside?**
 
-The Neutrogena brand can issue a statement.
+The Neutrogena brand can issue a statement, while Kenvue now maintains the
+company-wide governance systems described above. The public record does not
+show whether the Panettiere controversy entered those systems or whether
+authority to alter morals clauses, endorsement contracts, and brand-risk review
+sits within Neutrogena or elsewhere inside Kenvue.
 
-But the authority to alter standard contracts, legal policy, review mechanisms, and institutional governance may reside elsewhere inside Kenvue.
-
-Acknowledgement and corrective authority need not be located in the same place.
+Acknowledgement and case-specific corrective authority therefore need not be
+located in the same place.
 
 ## 16. Institutional Memory and Narrative Control
 
@@ -984,6 +1005,11 @@ Acknowledgement therefore matters, but only as acknowledgement. It does not
 retroactively repair the relationship or demonstrate that the institution has
 changed the mechanism described by Panettiere.
 
+Kenvue has general systems for ethical governance and corrective action. The
+narrower question is whether this acknowledged failure produced any
+**case-specific change** to the contractual, brand-management, or review
+mechanisms implicated by Panettiere's account.
+
 ## 18. Remediation, Corrective Action, and the Test
 
 Neutrogena's promised investment may produce genuine benefit even if it also
@@ -1067,13 +1093,16 @@ action X is prohibited, constrained,
 reviewable, or subject to new duties
 ```
 
-As of August 23, 2026, the public material reviewed contained Neutrogena's
-acknowledgement and promised investment but no announced reform of the
-contractual or governance mechanisms implicated by Panettiere's account. This
-does not prove that Neutrogena changed nothing, nor that it fixed the problem.
-The defensible conclusion is narrower:
+As of August 23, 2026, public materials documented Neutrogena's acknowledgement
+and promised investment, as well as Kenvue's general ethical-governance system.
+They did not show whether this controversy triggered that system, whether it
+covers analogous endorsements, or whether Neutrogena or Kenvue changed the
+morals clauses, brand-risk interpretations, or review rights implicated here.
 
-> **The institution has publicly acknowledged a relational failure and announced remediation. Public evidence of corrective redesign has not yet been presented.**
+This does not prove that no such change occurred. The defensible conclusion is
+narrower:
+
+> **The institution has acknowledged a relational failure and announced remediation. Kenvue has general corrective mechanisms, but public evidence has not shown what case-specific redesign, if any, followed this controversy.**
 
 ## 19. The Legitimacy Test Applied
 
@@ -1086,13 +1115,13 @@ structure of authority through a set of related questions:
 | Jurisdiction | Conduct directly affecting representation may be governed; truthful disclosure of postpartum depression does not clearly fall within that authority. |
 | Relevance | Information about a participant is not actionable merely because the institution can observe it; a connection to legitimate purpose must be established. |
 | Consent | Agreement to a broad morals clause does not make every interpretation or application legitimate. |
-| Institutional identity | Neutrogena's public values did not expand its authority, but they created a standard of answerability. |
+| Institutional identity | Neutrogena's public values created answerability, not authority. Kenvue formalizes some corporate values, but their application here remains unclear. |
 | Reciprocity | Both parties contributed value; the unresolved question is what duties survived when the relationship encountered vulnerability. |
 | Stewardship | Panettiere said support disappeared when she became vulnerable, and Neutrogena now acknowledges making her feel unsupported. |
 | Voice | Her representative prevented the immediate firing she described, but the public record does not establish a formal review, accommodation, or appeal process. |
 | Accountability | The internal decision architecture remains opaque, limiting external evaluation. |
 | Exit | Either party could formally leave, but a decade-long relationship carried economic, reputational, and relational transition costs. |
-| Remedy | Neutrogena acknowledged failure and promised remediation; internal corrective action remains publicly unclear. |
+| Remedy | Neutrogena acknowledged failure and promised remediation; whether this case triggered Kenvue's corrective systems or changed endorsement governance remains unclear. |
 | Memory | Participant testimony, reporting, public reaction, corporate acknowledgement, and possible internal records retain different evidentiary statuses. |
 | Succession | Current personnel need not inherit personal culpability, but institutional continuity creates duties of memory and repair. |
 
@@ -1222,18 +1251,20 @@ authority over her identity. Contractual power does not make every use of that
 power legitimate. Neutrogena's public values did not enlarge its authority, but
 they did enlarge its answerability. Vulnerability increases stewardship duties
 rather than jurisdiction. A long relationship creates obligations that can
-survive its formal end, and institutional succession can preserve duties of memory without
-transferring personal culpability.
+survive its formal end, and institutional succession can preserve duties of
+memory without transferring personal culpability.
 
 The standard for institutional learning should therefore be demanding but observable:
 
 > **What has the institution changed about its own future behaviour because it learned from the failure?**
 
 Narrower jurisdiction, reviewable authority, accommodation, meaningful voice,
-and changed contractual practice would provide evidence of renewal. If the
+and changed contractual practice would provide evidence of renewal. Kenvue has
+general machinery for responding to ethical failures; the unresolved question
+is whether it reached the specific mechanism implicated here. If the public
 response ends with acknowledgement and external philanthropy, the remediation
-may still help people, but Neutrogena will not have shown publicly that the
-mechanism capable of producing the disputed outcome has changed.
+may still help people, but Neutrogena will not yet have shown publicly that the
+endorsement mechanism capable of producing the disputed outcome has changed.
 
 The final question is the one Sinead asks of institutions generally:
 
@@ -1261,7 +1292,7 @@ This analysis uses public information available through **August 23, 2026**. Sou
 * **Kenvue, August 23, 2023, on its separation from Johnson & Johnson.** Kenvue's own announcement establishes that the company became fully independent from Johnson & Johnson in 2023 and identifies Neutrogena among the brands within the Kenvue portfolio.
   [Kenvue: “Kenvue becomes a fully independent company following final separation from Johnson & Johnson”](https://www.kenvue.com/media/kenvue-becomes-a-fully-independent-company)
 
-### Neutrogena institutional identity and branding
+### Neutrogena institutional identity and governance
 
 These sources establish claims Neutrogena or its current corporate parent publicly make about the brand. They are relevant to **institutional identity and normative answerability**, not to establishing what the people involved in the disputed 2015 decision actually believed.
 
@@ -1273,6 +1304,15 @@ These sources establish claims Neutrogena or its current corporate parent public
 
 * **Neutrogena UK, “Exploring How the UK Really Feels In Their Skin.”** Neutrogena describes itself as an advocate of “skin positivity and self-care” and discusses relationships among appearance, beauty standards, judgment, representation, skincare, and self-confidence. This material supports the article's analysis of the broader normative identity Neutrogena constructs around its skincare business.
   [Neutrogena UK: “Exploring How the UK Really Feels In Their Skin”](https://www.neutrogena.co.uk/skin-and-hair-care-advice/skin/exploring-how-the-uk-really-feels-in-their-skin)
+
+* **Kenvue, “Code of Conduct.”** Kenvue's current Code identifies the company's values, establishes expectations of ethical conduct, provides multiple reporting channels and an Integrity Line available to anyone, describes investigation and anti-retaliation protections, and directs People Leaders to act in accordance with corrective or preventive action when the Code is violated. The Code applies to Kenvuers and to consultants and third-party contractors engaged by Kenvue to act on its behalf. This source establishes the current parent company's general ethical-governance architecture; it does not establish what requirements governed Panettiere's 2015 endorsement relationship or whether an analogous spokesperson would fall within the Code today.
+  [Kenvue Code of Conduct](https://www.kenvue.com/code-of-conduct-english)
+
+* **Kenvue, “Policies & Positions.”** Kenvue publishes formal positions and policies covering, among other subjects, anti-corruption and bribery, the Code of Conduct and Integrity Line, equal employment opportunity, environment, health and safety, human rights, quality and safety, suppliers, and responsible sourcing. This supports the narrower conclusion that Kenvue operationalizes values through multiple specialized governance systems rather than relying on brand statements alone.
+  [Kenvue Policies & Positions](https://www.kenvue.com/policies-positions)
+
+* **Kenvue, “Our Commitments.”** Kenvue's Healthy Lives Mission organizes public commitments under Healthy People, Healthy Planet, and Healthy Products, with associated reporting and selected external assurance. This material is relevant to the present institution's broader commitments and assurance architecture, not to the factual reconstruction of the 2015 decision.
+  [Kenvue Our Commitments](https://www.kenvue.com/our-commitments)
 
 * **Kenvue Media Centre.** The company's public media archive was reviewed through the evidence date for publicly announced changes to Neutrogena's contracts, morals-clause governance, review procedures, or related corrective mechanisms. No such announcement was identified. Absence from the public media archive does not establish that no internal change has occurred.
   [Kenvue Media Centre](https://www.kenvue.com/media)
@@ -1316,14 +1356,23 @@ Neutrogena's later acknowledgement that it made her feel unsupported is an impor
 
 Repeated secondary reporting does not create independent corroboration when it ultimately relies on the same underlying testimony.
 
-The Neutrogena and Kenvue branding materials establish **what the institution publicly claims about itself**. They do not establish that those values governed the disputed 2015 decision, that current branding was developed in response to Panettiere, or that the personnel responsible for current branding had any connection to the earlier events.
+The Neutrogena materials establish **what the brand publicly claims about
+itself**. Kenvue's Code, policies, and commitments establish that the current
+parent company formalizes some values through conduct expectations and
+corrective mechanisms. They do not establish what governed the 2015 decision,
+whether current systems arose from this controversy, or how they would apply to
+an analogous spokesperson.
 
-Likewise, the absence of an announced contractual or governance reform from Kenvue's public materials does not establish that no internal corrective action has occurred. It supports only the narrower conclusion used in this article:
+Likewise, the absence of an announced endorsement-specific reform from Kenvue's
+public materials does not establish that no internal corrective action has
+occurred. It supports only the narrower conclusion used in this article:
 
-> **Public evidence of corrective redesign has not yet been presented.**
+> **Kenvue has documented general corrective mechanisms, but public evidence has not shown what case-specific redesign, if any, followed the Panettiere controversy.**
 
 Reporting concerning Panettiere's death establishes the status of the investigation as of the evidence date. It does not establish a causal connection between her death and the Neutrogena relationship.
 
-Child-performance institutions, parent-manager relationships, family accounts, and related sources remain outside the evidentiary scope of this case and are preserved separately in the [future-work appendix](panettiere-neutrogena-appendix.md).
+Child-performance institutions, parent-manager relationships, family accounts,
+and related sources remain outside this case's evidentiary scope and are
+preserved separately in the [context appendix](panettiere-neutrogena-appendix.md).
 
 The institutional conclusions in this article are **analytical synthesis**, not legal, medical, psychological, or investigative findings.
