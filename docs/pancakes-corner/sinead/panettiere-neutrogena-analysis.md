@@ -1,14 +1,14 @@
 # Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority
 
-## A Sinead case study in jurisdiction, stewardship, voice, memory, and institutional repair
+## A Sinead case study in jurisdiction, institutional identity, stewardship, voice, memory, and institutional repair
 
 **Status:** Case study / canonical example candidate
 **Discipline:** Institutional engineering
 **Evidence current through:** August 23, 2026
 **Primary concepts:** institutional jurisdiction, constitutional asymmetry,
-stewardship, extraction, epistemic jurisdiction, relationship, practical exit,
-distributed responsibility, institutional succession, institutional memory,
-remediation, corrective action
+institutional identity, normative answerability, stewardship, extraction,
+epistemic jurisdiction, relationship, practical exit, distributed responsibility,
+institutional succession, institutional memory, remediation, corrective action
 
 ## Purpose
 
@@ -21,7 +21,7 @@ after her death in August 2026.
 The article does not argue that Neutrogena caused Panettiere's death; there is
 no evidentiary basis for that conclusion. As of August 23, 2026, her cause and
 manner of death remained under investigation, and authorities had reported no
-evidence of contributing trauma.
+signs of trauma or foul play.
 
 Nor does the article reach a legal conclusion. Panettiere said her
 representative told Neutrogena that it could not legally fire her for the
@@ -36,7 +36,9 @@ The case illustrates how authority acquired for a legitimate purpose can drift
 into areas of human life outside that purpose. It also shows why institutional
 analysis must distinguish individual intentions from institutional machinery:
 rules, roles, incentives, interpretations, and procedural gaps can combine to
-produce harm without a single malicious decision-maker.
+produce harm without a single malicious decision-maker. Neutrogena's public
+positioning around skin health, self-care, and freedom from restrictive beauty
+rules adds a separate question of institutional answerability.
 
 Panettiere's earlier institutional history may be relevant to a broader account
 of her life and relationships, but a full analysis of child-performance
@@ -46,15 +48,20 @@ without using it to supply causal claims the Neutrogena evidence cannot support.
 
 ### Argument in brief
 
-This article makes three claims:
+This article makes four claims:
 
-1. Authority over a spokesperson's commercial performance does not create
-   general authority over her truthful account of her health.
-2. Vulnerability and unequal bargaining power increase the stronger party's
+1. Authority over a spokesperson's commercial role does not create general
+   authority over the person occupying it.
+2. Panettiere's truthful disclosure of postpartum depression was not inherently
+   a skincare, beauty, or promotional matter. Treating it as actionable required
+   a further jurisdictional justification.
+3. Neutrogena's public values did not enlarge its jurisdiction, but they created
+   a standard against which the alleged conduct could reasonably be judged.
+4. Vulnerability and unequal bargaining power increase the stronger party's
    duties of restraint, explanation, review, and humane transition—not its
-   jurisdiction.
-3. Neutrogena's 2026 statement constitutes acknowledgement and promised
-   remediation, but public evidence does not yet show corrective redesign.
+   jurisdiction. Neutrogena's 2026 statement acknowledges making Panettiere feel
+   unsupported and promises remediation, but public evidence does not yet show
+   corrective redesign.
 
 ## 1. Evidence Boundary
 
@@ -335,15 +342,17 @@ The central question is therefore jurisdictional:
 
 > **How does speaking truthfully about experiencing postpartum depression become an institutional matter over which a skincare company may exercise commercial discipline?**
 
-There are imaginable circumstances in which health could affect performance of a contract.
+Health can become relevant to a contract when it affects agreed performance,
+requires accommodation, or produces a false product claim. Panettiere's
+disclosure was different. She was not criticizing a product, promoting a
+competitor, speaking for Neutrogena, or discussing whether she met a physical
+beauty standard. She was describing a psychological and medical experience
+after childbirth.
 
-A participant might be temporarily unable to perform agreed work.
-
-Accommodation or renegotiation might become necessary.
-
-A statement falsely made on behalf of a company could create another kind of contractual problem.
-
-But if the problem was instead that the existence or public disclosure of postpartum depression was considered inconsistent with the desired image of the spokesperson, the authority has moved somewhere else.
+Information about a participant is not automatically relevant to an
+institution's purpose. If the existence or disclosure of postpartum depression
+was treated as inconsistent with the desired image of a spokesperson, authority
+had moved somewhere else.
 
 It has moved from:
 
@@ -478,7 +487,62 @@ It is:
 
 > **What interpretation converted a health disclosure into an actionable commercial condition, and what governed that interpretation?**
 
-## 8. Constitutional Asymmetry
+## 8. Brand Identity and Normative Answerability
+
+Neutrogena's branding does not determine whether it had jurisdiction over
+Panettiere's disclosure. That question follows from the endorsement
+relationship's purpose and legitimate authority. Brand identity matters for a
+different reason: it supplies a public standard against which the alleged
+conduct can be judged.
+
+A skincare company operates within a beauty industry that assigns social and
+commercial meaning to skin, age, appearance, confidence, and self-presentation.
+Neutrogena's own materials position the brand as more than a seller of conformity
+to a beauty ideal. Its Canadian site describes healthy skin as the basis of
+beautiful skin, calls the company consumer-centred, and says companies should
+make only promises they can keep. Its UK materials call Neutrogena an advocate
+of skin positivity and self-care while discussing beauty standards, judgment,
+representation, and confidence.
+
+On July 15, 2026, Neutrogena announced **“Break the Rules,”** a brand
+mission intended to help consumers move past “beauty's noise,” challenge
+outdated rules about aging, and define beauty on their own terms. The campaign
+followed Panettiere's May podcast interview and preceded her August death. No
+public evidence reviewed for this article connects its development to
+Panettiere; its relevance here is normative, not causal.
+
+These claims do not turn advertising into constitutional law, nor does every
+inconsistency prove institutional failure. But an institution that receives
+reputation and commercial value from a claimed moral identity creates a
+legitimate standard of answerability:
+
+```text
+public values → answerability
+public values ≠ expanded jurisdiction
+```
+
+The distinction is especially sharp because postpartum depression was not a
+beauty “imperfection” that the brand was being asked to accept. It was outside
+the beauty domain. If Panettiere's account is substantially accurate, a skincare
+institution treated a difficult psychological reality as relevant to the
+commercial usability of her identity. Neutrogena's claims about self-care,
+confidence, consumer autonomy, and resistance to restrictive beauty rules did
+not give it greater authority over that reality. They made the alleged exercise
+of authority harder to reconcile with the identity the institution chose to
+sell.
+
+This also helps explain why backlash converged on Neutrogena. The relationship
+was causally legible: one recognizable brand, a decade-long partnership, a
+specific participant account, an alleged contractual response, a non-renewal,
+and a later corporate statement. The branding made it normatively legible as
+well: the public could perceive the contradiction without reconstructing the
+company's internal legal architecture.
+
+Legibility is not causal completeness. Neutrogena can be a legitimate object of
+bounded accountability without becoming a complete explanation of Panettiere's
+life or death.
+
+## 9. Constitutional Asymmetry
 
 The relationship was not symmetrical.
 
@@ -531,7 +595,7 @@ If anything, it strengthened the institution's stewardship obligations while exe
 
 > **Vulnerability is not a licence for greater control. Where power is asymmetric, vulnerability increases the burden of stewardship.**
 
-## 9. Authority and Responsibility Must Travel Together
+## 10. Authority and Responsibility Must Travel Together
 
 Consider the possible logic of the disputed decision.
 
@@ -577,7 +641,7 @@ Authority without corresponding responsibility is not stewardship.
 
 It is control.
 
-## 10. Stewardship, Extraction, and Cultivation
+## 11. Stewardship, Extraction, and Cultivation
 
 Commercial intermediation is not inherently extractive.
 
@@ -615,7 +679,7 @@ It is that an institution may have treated a person's humanity as valuable while
 
 That is a movement away from stewardship and toward extraction.
 
-## 11. Voice, Procedure, and Practical Exit
+## 12. Voice, Procedure, and Practical Exit
 
 Panettiere could speak publicly.
 
@@ -683,7 +747,7 @@ Exit is an important protection against domination.
 
 It is not a substitute for legitimate governance.
 
-## 12. Distributed Responsibility
+## 13. Distributed Responsibility
 
 Institutional outcomes are produced by networks of people.
 
@@ -743,7 +807,7 @@ A lawyer, brand executive, manager, agent, senior officer, and spokesperson may 
 
 The institution is the arrangement through which those differentiated responsibilities combine.
 
-## 13. Death, Rediscovery, and Causal Precision
+## 14. Death, Rediscovery, and Causal Precision
 
 Panettiere's death transformed public attention to the earlier dispute.
 
@@ -782,31 +846,11 @@ Failure to establish ultimate causation does not erase a bounded institutional w
 Likewise, evidence of a bounded institutional wrong does not justify attributing every later outcome to that institution.
 
 Institutional responsibility becomes stronger when it becomes more precise.
+Panettiere described a specific institutional failure, and her death caused that
+testimony to be rediscovered. The claim should be evaluated on its own evidence
+and institutional significance, not converted into a theory of her death.
 
-### Why Neutrogena became the focal institution
-
-Neutrogena is unusually legible.
-
-There is:
-
-- one recognizable brand;
-- one long relationship;
-- one contractual mechanism;
-- one specific account of an attempted decision;
-- one subsequent non-renewal;
-- one current corporate statement.
-
-Other systems in Panettiere's life and career are much more distributed and difficult to represent. Fortune explicitly observed that this helps explain why public anger converged on Neutrogena after her death.
-
-That makes Neutrogena a reasonable object of accountability.
-
-It does not make it a complete causal explanation.
-
-> **The institution that is easiest to name is not necessarily the institution that explains the most.**
-
-Causal legibility is not causal completeness.
-
-## 14. Institutional Succession
+## 15. Institutional Succession
 
 The institution responding in 2026 is not organizationally identical to the corporate structure in which the disputed 2015 decision occurred.
 
@@ -857,7 +901,7 @@ But the authority to alter standard contracts, legal policy, review mechanisms, 
 
 Acknowledgement and corrective authority need not be located in the same place.
 
-## 15. Institutional Memory and Narrative Control
+## 16. Institutional Memory and Narrative Control
 
 For years, the meaning of the disputed 2015 relationship remained dispersed.
 
@@ -927,7 +971,7 @@ Acknowledgement changes memory.
 
 It does not retroactively repair the original relationship.
 
-## 16. Acknowledgement Is an Act, Not a Redesign
+## 17. Acknowledgement Is an Act, Not a Redesign
 
 Reducing every corporate statement to “PR” obscures the institutional choice
 between answering and remaining silent. Neutrogena recognized Panettiere,
@@ -940,7 +984,7 @@ Acknowledgement therefore matters, but only as acknowledgement. It does not
 retroactively repair the relationship or demonstrate that the institution has
 changed the mechanism described by Panettiere.
 
-## 17. Remediation, Corrective Action, and the Test
+## 18. Remediation, Corrective Action, and the Test
 
 Neutrogena's promised investment may produce genuine benefit even if it also
 benefits the company's reputation. The more important distinction is
@@ -1031,7 +1075,7 @@ The defensible conclusion is narrower:
 
 > **The institution has publicly acknowledged a relational failure and announced remediation. Public evidence of corrective redesign has not yet been presented.**
 
-## 18. The Legitimacy Test Applied
+## 19. The Legitimacy Test Applied
 
 Sinead's legitimacy framework does not produce a single score. It exposes the
 structure of authority through a set of related questions:
@@ -1040,7 +1084,9 @@ structure of authority through a set of related questions:
 | --- | --- |
 | Purpose | Commercial endorsement serves a legitimate exchange: public representation for compensation and opportunity. |
 | Jurisdiction | Conduct directly affecting representation may be governed; truthful disclosure of postpartum depression does not clearly fall within that authority. |
+| Relevance | Information about a participant is not actionable merely because the institution can observe it; a connection to legitimate purpose must be established. |
 | Consent | Agreement to a broad morals clause does not make every interpretation or application legitimate. |
+| Institutional identity | Neutrogena's public values did not expand its authority, but they created a standard of answerability. |
 | Reciprocity | Both parties contributed value; the unresolved question is what duties survived when the relationship encountered vulnerability. |
 | Stewardship | Panettiere said support disappeared when she became vulnerable, and Neutrogena now acknowledges making her feel unsupported. |
 | Voice | Her representative prevented the immediate firing she described, but the public record does not establish a formal review, accommodation, or appeal process. |
@@ -1050,7 +1096,7 @@ structure of authority through a set of related questions:
 | Memory | Participant testimony, reporting, public reaction, corporate acknowledgement, and possible internal records retain different evidentiary statuses. |
 | Succession | Current personnel need not inherit personal culpability, but institutional continuity creates duties of memory and repair. |
 
-## 19. What a Better Institution Would Do
+## 20. What a Better Institution Would Do
 
 Institutional engineering must move from diagnosis to redesign. A better
 endorsement institution need not abandon morals clauses, reputational
@@ -1100,7 +1146,7 @@ what happened
 
 That is institutional control, not sentimental management.
 
-## 20. General Design Requirements
+## 21. General Design Requirements
 
 The case also supports several general requirements.
 
@@ -1109,6 +1155,14 @@ The case also supports several general requirements.
 > **Where an institution derives value from a participant's identity, reputation, or personhood, authority over the expression of that identity should be explicitly bounded by purpose, proportionality, participant voice, practical exit, and stewardship duties.**
 
 The more economically valuable the person's identity becomes to the institution, the more important it is to distinguish legitimate representation management from control of the person.
+
+### Public values
+
+> **Publicly claimed institutional values create answerability, not additional jurisdiction.**
+
+An institution that derives value from claims about autonomy, dignity, health,
+inclusion, or care should expect those claims to inform later evaluations of its
+conduct.
 
 ### Vulnerability
 
@@ -1165,9 +1219,10 @@ Important facts about the internal 2015 decision remain unknown, but the record
 still exposes a problem of **institutional purpose and jurisdiction**. A company
 may govern a spokesperson's commercial performance without acquiring general
 authority over her identity. Contractual power does not make every use of that
-power legitimate. Vulnerability increases stewardship duties rather than
-jurisdiction. A long relationship creates obligations that can survive its
-formal end, and institutional succession can preserve duties of memory without
+power legitimate. Neutrogena's public values did not enlarge its authority, but
+they did enlarge its answerability. Vulnerability increases stewardship duties
+rather than jurisdiction. A long relationship creates obligations that can
+survive its formal end, and institutional succession can preserve duties of memory without
 transferring personal culpability.
 
 The standard for institutional learning should therefore be demanding but observable:
@@ -1189,54 +1244,86 @@ authority to remain answerable to its purpose.
 
 ## Sources and evidence note
 
-This analysis uses public information available through August 23, 2026.
+This analysis uses public information available through **August 23, 2026**. Sources are grouped according to their evidentiary function. A source's inclusion does not imply that every claim or interpretation in that source has been adopted by this analysis.
 
 ### Primary and core sources
 
-- Hayden Panettiere's May 11, 2026 interview on Jay Shetty's [*On Purpose*
-  podcast](https://www.youtube.com/watch?v=vs6x8VUGXCw) is the primary source
-  for her account of the Neutrogena relationship.
-- [ABC News coverage of Panettiere's 2015 *Live with Kelly and Michael*
-  interview](https://abcnews.com/Entertainment/hayden-panettiere-opens-post-partum-depression/story?id=34124460)
-  provides a contemporaneous record of her public discussion of postpartum
-  depression.
-- [CBS News reporting on Neutrogena's August 20, 2026
-  statement](https://www.cbsnews.com/news/hayden-panettiere-neutrogena-postpartum-depression-backlash/)
-  preserves the company's acknowledgement and promised community-health
-  investment.
-- [Kenvue's account of its separation from Johnson &
-  Johnson](https://www.kenvue.com/media/kenvue-becomes-a-fully-independent-company)
-  establishes the 2023 corporate succession and identifies Neutrogena as a
-  Kenvue brand.
+* **Hayden Panettiere, *On Purpose with Jay Shetty*, May 11, 2026.** This is the principal primary source for Panettiere's account of her relationship with Neutrogena, the morals clause, the company's alleged attempt to fire her after her 2015 postpartum-depression disclosure, the subsequent non-renewal, and the absence of contact after the relationship ended.
+  [Watch the interview on YouTube](https://www.youtube.com/watch?v=MgcjIElP3bY)
+  [Jay Shetty's official episode page](https://www.jayshetty.me/podcast/hayden-panettiere-the-truth-behind-the-headlines-finally-telling-her-story-in-her-own-words)
 
-### Independent and contextual reporting
+* **ABC News, October 2015, on Panettiere's treatment for postpartum depression.** This contemporaneous report records that Panettiere had spoken the previous month on *Live with Kelly and Michael* about being able to relate to postpartum depression. It helps establish the original public disclosure independently of Panettiere's 2026 recollection of its consequences.
+  [ABC News: “Hayden Panettiere Checks Into Facility for Postpartum Depression”](https://abcnews.com/Entertainment/hayden-panettiere-checks-facility-postpartum-depression/story?id=34452605)
 
-- [Associated Press reporting on Panettiere's death and the continuing
-  investigation](https://apnews.com/article/1d660d3989916c3fa00421d05e4d78e7)
-- [Reuters reporting on Panettiere's death and
-  investigation](https://www.reuters.com/business/media-telecom/american-actress-hayden-panettiere-dies-36-abc-news-reports-2026-08-17/)
-- [ABC News reporting of the Greenville County Coroner's findings concerning
-  trauma, cause, and manner of
-  death](https://www-cdn.abcnews.com/US/hayden-panettiere-dies-36/story?id=135698473)
-- [The Guardian's chronology of the Neutrogena dispute and
-  response](https://www.theguardian.com/tv-and-radio/2026/aug/21/neutrogena-hayden-panettiere-statement)
-- [Fortune's analysis of why Neutrogena became the focal point of public
-  accountability](https://fortune.com/article/hayden-panettiere-death-neutrogena-postpartum-depression-08-19-2026/)
-- [Business Insider's account of the renewed controversy and company
-  response](https://www.businessinsider.com/hayden-panettiere-neutrogena-backlash-2026-8)
-- [Entertainment Weekly's account of Neutrogena's
-  response](https://ew.com/neutrogena-on-hayden-panettiere-death-backlash-12064746)
-- [Kenvue's media centre](https://www.kenvue.com/media), reviewed for public
-  corrective-action announcements through the evidence date.
+* **CBS News, August 20, 2026, on Neutrogena's response.** This report reproduces the substance of Neutrogena's public acknowledgement that Panettiere had been made to feel unsupported and its announcement of a forthcoming investment intended to expand access to support including postpartum-depression care.
+  [CBS News: “Neutrogena addresses its treatment of Hayden Panettiere after she spoke about postpartum depression”](https://www.cbsnews.com/news/hayden-panettiere-neutrogena-postpartum-depression-backlash/)
 
-Panettiere's description of Neutrogena's 2015 decision remains participant
-testimony. Neutrogena's later acknowledgement is not independent confirmation
-of every detail of that account. Repeated secondary reporting does not create
-independent corroboration when it relies on the same underlying testimony.
+* **Kenvue, August 23, 2023, on its separation from Johnson & Johnson.** Kenvue's own announcement establishes that the company became fully independent from Johnson & Johnson in 2023 and identifies Neutrogena among the brands within the Kenvue portfolio.
+  [Kenvue: “Kenvue becomes a fully independent company following final separation from Johnson & Johnson”](https://www.kenvue.com/media/kenvue-becomes-a-fully-independent-company)
 
-Child-performance institutions, parent-manager relationships, and related
-sources are deferred to the [future-work
-appendix](panettiere-neutrogena-appendix.md).
+### Neutrogena institutional identity and branding
 
-The institutional conclusions in this article are analytical synthesis, not
-legal, medical, psychological, or investigative findings.
+These sources establish claims Neutrogena or its current corporate parent publicly make about the brand. They are relevant to **institutional identity and normative answerability**, not to establishing what the people involved in the disputed 2015 decision actually believed.
+
+* **Kenvue / Neutrogena, “Break the Rules,” July 15, 2026.** This official announcement describes a new Neutrogena brand mission intended to help consumers move beyond “beauty's noise,” challenge outdated rules concerning aging, and define beauty on their own terms. The campaign was announced after Panettiere's May 2026 interview and before her August death. No evidence reviewed for this article establishes that its development was connected to Panettiere.
+  [Kenvue: “Neutrogena announces ‘Break the Rules,’ a new brand mission empowering consumers to break beauty's rules with science”](https://www.kenvue.com/media/neutrogena-announces-break-the-rules)
+
+* **Neutrogena Canada, “Our Story and History.”** Neutrogena describes itself as consumer-centred, says its innovations respond to unmet consumer needs, identifies healthy skin as central to beautiful skin, and states that companies should make only promises they can keep. These are useful statements of the identity and standards the company publicly claims for itself.
+  [Neutrogena Canada: “Our Story and History”](https://www.neutrogena.ca/why-neutrogena)
+
+* **Neutrogena UK, “Exploring How the UK Really Feels In Their Skin.”** Neutrogena describes itself as an advocate of “skin positivity and self-care” and discusses relationships among appearance, beauty standards, judgment, representation, skincare, and self-confidence. This material supports the article's analysis of the broader normative identity Neutrogena constructs around its skincare business.
+  [Neutrogena UK: “Exploring How the UK Really Feels In Their Skin”](https://www.neutrogena.co.uk/skin-and-hair-care-advice/skin/exploring-how-the-uk-really-feels-in-their-skin)
+
+* **Kenvue Media Centre.** The company's public media archive was reviewed through the evidence date for publicly announced changes to Neutrogena's contracts, morals-clause governance, review procedures, or related corrective mechanisms. No such announcement was identified. Absence from the public media archive does not establish that no internal change has occurred.
+  [Kenvue Media Centre](https://www.kenvue.com/media)
+
+### Reporting on Panettiere's death and investigation
+
+* **Associated Press, August 17, 2026.** Reports Panettiere's death at age 36, that her death remained under investigation, and that an autopsy found no signs of trauma and police reported no signs of foul play.
+  [Associated Press: “Hayden Panettiere, who starred in ‘Heroes’ and ‘Nashville,’ dies at 36”](https://apnews.com/article/1d660d3989916c3fa00421d05e4d78e7)
+
+* **Associated Press, August 18, 2026.** Provides additional reporting from the police report concerning the scene of Panettiere's death and reiterates that the cause remained undetermined, the autopsy found no trauma, and the investigation continued.
+  [Associated Press: “Hayden Panettiere's on-and-off boyfriend was at apartment where she died, police report says”](https://apnews.com/article/e4f24b524926a7ff419b84f3d05810ea)
+
+* **Reuters, August 17, 2026.** Independently reports Panettiere's death, the continuing investigation, the absence of suspected foul play, and contextual information concerning her memoir and public discussion of postpartum depression.
+  [Reuters: “Hayden Panettiere, ‘Heroes’ and ‘Nashville’ actress, dies at 36”](https://www.reuters.com/business/media-telecom/american-actress-hayden-panettiere-dies-36-abc-news-reports-2026-08-17/)
+
+* **ABC News, August 17, 2026.** Reports the Greenville County Coroner's statement that Panettiere was found in cardiac arrest and that her official cause and manner of death remained pending further investigation and additional studies.
+  [ABC News: “Actress Hayden Panettiere dies at 36, found in cardiac arrest”](https://www-cdn.abcnews.com/US/hayden-panettiere-dies-36/story?id=135698473)
+
+### Reporting on the Neutrogena controversy and response
+
+* **The Guardian, August 21, 2026.** Provides a useful chronology connecting Panettiere's 2015 disclosure, her 2026 account, the renewed controversy after her death, Neutrogena's acknowledgement, and its promised investment.
+  [The Guardian: “Neutrogena responds to criticism over how brand deal with Hayden Panettiere ended”](https://www.theguardian.com/tv-and-radio/2026/aug/21/neutrogena-hayden-panettiere-statement)
+
+* **Fortune, August 19, 2026.** Particularly useful as commentary on why public anger converged on Neutrogena. The article contrasts the corporate relationship's legibility with much more diffuse systems surrounding child stardom and Hollywood. This article treats that explanation as analysis rather than as evidence that Neutrogena was the most causally important institution in Panettiere's life.
+  [Fortune: “Hayden Panettiere helped change how women talk about mental health. After her death, consumers aren't ready to forgive the brand that failed her”](https://fortune.com/article/hayden-panettiere-death-neutrogena-postpartum-depression-08-19-2026/)
+
+* **Business Insider, August 20, 2026.** Reports the renewed backlash, summarizes Panettiere's account of the disputed ending of the partnership, and records Neutrogena's subsequent acknowledgement and promised investment.
+  [Business Insider: “Neutrogena responds after Hayden Panettiere's comments about the brand resurfaced following her death”](https://www.businessinsider.com/hayden-panettiere-neutrogena-backlash-2026-8)
+
+* **Entertainment Weekly, August 20, 2026.** Reports Neutrogena's response and supplies additional context from Panettiere's memoir concerning the strict morality clause and the extent to which she said the endorsement relationship affected management of her public image.
+  [Entertainment Weekly: “Neutrogena breaks silence on Hayden Panettiere's death after backlash”](https://ew.com/neutrogena-on-hayden-panettiere-death-backlash-12064746)
+
+* **People, August 20, 2026.** Reports Neutrogena's statement, the social-media backlash, Panettiere's account of the relationship, and the company's promised investment in support including postpartum-depression care.
+  [People: “Neutrogena Addresses Backlash After Hayden Panettiere's Death, Pledges ‘Significant Investment’ in Women's Health”](https://people.com/neutrogena-addresses-criticism-following-hayden-panettieres-death-12064702)
+
+### Evidentiary limits
+
+Panettiere's description of Neutrogena's 2015 decision remains **participant testimony**.
+
+Neutrogena's later acknowledgement that it made her feel unsupported is an important institutional statement, but it is **not independent confirmation of every detail of Panettiere's account**. In particular, the company has not publicly confirmed that it attempted to terminate her specifically because she disclosed postpartum depression, explained how the morals clause was interpreted, or identified the reasoning behind the subsequent non-renewal.
+
+Repeated secondary reporting does not create independent corroboration when it ultimately relies on the same underlying testimony.
+
+The Neutrogena and Kenvue branding materials establish **what the institution publicly claims about itself**. They do not establish that those values governed the disputed 2015 decision, that current branding was developed in response to Panettiere, or that the personnel responsible for current branding had any connection to the earlier events.
+
+Likewise, the absence of an announced contractual or governance reform from Kenvue's public materials does not establish that no internal corrective action has occurred. It supports only the narrower conclusion used in this article:
+
+> **Public evidence of corrective redesign has not yet been presented.**
+
+Reporting concerning Panettiere's death establishes the status of the investigation as of the evidence date. It does not establish a causal connection between her death and the Neutrogena relationship.
+
+Child-performance institutions, parent-manager relationships, family accounts, and related sources remain outside the evidentiary scope of this case and are preserved separately in the [future-work appendix](panettiere-neutrogena-appendix.md).
+
+The institutional conclusions in this article are **analytical synthesis**, not legal, medical, psychological, or investigative findings.
