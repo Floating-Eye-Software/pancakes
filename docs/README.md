@@ -78,6 +78,7 @@ their own indexes.
 ## Reading Room
 
 - [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
+- [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](pancakes-corner/sinead/panettiere-neutrogena-analysis.md)
 - [The Science of Management Failure](pancakes-corner/misc/science-of-management-failure.md)
 - [Pancakes Biography and Cultural Notes](pancakes-corner/pancakes-history.md)
 - [The Technologies Required for Pancakes](pancakes-corner/pancakes-technologies.md)

@@ -11,6 +11,7 @@ inside institutions.
 
 ## Start Here
 
+- [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](panettiere-neutrogena-analysis.md)
 - [Pancakes, Vampires, and Pimps](pancakes-vampires-and-pimps.md)
 - [Institutional legitimacy and the sovereignty of the person](institutional-thesis.md)
 - [CBC transcript notes](cbc-transcript.md)

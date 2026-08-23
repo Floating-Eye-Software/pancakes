@@ -22,6 +22,9 @@ governance documents.
 
 ## Pancakes Essays
 
+- [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](sinead/panettiere-neutrogena-analysis.md):
+  a Sinead case study in jurisdiction, stewardship, voice, memory, and
+  institutional repair.
 - [Pancakes](pancakes-history.md): a broad cultural history of pancakes as a
   recurring human technology.
 - [The Biotechnology of Pancakes](pancakes-biotech.md): fermentation,
