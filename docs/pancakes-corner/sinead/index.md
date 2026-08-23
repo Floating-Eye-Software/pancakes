@@ -12,6 +12,7 @@ inside institutions.
 ## Start Here
 
 - [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](panettiere-neutrogena-analysis.md)
+- [Panettiere case study appendix: prior institutional history and future directions](panettiere-neutrogena-appendix.md)
 - [Pancakes, Vampires, and Pimps](pancakes-vampires-and-pimps.md)
 - [Institutional legitimacy and the sovereignty of the person](institutional-thesis.md)
 - [CBC transcript notes](cbc-transcript.md)
