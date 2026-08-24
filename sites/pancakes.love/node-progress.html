@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First Pancakes Node Progress | pancakes.love</title>
+  <meta
+    name="description"
+    content="A public progress indicator for the first hosted Pancakes node, from the Pitchfork foundation through the Mood Ring smoke test."
+  >
+  <meta name="theme-color" content="#a43d68">
+  <link rel="canonical" href="https://pancakes.love/node-progress.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="site-pancakes-love progress-site">
+  <main class="page progress-page">
+    <nav class="top-nav" aria-label="Pancakes Love">
+      <a href="/">pancakes.love</a>
+      <a href="https://docs.pancakes.ca/">Pancakes documentation</a>
+    </nav>
+
+    <section class="panel panel-hero progress-hero">
+      <div class="progress-hero-copy">
+        <p class="eyebrow">First hosted node</p>
+        <h1>Building a home for Pitchfork.</h1>
+        <p class="lede">
+          A Pancakes node begins as a network-accessible, locally governed home
+          for Pitchfork. This page follows the work from the accounting engine
+          to a recoverable hosted node and its first visible Mood Ring response.
+        </p>
+      </div>
+
+      <aside class="status-summary" aria-label="Current project status">
+        <p class="status-summary-label">Planning baseline</p>
+        <p class="status-summary-date">23 August 2026</p>
+        <div class="status-counts" aria-label="Zero complete, two ready, two blocked, five queued">
+          <span><strong>0</strong> complete</span>
+          <span><strong>2</strong> ready</span>
+          <span><strong>2</strong> blocked</span>
+          <span><strong>5</strong> queued</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel status-panel" aria-labelledby="status-heading">
+      <div class="section-heading-row">
+        <div>
+          <p class="eyebrow">Current position</p>
+          <h2 id="status-heading">Two tracks can begin.</h2>
+        </div>
+        <div class="status-legend" aria-label="Status legend">
+          <span class="legend-item"><i class="status-dot status-ready"></i>Ready</span>
+          <span class="legend-item"><i class="status-dot status-blocked"></i>Blocked</span>
+          <span class="legend-item"><i class="status-dot status-queued"></i>Queued</span>
+        </div>
+      </div>
+
+      <div class="readiness-strip" aria-label="Nine milestones: two ready, two blocked, and five queued">
+        <span class="strip-ready"><span class="visually-hidden">Ready</span></span>
+        <span class="strip-ready"><span class="visually-hidden">Ready</span></span>
+        <span class="strip-blocked"><span class="visually-hidden">Blocked</span></span>
+        <span class="strip-blocked"><span class="visually-hidden">Blocked</span></span>
+        <span class="strip-queued"><span class="visually-hidden">Queued</span></span>
+        <span class="strip-queued"><span class="visually-hidden">Queued</span></span>
+        <span class="strip-queued"><span class="visually-hidden">Queued</span></span>
+        <span class="strip-queued"><span class="visually-hidden">Queued</span></span>
+        <span class="strip-queued"><span class="visually-hidden">Queued</span></span>
+      </div>
+
+      <p class="status-note">
+        Pitchfork Core and the deployment reconciliation are ready to proceed in
+        parallel. No milestone is complete yet, and no Droplet creation is
+        authorized by readiness alone.
+      </p>
+    </section>
+
+    <section class="tracks" aria-labelledby="tracks-heading">
+      <div class="tracks-intro">
+        <p class="eyebrow">Parallel foundations</p>
+        <h2 id="tracks-heading">Software and operations meet at deployment.</h2>
+        <p>
+          The host does not need to wait for all application work, and the
+          application does not need a server to prove its core behavior. Both
+          foundations must be ready before the node is installed on the Droplet.
+        </p>
+      </div>
+
+      <div class="track-grid">
+        <article class="track-card track-software">
+          <header>
+            <p class="eyebrow">Track A</p>
+            <h3>Node software</h3>
+          </header>
+          <ol class="track-steps">
+            <li class="milestone is-ready">
+              <div class="milestone-head">
+                <span class="step-number">A1</span>
+                <span class="status-pill pill-ready">Ready</span>
+              </div>
+              <h4>Pitchfork 0003 · Core foundation</h4>
+              <p>Build the installable, deterministic, database-independent accounting engine and its persistence contracts.</p>
+            </li>
+            <li class="milestone is-blocked">
+              <div class="milestone-head">
+                <span class="step-number">A2</span>
+                <span class="status-pill pill-blocked">Blocked</span>
+              </div>
+              <h4>Pancakes 0007 · Node foundation</h4>
+              <p>Build Flask, SQLAlchemy adapters, Alembic migrations, health checks, configuration, and the atomic unit of work.</p>
+              <p class="dependency">Waiting on Pitchfork 0003.</p>
+            </li>
+            <li class="milestone is-queued">
+              <div class="milestone-head">
+                <span class="step-number">A3</span>
+                <span class="status-pill pill-queued">Queued</span>
+              </div>
+              <h4>Local vertical slice</h4>
+              <p>Submit one authorized event, settle it once, persist resource state, retrieve its projection, and prove rollback and idempotency with SQLite.</p>
+            </li>
+          </ol>
+        </article>
+
+        <article class="track-card track-operations">
+          <header>
+            <p class="eyebrow">Track B</p>
+            <h3>Hosting foundation</h3>
+          </header>
+          <ol class="track-steps">
+            <li class="milestone is-ready">
+              <div class="milestone-head">
+                <span class="step-number">B1</span>
+                <span class="status-pill pill-ready">Ready</span>
+              </div>
+              <h4>Site Ops 0018 · Consolidation</h4>
+              <p>Reconcile hostnames, capacity, runtime layout, security, health, backup, and rollback decisions into one deployment baseline.</p>
+            </li>
+            <li class="milestone is-blocked">
+              <div class="milestone-head">
+                <span class="step-number">B2</span>
+                <span class="status-pill pill-blocked">Blocked</span>
+              </div>
+              <h4>Site Ops 0019 · Checkpoint 1</h4>
+              <p>Provision and harden the distinct Ubuntu Droplet, establish administrator and service boundaries, and verify reboot recovery.</p>
+              <p class="dependency">Waiting on the applicable 0018 decisions and explicit spending authorization.</p>
+            </li>
+          </ol>
+        </article>
+      </div>
+
+      <div class="convergence" aria-label="The software and hosting tracks converge at application deployment">
+        <span>Both foundations ready</span>
+        <strong>↓</strong>
+      </div>
+    </section>
+
+    <section class="panel deployment-panel" aria-labelledby="deployment-heading">
+      <p class="eyebrow">Converged sequence</p>
+      <h2 id="deployment-heading">From private node to visible response.</h2>
+
+      <ol class="deployment-steps">
+        <li class="deployment-step is-queued">
+          <span class="deployment-number">1</span>
+          <div>
+            <div class="deployment-title-row">
+              <h3>Deploy the private developer node</h3>
+              <span class="status-pill pill-queued">Checkpoint 2</span>
+            </div>
+            <p>Run systemd → Gunicorn → Pancakes Flask → Pitchfork on the hardened host, initially with SQLite and loopback-only access.</p>
+          </div>
+        </li>
+        <li class="deployment-step is-queued">
+          <span class="deployment-number">2</span>
+          <div>
+            <div class="deployment-title-row">
+              <h3>Introduce hosted persistence</h3>
+              <span class="status-pill pill-queued">Checkpoint 3</span>
+            </div>
+            <p>Add PostgreSQL and Alembic-managed schema, then prove durability, concurrent idempotency, backup, and restoration.</p>
+          </div>
+        </li>
+        <li class="deployment-step is-queued">
+          <span class="deployment-number">3</span>
+          <div>
+            <div class="deployment-title-row">
+              <h3>Open bounded HTTPS access</h3>
+              <span class="status-pill pill-queued">Checkpoint 4</span>
+            </div>
+            <p>Add the selected hostname, Nginx, TLS, and only the externally approved routes after authentication, privacy, logging, and rate-limit review.</p>
+          </div>
+        </li>
+        <li class="deployment-step is-queued">
+          <span class="deployment-number">4</span>
+          <div>
+            <div class="deployment-title-row">
+              <h3>Complete the Mood Ring smoke test</h3>
+              <span class="status-pill pill-queued">Checkpoint 5</span>
+            </div>
+            <p>Send only a derived symbolic colour, settle it through Pitchfork, retrieve the background projection, and verify the visible response after restart, reboot, and restoration.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="panel panel-muted definition-panel">
+      <p class="eyebrow">Definition of the first proof</p>
+      <blockquote>
+        An authorized network request is settled exactly once, its resulting
+        state is persisted atomically, and a projection can be retrieved after
+        restart without exposing the private record that produced it.
+      </blockquote>
+    </section>
+
+    <footer class="site-footer progress-footer">
+      <p>
+        This is a planning indicator, not a service-availability promise.
+        Read the canonical architecture at
+        <a href="https://docs.pancakes.ca/">docs.pancakes.ca</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
