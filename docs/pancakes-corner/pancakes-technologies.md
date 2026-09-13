@@ -132,6 +132,6 @@ It is evidence that many generations of people successfully solved a chain of in
 
 The next time a pancake lands on a plate, it is worth remembering that behind it stand thousands of years of human ingenuity.
 
-### Suggested Image
+[![A saddle quern used to grind grain by hand.](https://commons.wikimedia.org/wiki/Special:Redirect/file/Saddle_quern.jpg?width=1200)](https://commons.wikimedia.org/wiki/File:Saddle_quern.jpg)
 
-Alt text: "Timeline showing fire, agriculture, grinding stones, pottery, metal pans, and modern cookware leading toward a finished pancake."
+*Photo and license: Wikimedia Commons.*

@@ -1,10 +1,12 @@
-.PHONY: check-work check-plans check-todo check-workflow check-docs composites check-composites list-composites clean-composites test-composites mount umount links nolinks upload download
+.PHONY: check-work check-plans check-todo check-workflow check-docs composites check-composites list-composites clean-composites test-composites corner-images corner-images-status corner-images-sync test-corner-images mount umount links nolinks upload download
 
 PYTHON ?= python3
 FLEY_ORG ?= ../fley-org
 COMPOSITES_SCRIPT := scripts/assemble_context_composites.py
 COMPOSITES_PLAN ?= _work/context/composites.yml
 COMPOSITE_ROOT_ARGS ?=
+CORNER_IMAGES_SCRIPT := scripts/fetch_pancakes_corner_images.py
+CORNER_IMAGES_ARGS ?=
 
 check-work: check-plans check-todo check-workflow check-docs
 
@@ -36,6 +38,18 @@ clean-composites:
 
 test-composites:
 	@$(PYTHON) -m unittest discover -s tests -p 'test_context_composites.py'
+
+corner-images:
+	@$(PYTHON) $(CORNER_IMAGES_SCRIPT) --download $(CORNER_IMAGES_ARGS)
+
+corner-images-status:
+	@$(PYTHON) $(CORNER_IMAGES_SCRIPT) --status
+
+corner-images-sync:
+	@$(PYTHON) $(CORNER_IMAGES_SCRIPT) --sync-links
+
+test-corner-images:
+	@$(PYTHON) -m unittest discover -s tests -p 'test_pancakes_corner_images.py'
 
 mount:
 	sshfs pancakes.love:pancakes apps/legacy-auth-webapp/remote-server

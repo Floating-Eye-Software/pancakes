@@ -922,3 +922,42 @@ files together after reviewing every `private-review-required` source.
 - `git diff --check` — passed.
 - Confirmed all 98 Markdown articles have a link from a README or index.
 - Confirmed no stale Sinead-path or Windows `Zone.Identifier` sidecar remains.
+
+---
+
+# codex-036 - Pancakes Corner Commons Images
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-09-13 EDT
+
+## Changes
+
+- Replaced 23 Pancakes Corner image placeholders with Wikimedia Commons image
+  references while retaining links to the corresponding Commons file pages.
+- Added 17 validated local display copies under
+  `docs/pancakes-corner/images/` and synchronized their article image paths.
+- Added `make corner-images`, `make corner-images-status`, and
+  `make corner-images-sync` for gradual, resumable completion of the remaining
+  image downloads.
+- Added conservative download controls: three attempts per run, a 15-second
+  interval, immediate HTTP 429 cutoff, image-byte validation, atomic writes,
+  and an append-only activity log.
+- Removed four Windows `Zone.Identifier` sidecars from the public working tree.
+
+## Remaining Work
+
+- Six images remain remote pending successful local downloads.
+- The current Commons filenames for `saddle-quern.jpg`, `egg-hopper.jpg`, and
+  `raggmunk.jpg` returned HTTP 404 in the first bounded run and require source
+  correction before they can be downloaded.
+- The remaining syrup-pancake, casabe, and Stone Age bread sources have not yet
+  been attempted by the bounded target.
+
+## Verification
+
+- `make test-corner-images` — passed.
+- `make corner-images-status` — reported 17 of 23 images local.
+- `make check-work` — passed.
+- `git diff --check` — passed.

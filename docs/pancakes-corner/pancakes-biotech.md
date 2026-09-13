@@ -246,6 +246,6 @@ The result was not merely a better pancake.
 
 It was one of humanity's earliest and most successful forms of biotechnology.
 
-### Suggested Image
+[![A living sourdough starter showing bubbles produced during fermentation.](images/sourdough-starter.jpg)](https://commons.wikimedia.org/wiki/File:Sourdough_starter.jpg)
 
-Alt text: "Fermenting dosa batter bubbling in a clay vessel beside grains, illustrating the collaboration between humans and microorganisms."
+*Photo and license: Wikimedia Commons.*

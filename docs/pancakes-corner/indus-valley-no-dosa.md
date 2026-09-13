@@ -42,6 +42,6 @@ The people of the Indus Valley almost certainly ate foods that modern observers 
 
 The dosa is one of the descendants of that long tradition, not its ancestor.
 
-### Suggested Image
+[![Dosa batter cooking on a hot griddle.](images/dosa-preparation.jpg)](https://commons.wikimedia.org/wiki/File:Dosa-Preparation.jpg)
 
-Alt text: "Fresh dosa cooking on a large cast-iron griddle beside a bowl of fermented batter, illustrating one of humanity's most sophisticated pancake traditions."
+*Photo and license: Wikimedia Commons.*
