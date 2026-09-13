@@ -892,3 +892,33 @@ files together after reviewing every `private-review-required` source.
 - `python3 scripts/manage_static_site.py check pancakes-love` from `site-ops`
 - `git diff --check`
 - Credential-pattern scan found no credential-shaped content.
+
+---
+
+# codex-035 - Booksellers Essay And Documentation Navigation
+
+**Plan:** `0008-public-repository-docs-and-boundary-transition`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-09-13 EDT
+
+## Changes
+
+- Added the new *Books, AI, and the Right to Refuse a Sale* article to the
+  Pancakes Corner miscellaneous notes and linked it from both the Corner and
+  miscellaneous indexes.
+- Reorganized the documentation landing page so application documents appear
+  together, Pancakes Corner anchors the food-focused Reading Room, and
+  governance, architecture, and economics documents remain in their
+  authoritative sections.
+- Added index links for the previously unindexed identity, relational, and
+  remote-inference documents.
+- Synchronized the repository workflow copy with the authoritative `fley-org`
+  workflow.
+
+## Verification
+
+- `make check-work` — passed.
+- `git diff --check` — passed.
+- Confirmed all 98 Markdown articles have a link from a README or index.
+- Confirmed no stale Sinead-path or Windows `Zone.Identifier` sidecar remains.

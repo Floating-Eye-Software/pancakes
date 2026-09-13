@@ -10,6 +10,7 @@ not belong in the playlist, dataset, or Sinead collections.
 
 ## Start Here
 
+- [Books, AI, and the Right to Refuse a Sale](booksellers-and-ai-training.md)
 - [The Science of Management Failure](science-of-management-failure.md)
 - [Reproduction of Management](reproduction-of-management.md)
 

@@ -32,6 +32,10 @@ governance documents.
   traditions from around the world.
 - [Dosa and the Indus Valley](indus-valley-no-dosa.md): a note on ancient
   grain foods and the history of dosa.
+- [Books, AI, and the Right to Refuse a Sale](misc/booksellers-and-ai-training.md):
+  booksellers, destructive scanning, stewardship, and institutional refusal.
+- [The Science of Management Failure](misc/science-of-management-failure.md):
+  a field note on recurring failures in the management role.
 - [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](sinead/panettiere-neutrogena-analysis.md):
   a Sinead case study in jurisdiction, stewardship, voice, memory, and
   institutional repair.

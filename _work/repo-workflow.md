@@ -7,9 +7,10 @@ It establishes the shared engineering execution model used across FLEY projects
 while remaining independent of any particular programming language, framework,
 or regulatory domain.
 
-Repository workflows provide a stable operational foundation for engineering
-work. Higher-level organizational governance, including the FLEY Quality
-Management System (QMS), builds upon this foundation rather than replacing it.
+Repository workflows are the top-level operational authority for how FLEY
+repository work is performed. Higher-level organizational governance, including
+the FLEY Quality Management System (QMS), applies to repository work through
+the interfaces defined by this workflow.
 
 This workflow is intentionally technology-neutral. It defines common engineering
 behavior rather than prescribing particular programming languages, build
@@ -32,7 +33,10 @@ It governs:
 * contributor expectations;
 * session management for human and AI contributors.
 
-The workflow intentionally focuses on engineering execution.
+The workflow intentionally defines the complete operational execution model for
+repository work. It does not replace QMS authority over governed obligations,
+approvals, or controlled records; it provides the operational path through
+which those obligations are exercised.
 
 It does not define:
 
@@ -44,10 +48,13 @@ It does not define:
 * formal verification or validation;
 * other QMS-governed activities.
 
-Those responsibilities belong to higher governance layers.
+Those responsibilities remain authoritative in the applicable higher governance
+layers, while this workflow must provide and maintain the repository interfaces
+needed to execute them.
 
 The repository workflow should remain stable even as repository technologies,
-organizational structure, and QMS processes evolve.
+organizational structure, and QMS processes evolve. Changes to it must be
+reviewed for continued coverage of applicable QMS requirements.
 
 ---
 
@@ -56,10 +63,12 @@ organizational structure, and QMS processes evolve.
 The FLEY architecture intentionally separates **engineering capability** from
 **governance obligations**.
 
-Repository workflows define reusable engineering capabilities.
+Repository workflows define the required operational capabilities and
+interfaces through which repository work is controlled.
 
-Governance processes determine when those capabilities must be exercised, what
-additional controls apply, and what evidence must be retained.
+The QMS determines which obligations, approvals, records, and evidence are
+required. The workflow must maintain the execution paths, ownership rules,
+review points, and evidence surfaces needed to satisfy those requirements.
 
 Repository workflows answer:
 
@@ -70,9 +79,8 @@ The QMS answers:
 > Which engineering activities are required, reviewed, approved, recorded, and
 > retained?
 
-This distinction allows engineering practice to remain stable while governance
-requirements scale according to organizational, contractual, or regulatory
-needs.
+This distinction allows the workflow to remain the operational authority while
+QMS requirements evolve under controlled governance.
 
 For example:
 
@@ -86,10 +94,11 @@ For example:
 | Repository tasks       | determine whether they satisfy controlled planning activities        |
 | Risk records           | determine whether they become controlled organizational risks        |
 
-**Capabilities belong to engineering. Obligations belong to governance.**
+**The workflow controls operational execution. The QMS controls governed
+obligations.**
 
-Governance should compose existing engineering capabilities rather than
-duplicating or replacing them.
+Governance should use the workflow's defined interfaces rather than bypassing
+or silently redefining repository execution.
 
 ---
 
@@ -104,6 +113,7 @@ Repository execution continuously produces engineering outputs, including:
 * documentation;
 * engineering tests;
 * design discussions;
+* repository workstream summaries;
 * implementation plans;
 * repository tasks;
 * repository status information.
@@ -127,12 +137,14 @@ higher-level governance may invoke. Examples include repository test commands,
 planning artifacts, pull requests, engineering documentation, release
 procedures, and status reports.
 
-Higher-level governance should reference these interfaces rather than redefine
-repository execution.
+Higher-level governance should state its requirements and use these interfaces
+rather than bypassing or silently redefining repository execution. The
+workflow must be reviewed whenever those interfaces or their QMS coverage
+change.
 
 The repository workflow therefore provides engineering capabilities.
 
-The QMS imposes governance obligations.
+The QMS imposes governance obligations through the workflow interface.
 
 Neither replaces the other.
 
@@ -169,12 +181,29 @@ Each layer builds upon the previous one without replacing it.
 
 # Work Surfaces
 
-Repository work is organized around durable engineering artifacts.
+Repository work is organized around three levels of durable engineering
+artifacts:
 
-Plans describe engineering work fronts.
+```text
+Workstream
+    ↓
+Plan
+    ↓
+Task
+```
 
-Tasks describe concrete, verifiable engineering work that can be completed,
+**Workstreams** describe the repository's durable top-level priorities and
+responsibilities.
+
+**Plans** describe bounded multi-step change efforts within one or more
+workstreams.
+
+**Tasks** describe concrete, verifiable engineering work that can be completed,
 reviewed, and tracked independently.
+
+Workstreams are intentionally broader and longer-lived than plans. A workstream
+may contain many plans over time, and the set of active plans may change
+without changing the repository's workstream structure.
 
 Plans should be created when work involves:
 
@@ -186,11 +215,13 @@ Plans should be created when work involves:
 
 Tasks should describe executable engineering work.
 
-Stable identifiers shall not be reused.
+Stable plan and task identifiers shall not be reused.
 
-Repository dashboards remain authoritative for repository execution.
+`_work/quick-status.md` is authoritative for the repository's current
+workstream names and top-level priority summary. Plan and task dashboards remain
+authoritative for execution state, dependencies, and detailed scheduling.
 
-Plans and tasks track repository-owned work.
+Workstreams, plans, and tasks track repository-owned work.
 
 They do not replace organization registries or controlled QMS records.
 
@@ -215,6 +246,7 @@ Repository work surfaces should remain:
 Execution repositories own:
 
 * engineering implementation;
+* local workstreams and priority summaries;
 * local planning;
 * engineering tasks;
 * engineering documentation;
@@ -270,11 +302,21 @@ authoritative for governance decisions.
 
 # Work Tracking
 
-Plans and tasks remain repository-owned engineering artifacts.
+Workstreams, plans, and tasks remain repository-owned engineering artifacts.
+
+Workstreams:
+
+* define the repository's current top-level priorities and responsibilities;
+* are broader and more durable than individual plans;
+* provide a compact situational view for maintainers, contributors, and
+  organization-wide tooling;
+* may remain active across many plans and implementation cycles;
+* should not be created merely to represent every directory, component, or
+  possible future activity.
 
 Plans:
 
-* describe engineering objectives;
+* describe bounded engineering objectives within a workstream;
 * identify dependencies;
 * define acceptance criteria;
 * coordinate multi-step work.
@@ -286,39 +328,97 @@ Tasks:
 * record execution state;
 * should be independently reviewable whenever practical.
 
-Repository dashboards describe engineering execution only.
+Repository dashboards describe detailed engineering execution. Quick status
+describes the repository-level workstream view.
 
-Higher-level governance may reference repository plans and tasks but should not
-duplicate repository execution state.
+Higher-level governance may reference repository workstreams, plans, and tasks
+but should not duplicate repository execution state.
 
 ---
 
 # Quick Status
 
-`_work/quick-status.md` provides a concise maintainer-oriented summary of the
-repository's current operational state.
+Every FLEY workflow repository shall maintain:
 
-It summarizes engineering attention rather than organizational governance.
+```text
+_work/quick-status.md
+```
 
-Quick status documents may summarize:
+The quick-status file is the repository's compact workstream summary. It exists
+so a maintainer, contributor, or organization-wide tool can understand the
+repository's major priorities without reconstructing them from plans, tasks,
+Git history, or conversation context.
 
-* active engineering work;
-* repository health;
-* important context;
-* current priorities;
-* notable blockers.
+The file should remain **under 40 lines** unless a repository documents a
+specific reason for a different limit.
 
-They are intentionally concise.
+A normal quick-status file has:
 
-When disagreement exists between quick-status and authoritative dashboards,
-update the quick-status document or the authoritative engineering surface as
-appropriate.
+```markdown
+# Quick Status
 
-Quick status is informative.
+Last update: YYYY-MM-DD
 
-Plans, tasks, and registries remain authoritative.
+### <workstream>
+* current state or objective
+* major next direction
 
----
+### <workstream>
+* current state or objective
+* major next direction
+
+[//]: # "keep this file under 40 lines; history belongs in reports/"
+```
+
+Each level-three Markdown heading (`###`) defines one current **workstream**.
+
+Workstream names should be:
+
+* stable enough to remain useful across multiple plans;
+* broad enough to describe a major repository responsibility;
+* specific enough for organization-wide scripts and agents to distinguish;
+* few enough that the file remains an actual prioritization surface.
+
+Each workstream should normally contain one to four bullets describing:
+
+* current state;
+* current objective;
+* major next direction;
+* a significant blocker or constraint, when one materially affects the
+  workstream.
+
+Do not copy detailed task lists, dependency graphs, acceptance criteria, or
+historical narrative into quick status.
+
+History belongs in reports, plans, Git history, or other durable records.
+
+A repository with no substantial active work should say so concisely rather
+than manufacture workstreams or plans.
+
+Quick status has a deliberately narrow authority boundary:
+
+* `_work/quick-status.md` is authoritative for current workstream names and the
+  repository's condensed top-level priority summary;
+* `_work/plans/plans.csv` is authoritative for plan execution state;
+* `_work/tasks.csv` is authoritative for task execution state;
+* organization registries remain authoritative for portfolio, project,
+  repository, and publication state;
+* controlled QMS records remain authoritative for governed decisions and
+  obligations.
+
+When quick status disagrees with the underlying engineering state, reconcile it
+promptly. A workstream summary must not claim that a plan or task is complete
+when its authoritative dashboard says otherwise.
+
+Organization-wide telemetry may parse `###` headings and their bullets to
+produce cross-repository situational summaries. The format should therefore
+remain simple Markdown and should not depend on custom front matter, embedded
+JSON, or repository-specific syntax.
+
+Do not create a separate `workstreams.csv` merely to duplicate quick status.
+If future automation requires stronger workstream metadata, extend this
+workflow deliberately rather than introducing parallel state informally.
+
 
 # CSV Surface Types
 
@@ -557,6 +657,8 @@ Repository artifacts are durable.
 Before making changes:
 
 * inspect `git status`;
+* inspect `_work/quick-status.md`;
+* identify the relevant workstream;
 * inspect relevant plans;
 * inspect relevant tasks;
 * inspect relevant repository documentation when needed;
@@ -622,6 +724,8 @@ Repository testing remains governed by the repository testing process.
 
 Before concluding a session:
 
+* update `_work/quick-status.md` when repository-level workstreams or top-level
+  priorities materially change;
 * update plans when objectives change;
 * update task status when execution changes;
 * record durable engineering notes where appropriate;
@@ -682,6 +786,7 @@ duplicate them whenever practical.
 Execution repositories own:
 
 * implementation;
+* engineering workstreams;
 * engineering plans;
 * engineering tasks;
 * repository documentation;
@@ -735,8 +840,8 @@ They do not replace repository execution.
 * Quality Planning;
 * controlled records.
 
-The QMS should impose governance obligations upon engineering activities rather
-than redefine repository engineering processes.
+The QMS should impose governance obligations through the repository workflow
+rather than redefine repository engineering execution outside that workflow.
 
 ---
 
@@ -804,6 +909,6 @@ Repository workflows define engineering capability.
 
 Governance defines engineering obligations.
 
-Capabilities belong to engineering.
+The workflow controls operational execution.
 
-Obligations belong to governance.
+The QMS controls governed obligations and approvals through the workflow.

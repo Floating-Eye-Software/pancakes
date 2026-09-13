@@ -29,6 +29,7 @@ their own indexes.
 - [Pancakes Institutional Recognition](pancakes-institutional-recognition.md)
 - [Pancakes Institutional Participation](pancakes-institutional-participation.md)
 - [Pancakes Institutional Evolution](pancakes-institutional-evolution.md)
+- [Pancakes Relational Model](pancakes-relational-model.md)
 - [Pancakes Place Model](pancakes-place-model.md)
 - [Pancakes Place and Institutions](pancakes-place-and-institutions.md)
 - [Pancakes Institutional Pork Barreling](pancakes-institutional-pork-barreling.md)
@@ -36,6 +37,7 @@ their own indexes.
 - [Pancakes Privacy Questions](pancakes-privacy-questions.md)
 - [Epistemic Jurisdiction](pancakes-epistemic-jurisdiction.md)
 - [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md)
+- [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
 
 ## Architecture And Operations
 
@@ -44,13 +46,21 @@ their own indexes.
 - [Pancakes Client and Node Architecture](pancakes_client_node_architecture.md)
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md)
 - [Pancakes Node Capabilities](pancakes-node-capabilities.md)
-- [Pancakes Service Exchange](pancakes_service_exchange.md)
+- [Pancakes Identity Model](pancakes-identity-model.md)
 - [Pancakes Reference Services](pancakes-reference-services.md)
-- [Pancakes Operational Applications](pancakes-operational-applications.md)
+- [Pancakes Remote Inference and Node Reasoning Architecture](pancakes-remote-inference-capability.md)
 - [Pancakes Product Composition](pancakes-product-composition.md)
 - [Pancakes Appliance Design](pancakes-appliance-design.md)
 - [Pancakes Capability Settlement Musings](pancakes-capability-settlement-musings.md)
 - [Pancakes Ecosystem Layers](pancakes-ecosystem-layers.md)
+
+## Applications
+
+- [Pancakes Operational Applications](pancakes-operational-applications.md)
+- [Pancakes Service Exchange](pancakes_service_exchange.md)
+- [Pancakes Enterprise](pancakes-enterprise.md)
+- [Wellness Notebook Product Design](wellness-notebook-product-design.md)
+- [Red Witch Documentation](https://docs.redwitch.ca/)
 
 ## Human Flourishing
 
@@ -66,26 +76,17 @@ their own indexes.
 
 - [Pancakes Goods and Services Model](pancakes-goods-and-services-model.md)
 - [Pancakes and Pitchfork Economic Theory](pancakes-pitchfork-economic-theory.md)
-- [Pancakes Enterprise](pancakes-enterprise.md)
 - [Pancakes Literature Map](pancakes-literature-map.md)
-
-## Public Collections
-
-- [Pancakes Corner](pancakes-corner/): cultural, playlist, dataset, and
-  interpretive notes.
-- [Wellness Notebook Product Design](wellness-notebook-product-design.md)
 
 ## Reading Room
 
-- [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md)
-- [Hayden Panettiere, Neutrogena, and the Boundaries of Institutional Authority](pancakes-corner/sinead/panettiere-neutrogena-analysis.md)
-- [The Science of Management Failure](pancakes-corner/misc/science-of-management-failure.md)
+- [Pancakes Corner](pancakes-corner/): food history, pancake science,
+  traditions, and related cultural reading.
 - [Pancakes Biography and Cultural Notes](pancakes-corner/pancakes-history.md)
 - [The Technologies Required for Pancakes](pancakes-corner/pancakes-technologies.md)
 - [Pancakes Biotech](pancakes-corner/pancakes-biotech.md)
 - [Twenty Pancakes](pancakes-corner/twenty-pancakes.md)
 - [Dosa and the Indus Valley](pancakes-corner/indus-valley-no-dosa.md)
-- [The Forty-Seventh Frequency](pancakes-corner/playlist-v3/the-forty-seventh-frequency.md)
 
 Pitchfork contracts and their explanatory reader are maintained in the
 [Pitchfork repository](https://github.com/Floating-Eye-Software/pitchfork).
