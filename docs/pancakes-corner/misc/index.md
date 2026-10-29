@@ -13,6 +13,7 @@ not belong in the playlist, dataset, or Sinead collections.
 - [Books, AI, and the Right to Refuse a Sale](booksellers-and-ai-training.md)
 - [The Science of Management Failure](science-of-management-failure.md)
 - [Reproduction of Management](reproduction-of-management.md)
+- [The Right to Less](the-right-to-less.md)
 
 ## What This Is
 
